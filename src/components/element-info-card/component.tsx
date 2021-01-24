@@ -22,6 +22,7 @@ export const ElementInfoCard = ({
       {!isMobile ? (
         <img
           className="element-image"
+          loading="eager"
           src={`./assets/${element.imageUrl}`}
           alt={element.name}
         />
