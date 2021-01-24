@@ -20,24 +20,33 @@ export const CategoryTable = (_: ICategoryTableProps) => {
   return (
     <Box className="bhm-category-table">
       {categories.map((cat) => (
-        <Box key={cat.id}>
-          <h1>{cat.name}</h1>
+        <>
+          <h1 key={cat.id}>{cat.name}</h1>
           {elData[cat.id].map((data) => (
-            <Box className="category-element">
+            <Box
+              className="category-element"
+              onClick={() => onElementClicked(data)}
+              key={data.number}
+            >
               <ElementCard
-                key={data.number}
                 element={data}
                 onHovered={() => {}}
                 onCategoryHovered={() => {}}
-                onClick={() => onElementClicked(data)}
+                onClick={() => {}}
               ></ElementCard>
               <Box className="category-element-info">
                 <h2 className="category-element-name">{data.name}</h2>
                 <h3 className="category-element-dates">{data.dates}</h3>
               </Box>
+              <img
+                className="category-element-image"
+                loading="eager"
+                src={`./assets/${data.imageUrl}`}
+                alt={data.name}
+              />
             </Box>
           ))}
-        </Box>
+        </>
       ))}
     </Box>
   );
