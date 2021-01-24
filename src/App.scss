@@ -1,14 +1,21 @@
-.bhm-periodic-table-container {
-  .bhm-title {
-    font-size: 48px;
-  }
-  height: calc((var(--vh) * 100) + 64px);
+.bhm-periodic-table-app {
+  margin: 0.1vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0.1vh;
-  .legend-container {
-    margin-top: 24px;
+  text-align: center;
+  .bhm-title {
+    font-size: 36px;
+  }
+  .bhm-periodic-table-container {
+    height: calc((var(--vh) * 100) - 164px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .legend-container {
+      margin-top: 18px;
+    }
   }
 }

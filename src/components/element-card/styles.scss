@@ -18,10 +18,15 @@
   .element-id {
     font-size: 36px;
     font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: none;
   }
 
   .element-name {
     font-size: 0.5vw;
+    overflow: hidden;
+    white-space: nowrap;
   }
 
   .element-dates {

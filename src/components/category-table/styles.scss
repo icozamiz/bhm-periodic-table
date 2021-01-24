@@ -1,0 +1,59 @@
+@import "../../color-constants.scss";
+.bhm-category-table {
+  display: flex;
+  flex-direction: column;
+  .category-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    .category-element-info {
+      padding-left: 10px;
+      .category-element-name {
+        text-align: start;
+        font-size: 16px;
+        font-weight: bold;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      .category-element-dates {
+        text-align: start;
+        font-size: 14px;
+        font-weight: normal;
+      }
+    }
+    .element-card {
+      border: 1px solid $border;
+      height: 20vw;
+      width: 20vw;
+      display: grid;
+      grid-template-rows: 5vw 10vw 1vw;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .element-number {
+      font-size: 3vw;
+    }
+
+    .element-id {
+      font-size: 10vw;
+      font-weight: bold;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: none;
+    }
+
+    .element-name {
+      font-size: 0vw;
+    }
+
+    .element-dates {
+      font-size: 0vw;
+    }
+  }
+}

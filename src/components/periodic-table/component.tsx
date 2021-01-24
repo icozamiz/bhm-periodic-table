@@ -38,10 +38,7 @@ export const PeriodicTable = ({ onCategoryHovered }: IPeriodicTableProps) => {
         );
       })}
       {selectedElement && (
-        <ElementInfoCard
-          element={selectedElement}
-          onClose={() => setSelectedElement(null)}
-        ></ElementInfoCard>
+        <ElementInfoCard element={selectedElement}></ElementInfoCard>
       )}
       {sortedData.slice(4, sortedData.length).map((e: IElement) => {
         return (

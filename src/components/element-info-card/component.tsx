@@ -5,18 +5,23 @@ import "./styles.scss";
 
 export interface IElementInfoCardProps {
   element: IElement;
-  onClose: () => void;
+  isMobile?: boolean;
+  onClick?: (element: IElement) => void;
 }
 
 export const ElementInfoCard = ({
   element,
-  onClose,
+  onClick,
+  isMobile,
 }: IElementInfoCardProps) => {
   const [hasImageError, setHasImageError] = useState(false);
   const { number, category, id, name, dates } = element;
   return (
-    <Box className={`element-info-card`} onClick={() => onClose()}>
-      {!hasImageError ? (
+    <Box
+      className={`element-info-card`}
+      onClick={() => onClick && onClick(element)}
+    >
+      {!hasImageError && !isMobile ? (
         <img
           onError={() => setHasImageError(true)}
           className="element-image"
