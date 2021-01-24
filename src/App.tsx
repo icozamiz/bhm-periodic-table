@@ -21,6 +21,7 @@ function App() {
   );
   return (
     <Box className="bhm-periodic-table-container">
+      <h1 className="bhm-title">Periodic Table of Canadian Black History</h1>
       <PeriodicTable
         onCategoryHovered={(category) => setSelectedCategory(category)}
       ></PeriodicTable>

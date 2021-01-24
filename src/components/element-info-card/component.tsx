@@ -1,6 +1,6 @@
 import { Box } from "@material-ui/core";
+import { useState } from "react";
 import { IElement } from "../../types";
-import { elementInfoJson } from "../../data/element-info";
 import "./styles.scss";
 
 export interface IElementInfoCardProps {
@@ -12,15 +12,16 @@ export const ElementInfoCard = ({
   element,
   onClose,
 }: IElementInfoCardProps) => {
+  const [hasImageError, setHasImageError] = useState(false);
   const { number, category, id, name, dates } = element;
-  const elInfo = (elementInfoJson as any)[number];
   return (
     <Box className={`element-info-card`} onClick={() => onClose()}>
-      {elInfo ? (
+      {!hasImageError ? (
         <img
+          onError={() => setHasImageError(true)}
           className="element-image"
-          src={`./assets/${elInfo.imageUrl}`}
-          alt={elInfo.name}
+          src={`./assets/${element.imageUrl}`}
+          alt={element.name}
         />
       ) : (
         <Box className={`element-box ${category}`}>
@@ -30,10 +31,10 @@ export const ElementInfoCard = ({
           <Box className="dates">{dates}</Box>
         </Box>
       )}
-      {elInfo ? (
+      {element.infoBlurb ? (
         <Box className="element-info">
           <Box className="title">{name}</Box>
-          <Box>{elInfo.infoBlurb}</Box>
+          <Box>{element.infoBlurb}</Box>
         </Box>
       ) : (
         <Box className="element-info">{name}</Box>

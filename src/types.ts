@@ -5,6 +5,8 @@ export interface IElement {
   dates: string;
   urlLink: string;
   category: string;
+  imageUrl: string;
+  infoBlurb: string;
 }
 
 export interface ICategory {

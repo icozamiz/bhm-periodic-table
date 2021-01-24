@@ -1,5 +1,8 @@
 .bhm-periodic-table-container {
-  height: calc((var(--vh) * 100));
+  .bhm-title {
+    font-size: 48px;
+  }
+  height: calc((var(--vh) * 100) + 64px);
   display: flex;
   flex-direction: column;
   justify-content: center;

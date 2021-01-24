@@ -8,6 +8,8 @@ export const jsonData: IElement[] = [
     name: "Kay Livingston",
     dates: "10.13.1919 - 07.26.1975",
     urlLink: "url_link",
+    imageUrl: "13.jpg",
+    infoBlurb: "",
   },
   {
     category: "activists",
@@ -16,6 +18,8 @@ export const jsonData: IElement[] = [
     name: "Bromley Armstrong",
     dates: "02.09.1926 - 08.17.2018",
     urlLink: "url_link",
+    imageUrl: "31.jpg",
+    infoBlurb: "",
   },
   {
     category: "activists",
@@ -24,6 +28,8 @@ export const jsonData: IElement[] = [
     name: "Calvin Woodrow Ruck",
     dates: "09.04.1925 - 10.19.2004",
     urlLink: "url_link",
+    imageUrl: "49.jpg",
+    infoBlurb: "",
   },
   {
     category: "activists",
@@ -32,6 +38,8 @@ export const jsonData: IElement[] = [
     name: "Hugh Burnett",
     dates: "07.14.1918 - 09.29.1991",
     urlLink: "url_link",
+    imageUrl: "50.jpg",
+    infoBlurb: "",
   },
   {
     category: "activists",
@@ -40,6 +48,8 @@ export const jsonData: IElement[] = [
     name: "Josiah Henson",
     dates: "06.15.1789 - 05.05.1883",
     urlLink: "url_link",
+    imageUrl: "81.jpg",
+    infoBlurb: "",
   },
   {
     category: "activists",
@@ -48,6 +58,8 @@ export const jsonData: IElement[] = [
     name: "Rocky Jones",
     dates: "08.26.1941 - 07.29.2013",
     urlLink: "url_link",
+    imageUrl: "82.jpg",
+    infoBlurb: "",
   },
   {
     category: "activists",
@@ -56,6 +68,8 @@ export const jsonData: IElement[] = [
     name: "Chloe Cooley",
     dates: "1700s -",
     urlLink: "url_link",
+    imageUrl: "83.jpg",
+    infoBlurb: "",
   },
   {
     category: "activists",
@@ -64,6 +78,8 @@ export const jsonData: IElement[] = [
     name: "Gwen Lord",
     dates: "00.00.00 -",
     urlLink: "",
+    imageUrl: "84.jpg",
+    infoBlurb: "",
   },
   {
     category: "artists",
@@ -72,6 +88,8 @@ export const jsonData: IElement[] = [
     name: "Director X",
     dates: "10.31.1975",
     urlLink: "url_link",
+    imageUrl: "21.jpg",
+    infoBlurb: "",
   },
   {
     category: "artists",
@@ -80,6 +98,8 @@ export const jsonData: IElement[] = [
     name: "Arlene Duncan",
     dates: "00.00.00 -",
     urlLink: "url_link",
+    imageUrl: "22.jpg",
+    infoBlurb: "",
   },
   {
     category: "artists",
@@ -88,6 +108,8 @@ export const jsonData: IElement[] = [
     name: "Clement Virgo",
     dates: "06.01.1966",
     urlLink: "url_link",
+    imageUrl: "23.jpg",
+    infoBlurb: "",
   },
   {
     category: "artists",
@@ -96,6 +118,8 @@ export const jsonData: IElement[] = [
     name: "Jennifer Hodge de Silva",
     dates: "01.28.1951 - 05.05.1989",
     urlLink: "url_link",
+    imageUrl: "24.jpg",
+    infoBlurb: "",
   },
   {
     category: "artists",
@@ -104,6 +128,8 @@ export const jsonData: IElement[] = [
     name: "Jennifer Holness",
     dates: "1969 -",
     urlLink: "url_link",
+    imageUrl: "25.jpg",
+    infoBlurb: "",
   },
   {
     category: "artists",
@@ -112,6 +138,8 @@ export const jsonData: IElement[] = [
     name: "Shelton Brooks",
     dates: "05.04.1886 - 09.06.1975",
     urlLink: "url_link",
+    imageUrl: "26.jpg",
+    infoBlurb: "",
   },
   {
     category: "artists",
@@ -120,6 +148,8 @@ export const jsonData: IElement[] = [
     name: "Stan Douglas",
     dates: "10.11.1960 -",
     urlLink: "url_link",
+    imageUrl: "27.jpg",
+    infoBlurb: "",
   },
   {
     category: "artists",
@@ -128,6 +158,8 @@ export const jsonData: IElement[] = [
     name: "Sandra Brewster",
     dates: "1973 -",
     urlLink: "url_link",
+    imageUrl: "28.jpg",
+    infoBlurb: "",
   },
   {
     category: "athletes",
@@ -136,6 +168,8 @@ export const jsonData: IElement[] = [
     name: "Barbara Howard",
     dates: "05.08.1920 - 01.26.2017",
     urlLink: "url_link",
+    imageUrl: "29.jpg",
+    infoBlurb: "",
   },
   {
     category: "athletes",
@@ -144,6 +178,8 @@ export const jsonData: IElement[] = [
     name: "Ferguson Jenkins",
     dates: "12.13.1943 -",
     urlLink: "url_link",
+    imageUrl: "30.jpg",
+    infoBlurb: "",
   },
   {
     category: "athletes",
@@ -152,6 +188,8 @@ export const jsonData: IElement[] = [
     name: "Angella Issajenko",
     dates: "09.28.1958 -",
     urlLink: "url_link",
+    imageUrl: "39.jpg",
+    infoBlurb: "",
   },
   {
     category: "athletes",
@@ -160,6 +198,8 @@ export const jsonData: IElement[] = [
     name: "Clotilda Adesa Yakimchuk",
     dates: "1932 -",
     urlLink: "url_link",
+    imageUrl: "40.jpg",
+    infoBlurb: "",
   },
   {
     category: "athletes",
@@ -168,6 +208,8 @@ export const jsonData: IElement[] = [
     name: "Bruny Surin",
     dates: "07.12.1967 -",
     urlLink: "url_link",
+    imageUrl: "41.jpg",
+    infoBlurb: "",
   },
   {
     category: "athletes",
@@ -176,6 +218,8 @@ export const jsonData: IElement[] = [
     name: "Donovan Bailey",
     dates: "12.16.1967 -",
     urlLink: "url_link",
+    imageUrl: "42.jpg",
+    infoBlurb: "",
   },
   {
     category: "athletes",
@@ -184,6 +228,8 @@ export const jsonData: IElement[] = [
     name: "Fergie Jenkins",
     dates: "12.13. 1943 -",
     urlLink: "url_link",
+    imageUrl: "43.jpg",
+    infoBlurb: "",
   },
   {
     category: "athletes",
@@ -192,6 +238,8 @@ export const jsonData: IElement[] = [
     name: "Grant Fuhr",
     dates: "09.28.1962 -",
     urlLink: "url_link",
+    imageUrl: "44.jpg",
+    infoBlurb: "",
   },
   {
     category: "athletes",
@@ -200,6 +248,8 @@ export const jsonData: IElement[] = [
     name: "Harry Jerome",
     dates: "09.30.1940 - 12.07.1982",
     urlLink: "url_link",
+    imageUrl: "45.jpg",
+    infoBlurb: "",
   },
   {
     category: "athletes",
@@ -208,6 +258,8 @@ export const jsonData: IElement[] = [
     name: "Perdita Felicien",
     dates: "08.29.1980 -",
     urlLink: "url_link",
+    imageUrl: "46.jpg",
+    infoBlurb: "",
   },
   {
     category: "entrepreneurs",
@@ -216,6 +268,8 @@ export const jsonData: IElement[] = [
     name: "Carrie Best",
     dates: "03.04.1903 - 07.24.2001",
     urlLink: "url_link",
+    imageUrl: "3.jpg",
+    infoBlurb: "",
   },
   {
     category: "entrepreneurs",
@@ -224,6 +278,8 @@ export const jsonData: IElement[] = [
     name: "Elijah McCoy",
     dates: "05.02.1844 - 10.10.1929",
     urlLink: "url_link",
+    imageUrl: "11.jpg",
+    infoBlurb: "",
   },
   {
     category: "entrepreneurs",
@@ -232,6 +288,8 @@ export const jsonData: IElement[] = [
     name: "Viola Desmond",
     dates: "07.006.1914 - 02.07.1965",
     urlLink: "url_link",
+    imageUrl: "19.jpg",
+    infoBlurb: "",
   },
   {
     category: "entrepreneurs",
@@ -240,6 +298,8 @@ export const jsonData: IElement[] = [
     name: "Denham Jolly",
     dates: "08.26.1935 -",
     urlLink: "url_link",
+    imageUrl: "37.jpg",
+    infoBlurb: "",
   },
   {
     category: "entrepreneurs",
@@ -248,6 +308,8 @@ export const jsonData: IElement[] = [
     name: "Michael Lee-Chin",
     dates: "01.03.1951 -",
     urlLink: "url_link",
+    imageUrl: "55.jpg",
+    infoBlurb: "",
   },
   {
     category: "entrepreneurs",
@@ -256,6 +318,8 @@ export const jsonData: IElement[] = [
     name: "Gloria Leon Baylis",
     dates: "06.29.1929 - 04.12.2017",
     urlLink: "url_link",
+    imageUrl: "87.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -264,6 +328,8 @@ export const jsonData: IElement[] = [
     name: "Anne Clare Cools",
     dates: "8.12.1943",
     urlLink: "url_link",
+    imageUrl: "47.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -272,6 +338,8 @@ export const jsonData: IElement[] = [
     name: "Donald H. Oliver",
     dates: "11.16.1938",
     urlLink: "url_link",
+    imageUrl: "48.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -280,6 +348,8 @@ export const jsonData: IElement[] = [
     name: "Isaac Phills",
     dates: "01.11.1896 - 03.09.1985",
     urlLink: "url_link",
+    imageUrl: "57.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -288,6 +358,8 @@ export const jsonData: IElement[] = [
     name: "Lincoln Alexander",
     dates: "01.21.1922 - 10.19.2012",
     urlLink: "url_link",
+    imageUrl: "72.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -296,6 +368,8 @@ export const jsonData: IElement[] = [
     name: "Mary Ann Shadd Cary",
     dates: "10.09.1823 - 06.05.1893",
     urlLink: "url_link",
+    imageUrl: "73.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -304,6 +378,8 @@ export const jsonData: IElement[] = [
     name: "John Alleyne",
     dates: "01.25.1960 -",
     urlLink: "url_link",
+    imageUrl: "74.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -312,6 +388,8 @@ export const jsonData: IElement[] = [
     name: "Stanley Grizzle",
     dates: "11.18.1918 - 11.12.2016",
     urlLink: "url_link",
+    imageUrl: "75.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -320,6 +398,8 @@ export const jsonData: IElement[] = [
     name: "Willie O’Ree",
     dates: "10.15.1935",
     urlLink: "url_link",
+    imageUrl: "76.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -328,6 +408,8 @@ export const jsonData: IElement[] = [
     name: "Yolande James",
     dates: "11.21.1977",
     urlLink: "url_link",
+    imageUrl: "77.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -336,6 +418,8 @@ export const jsonData: IElement[] = [
     name: "Zanana Akande",
     dates: "09.06.1937",
     urlLink: "url_link",
+    imageUrl: "78.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -344,6 +428,8 @@ export const jsonData: IElement[] = [
     name: "Leonard Braithwaite",
     dates: "10.23.1923 - 03.28.2012",
     urlLink: "url_link",
+    imageUrl: "79.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -352,6 +438,8 @@ export const jsonData: IElement[] = [
     name: "Angela James",
     dates: "12.22.1964 -",
     urlLink: "url_link",
+    imageUrl: "80.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -360,6 +448,8 @@ export const jsonData: IElement[] = [
     name: "Daniel Igali",
     dates: "02.03.1974 -",
     urlLink: "url_link",
+    imageUrl: "89.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -368,6 +458,8 @@ export const jsonData: IElement[] = [
     name: "Delos Davis",
     dates: "08.04.1846 - 04.13.1915",
     urlLink: "url_link",
+    imageUrl: "104.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -376,6 +468,8 @@ export const jsonData: IElement[] = [
     name: "Robert Sutherland",
     dates: "1830 - 06.02.1878",
     urlLink: "url_link",
+    imageUrl: "105.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -384,6 +478,8 @@ export const jsonData: IElement[] = [
     name: "Addie Aylestock",
     dates: "09.08.1909 - 07.25.1998",
     urlLink: "url_link",
+    imageUrl: "106.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -392,6 +488,8 @@ export const jsonData: IElement[] = [
     name: "Mathieu Da Costa",
     dates: "1500s - 1600s",
     urlLink: "url_link",
+    imageUrl: "107.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -400,6 +498,8 @@ export const jsonData: IElement[] = [
     name: "Maryann Francis",
     dates: "00.00.00",
     urlLink: "url_link",
+    imageUrl: "108.jpg",
+    infoBlurb: "",
   },
   {
     category: "firsts",
@@ -408,6 +508,8 @@ export const jsonData: IElement[] = [
     name: "Rosemary Brown",
     dates: "06.17.1930 - 04.26.2003",
     urlLink: "url_link",
+    imageUrl: "112.jpg",
+    infoBlurb: "",
   },
   {
     category: "government",
@@ -416,6 +518,8 @@ export const jsonData: IElement[] = [
     name: "Daurene Lewis",
     dates: "00.00.00",
     urlLink: "url_link",
+    imageUrl: "5.jpg",
+    infoBlurb: "",
   },
   {
     category: "government",
@@ -424,6 +528,8 @@ export const jsonData: IElement[] = [
     name: "Jean Augustine",
     dates: "09.08.1937",
     urlLink: "url_link",
+    imageUrl: "14.jpg",
+    infoBlurb: "",
   },
   {
     category: "government",
@@ -432,6 +538,8 @@ export const jsonData: IElement[] = [
     name: "Thomas Peters",
     dates: "1738 - 06.25.1792",
     urlLink: "url_link",
+    imageUrl: "32.jpg",
+    infoBlurb: "",
   },
   {
     category: "government",
@@ -440,6 +548,8 @@ export const jsonData: IElement[] = [
     name: "Alfred Schmitz Shadd",
     dates: "1870 - 1915",
     urlLink: "url_link",
+    imageUrl: "33.jpg",
+    infoBlurb: "",
   },
   {
     category: "government",
@@ -448,6 +558,8 @@ export const jsonData: IElement[] = [
     name: "Michaëlle Jean",
     dates: "00.00.00",
     urlLink: "url_link",
+    imageUrl: "51.jpg",
+    infoBlurb: "",
   },
   {
     category: "government",
@@ -456,6 +568,8 @@ export const jsonData: IElement[] = [
     name: "Ahmed Hussen",
     dates: "00.00.00",
     urlLink: "url_link",
+    imageUrl: "52.jpg",
+    infoBlurb: "",
   },
   {
     category: "lgbtq",
@@ -464,6 +578,8 @@ export const jsonData: IElement[] = [
     name: "Syrus Marcus Ware",
     dates: "00.00.00",
     urlLink: "url_link",
+    imageUrl: "113.jpg",
+    infoBlurb: "",
   },
   {
     category: "lgbtq",
@@ -472,6 +588,8 @@ export const jsonData: IElement[] = [
     name: "d’bi.young anitfrika",
     dates: "1978",
     urlLink: "url_link",
+    imageUrl: "114.jpg",
+    infoBlurb: "",
   },
   {
     category: "lgbtq",
@@ -480,6 +598,8 @@ export const jsonData: IElement[] = [
     name: "Afua Cooper",
     dates: "11.08.1975",
     urlLink: "url_link",
+    imageUrl: "115.jpg",
+    infoBlurb: "",
   },
   {
     category: "lgbtq",
@@ -488,6 +608,8 @@ export const jsonData: IElement[] = [
     name: "Rinaldo Walcott",
     dates: "00.00.00",
     urlLink: "url_link",
+    imageUrl: "116.jpg",
+    infoBlurb: "",
   },
   {
     category: "lgbtq",
@@ -496,6 +618,8 @@ export const jsonData: IElement[] = [
     name: "Courtnay Mcfarlane",
     dates: "00.00.00 -",
     urlLink: "url_link",
+    imageUrl: "117.jpg",
+    infoBlurb: "",
   },
   {
     category: "musicians",
@@ -504,6 +628,8 @@ export const jsonData: IElement[] = [
     name: "Oscar Peterson",
     dates: "08.15.1925 - 12.23.2007",
     urlLink: "url_link",
+    imageUrl: "2.jpg",
+    infoBlurb: "",
   },
   {
     category: "musicians",
@@ -512,6 +638,8 @@ export const jsonData: IElement[] = [
     name: "Portia White",
     dates: "06.24.1911 - 02.13.1968",
     urlLink: "url_link",
+    imageUrl: "10.jpg",
+    infoBlurb: "",
   },
   {
     category: "musicians",
@@ -520,6 +648,8 @@ export const jsonData: IElement[] = [
     name: "Al-Hajj Sayyd Abdul Al-Khabyyr",
     dates: "03.22.1935 - 02.15.2017",
     urlLink: "url_link",
+    imageUrl: "18.jpg",
+    infoBlurb: "",
   },
   {
     category: "musicians",
@@ -528,6 +658,8 @@ export const jsonData: IElement[] = [
     name: "Eleanor Collins",
     dates: "11.21.1919 -",
     urlLink: "url_link",
+    imageUrl: "36.jpg",
+    infoBlurb: "",
   },
   {
     category: "musicians",
@@ -536,6 +668,8 @@ export const jsonData: IElement[] = [
     name: "Garnet Brooks",
     dates: "09.04.1937 - 07.21.2009",
     urlLink: "url_link",
+    imageUrl: "54.jpg",
+    infoBlurb: "",
   },
   {
     category: "musicians",
@@ -544,6 +678,8 @@ export const jsonData: IElement[] = [
     name: "K’Naan",
     dates: "05.30.1978 -",
     urlLink: "url_link",
+    imageUrl: "86.jpg",
+    infoBlurb: "",
   },
   {
     category: "musicians",
@@ -552,6 +688,8 @@ export const jsonData: IElement[] = [
     name: "Jully Black",
     dates: "11.07.1977 -",
     urlLink: "url_link",
+    imageUrl: "118.jpg",
+    infoBlurb: "",
   },
   {
     category: "poets",
@@ -560,6 +698,8 @@ export const jsonData: IElement[] = [
     name: "Claire Harris",
     dates: "06.13.1937 -",
     urlLink: "url_link",
+    imageUrl: "9.jpg",
+    infoBlurb: "",
   },
   {
     category: "poets",
@@ -568,6 +708,8 @@ export const jsonData: IElement[] = [
     name: "Dany Laferrière",
     dates: "04.13.1953 -",
     urlLink: "url_link",
+    imageUrl: "17.jpg",
+    infoBlurb: "",
   },
   {
     category: "poets",
@@ -576,6 +718,8 @@ export const jsonData: IElement[] = [
     name: "Dionne Brand",
     dates: "01.07.1953 -",
     urlLink: "url_link",
+    imageUrl: "35.jpg",
+    infoBlurb: "",
   },
   {
     category: "poets",
@@ -584,6 +728,8 @@ export const jsonData: IElement[] = [
     name: "Dwayne Morgan",
     dates: "10.15.1974 -",
     urlLink: "url_link",
+    imageUrl: "53.jpg",
+    infoBlurb: "",
   },
   {
     category: "poets",
@@ -592,6 +738,8 @@ export const jsonData: IElement[] = [
     name: "Lillian Allen",
     dates: "04.05.1951 -",
     urlLink: "url_link",
+    imageUrl: "85.jpg",
+    infoBlurb: "",
   },
   {
     category: "theatre",
@@ -600,6 +748,8 @@ export const jsonData: IElement[] = [
     name: "Andre Alexis",
     dates: "01.15.1957 -",
     urlLink: "url_link",
+    imageUrl: "4.jpg",
+    infoBlurb: "",
   },
   {
     category: "theatre",
@@ -608,6 +758,8 @@ export const jsonData: IElement[] = [
     name: "Djanet Sears",
     dates: "1959 -",
     urlLink: "url_link",
+    imageUrl: "12.jpg",
+    infoBlurb: "",
   },
   {
     category: "theatre",
@@ -616,6 +768,8 @@ export const jsonData: IElement[] = [
     name: "George Elliott Clarke",
     dates: "02.12.1960 -",
     urlLink: "url_link",
+    imageUrl: "20.jpg",
+    infoBlurb: "",
   },
   {
     category: "theatre",
@@ -624,6 +778,8 @@ export const jsonData: IElement[] = [
     name: "Lorena Gale",
     dates: "05.09.1958 - 06.21.2009",
     urlLink: "url_link",
+    imageUrl: "38.jpg",
+    infoBlurb: "",
   },
   {
     category: "theatre",
@@ -632,6 +788,8 @@ export const jsonData: IElement[] = [
     name: "Yanna MacIntosh",
     dates: "1970s -",
     urlLink: "url_link",
+    imageUrl: "56.jpg",
+    infoBlurb: "",
   },
   {
     category: "theatre",
@@ -640,6 +798,8 @@ export const jsonData: IElement[] = [
     name: "trey anthony",
     dates: "1974 -",
     urlLink: "url_link",
+    imageUrl: "88.jpg",
+    infoBlurb: "",
   },
   {
     category: "visual-arts",
@@ -648,6 +808,8 @@ export const jsonData: IElement[] = [
     name: "Deanna Bowen",
     dates: "11.05.1969 -",
     urlLink: "url_link",
+    imageUrl: "109.jpg",
+    infoBlurb: "",
   },
   {
     category: "visual-arts",
@@ -656,6 +818,8 @@ export const jsonData: IElement[] = [
     name: "Sylvia D, Hamilton",
     dates: "00.00.00",
     urlLink: "url_link",
+    imageUrl: "110.jpg",
+    infoBlurb: "",
   },
   {
     category: "visual-arts",
@@ -664,6 +828,8 @@ export const jsonData: IElement[] = [
     name: "Camille Turner",
     dates: "03.11.1960 -",
     urlLink: "url_link",
+    imageUrl: "111.jpg",
+    infoBlurb: "",
   },
   {
     category: "writers",
@@ -672,6 +838,8 @@ export const jsonData: IElement[] = [
     name: "Tessa McWatt",
     dates: "1.1.1959 -",
     urlLink: "https://www.penguinrandomhouse.ca/authors/140747/tessa-mcwatt",
+    imageUrl: "1.jpg",
+    infoBlurb: "",
   },
   {
     category: "writers",
@@ -680,6 +848,8 @@ export const jsonData: IElement[] = [
     name: "Austin Clarke",
     dates: "07.26.1934 - 06.26.2016",
     urlLink: "url_link",
+    imageUrl: "6.jpg",
+    infoBlurb: "",
   },
   {
     category: "writers",
@@ -688,6 +858,8 @@ export const jsonData: IElement[] = [
     name: "David Chariandy",
     dates: "1969 -",
     urlLink: "url_link",
+    imageUrl: "7.jpg",
+    infoBlurb: "",
   },
   {
     category: "writers",
@@ -696,6 +868,8 @@ export const jsonData: IElement[] = [
     name: "Esi Edugyan",
     dates: "1978 -",
     urlLink: "url_link",
+    imageUrl: "8.jpg",
+    infoBlurb: "",
   },
   {
     category: "writers",
@@ -704,6 +878,8 @@ export const jsonData: IElement[] = [
     name: "Lawrence Hill",
     dates: "1957 -",
     urlLink: "url_link",
+    imageUrl: "15.jpg",
+    infoBlurb: "",
   },
   {
     category: "writers",
@@ -712,6 +888,8 @@ export const jsonData: IElement[] = [
     name: "M.NourebeSe Philip",
     dates: "02.03.1947",
     urlLink: "url_link",
+    imageUrl: "16.jpg",
+    infoBlurb: "",
   },
   {
     category: "writers",
@@ -720,5 +898,7 @@ export const jsonData: IElement[] = [
     name: "Mariatu Kamara",
     dates: "05.25.1986",
     urlLink: "url_link",
+    imageUrl: "34.jpg",
+    infoBlurb: "",
   },
 ];
