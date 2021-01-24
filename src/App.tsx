@@ -69,7 +69,7 @@ function App() {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://www.parentsfordiversity.com/"
+          href="https://www.parentsfordiversity.com/post/is-your-school-ready-for-black-history-month"
         >
           Parents for Diversity
         </a>
