@@ -2,21 +2,25 @@
 .bhm-category-table {
   display: flex;
   flex-direction: column;
+  padding: 0 24px;
   .category-element {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 10px;
+    width: 90vw;
+    .category-element-image {
+      height: 20vw;
+    }
     .category-element-info {
       padding-left: 10px;
+      flex-grow: 1;
       .category-element-name {
         text-align: start;
         font-size: 16px;
         font-weight: bold;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: nowrap;
+        word-wrap: break-word;
       }
       .category-element-dates {
         text-align: start;
@@ -37,26 +41,26 @@
       &:hover {
         background-color: lightgray;
       }
-    }
 
-    .element-number {
-      font-size: 3vw;
-    }
+      .element-number {
+        font-size: 3vw;
+      }
 
-    .element-id {
-      font-size: 10vw;
-      font-weight: bold;
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: none;
-    }
+      .element-id {
+        font-size: 10vw;
+        font-weight: bold;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: none;
+      }
 
-    .element-name {
-      font-size: 0vw;
-    }
+      .element-name {
+        font-size: 0vw;
+      }
 
-    .element-dates {
-      font-size: 0vw;
+      .element-dates {
+        font-size: 0vw;
+      }
     }
   }
 }

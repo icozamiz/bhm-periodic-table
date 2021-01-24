@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.scss";
 import { Box } from "@material-ui/core";
-import { PeriodicTable, Legend } from "./components";
+import { PeriodicTable, Legend, AboutBadge } from "./components";
 import { ICategory } from "./types";
 import { useWindowSize } from "./hooks/useWindowSize";
 import { useDeviceTypes } from "./hooks/useDeviceTypes";
@@ -11,7 +11,6 @@ const setViewWidthAndHeight = (width: string, height: string) => {
   document.body.style.setProperty(`--vw`, width);
   document.body.style.setProperty(`--vh`, height);
 };
-
 function App() {
   const [selectedCategory, setSelectedCategory] = useState("");
   const windowSize = useWindowSize();
@@ -46,6 +45,7 @@ function App() {
       ) : (
         <CategoryTable></CategoryTable>
       )}
+      {matchesDesktop && <AboutBadge></AboutBadge>}
     </Box>
   );
 }

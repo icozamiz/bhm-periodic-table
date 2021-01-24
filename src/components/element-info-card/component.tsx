@@ -1,5 +1,4 @@
 import { Box } from "@material-ui/core";
-import { useState } from "react";
 import { IElement } from "../../types";
 import "./styles.scss";
 
@@ -14,7 +13,6 @@ export const ElementInfoCard = ({
   onClick,
   isMobile,
 }: IElementInfoCardProps) => {
-  const [hasImageError, setHasImageError] = useState(false);
   const { number, category, id, name, dates } = element;
   return (
     <Box
@@ -23,8 +21,8 @@ export const ElementInfoCard = ({
     >
       {!isMobile ? (
         <img
-          onError={() => setHasImageError(true)}
           className="element-image"
+          loading="eager"
           src={`./assets/${element.imageUrl}`}
           alt={element.name}
         />

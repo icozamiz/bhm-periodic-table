@@ -1,0 +1,16 @@
+@import "../../color-constants.scss";
+.about-badge {
+  text-align: center;
+  font-size: 14px;
+  height: 100px;
+  width: 300px;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  a {
+    color: white;
+    padding: 0 3px;
+    cursor: pointer;
+  }
+}
