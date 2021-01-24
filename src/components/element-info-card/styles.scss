@@ -1,0 +1,80 @@
+@import "../../color-constants.scss";
+
+.element-info-card {
+  grid-column: 3/13;
+  grid-row: 2/4;
+  overflow: hidden;
+  display: flex;
+  .element-image {
+    height: 10.2vw;
+  }
+  .element-box {
+    border: 1px solid $border;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 10.2vw;
+    .number {
+      font-size: 1vw;
+    }
+    .id {
+      font-size: 5vw;
+    }
+    .names {
+      font-size: 1.5vw;
+    }
+    .dates {
+      font-size: 0.7vw;
+      color: $grey;
+    }
+    &.activists {
+      background-color: $activists;
+    }
+    &.artists {
+      background-color: $artists;
+    }
+    &.athletes {
+      background-color: $athletes;
+    }
+    &.firsts {
+      background-color: $firsts;
+    }
+    &.entrepreneurs {
+      background-color: $entrepreneurs;
+    }
+    &.government {
+      background-color: $government;
+    }
+    &.lgbtq {
+      background-color: $lgbtq;
+    }
+    &.musicians {
+      background-color: $musicians;
+    }
+    &.poets {
+      background-color: $poets;
+    }
+    &.theatre {
+      background-color: $theatre;
+    }
+    &.visual-arts {
+      background-color: $visual-arts;
+    }
+    &.writers {
+      background-color: $writers;
+    }
+  }
+  .element-info {
+    .title {
+      font-weight: bold;
+    }
+    padding-left: 24px;
+    flex-grow: 1;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 40vw;
+  }
+}

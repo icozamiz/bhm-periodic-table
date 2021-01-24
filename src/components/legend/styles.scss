@@ -1,0 +1,63 @@
+@import "../../color-constants.scss";
+
+.legend {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  border: 1px solid $border;
+  padding: 12px;
+  .legend-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 12px;
+    .icon {
+      height: 50px;
+      width: 50px;
+      border: 3px solid transparent;
+      &.activists {
+        background-color: $activists;
+      }
+      &.artists {
+        background-color: $artists;
+      }
+      &.athletes {
+        background-color: $athletes;
+      }
+      &.firsts {
+        background-color: $firsts;
+      }
+      &.entrepreneurs {
+        background-color: $entrepreneurs;
+      }
+      &.government {
+        background-color: $government;
+      }
+      &.lgbtq {
+        background-color: $lgbtq;
+      }
+      &.musicians {
+        background-color: $musicians;
+      }
+      &.poets {
+        background-color: $poets;
+      }
+      &.theatre {
+        background-color: $theatre;
+      }
+      &.visual-arts {
+        background-color: $visual-arts;
+      }
+      &.writers {
+        background-color: $writers;
+      }
+      &.selected {
+        border: 3px solid $selected;
+      }
+    }
+    .label {
+      padding: 0 12px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,1 @@
+export { PeriodicTable } from "./component";

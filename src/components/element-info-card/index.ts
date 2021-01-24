@@ -1,0 +1,1 @@
+export { ElementInfoCard } from "./component";

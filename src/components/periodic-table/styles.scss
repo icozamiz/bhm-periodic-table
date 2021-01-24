@@ -1,0 +1,17 @@
+@import "../../color-constants.scss";
+.bhm-periodic-table {
+  display: grid;
+  grid-template-columns: repeat(17, auto) 1fr;
+  border-collapse: collapse;
+  .element-2 {
+    grid-column-start: -2;
+  }
+  .element-5,
+  .element-13 {
+    grid-column-start: 13;
+  }
+  .element-72,
+  .element-104 {
+    grid-column-start: 4;
+  }
+}
