@@ -46,12 +46,11 @@ export const CategoryTable = (_: ICategoryTableProps) => {
                 <h2 className="category-element-name">{data.name}</h2>
                 <h3 className="category-element-dates">{data.dates}</h3>
               </Box>
-              <img
+              {/* <img
                 className="category-element-image"
-                loading="eager"
                 src={`./assets/${data.imageUrl}`}
                 alt={data.name}
-              />
+              /> */}
             </Box>
           ))}
         </>
@@ -75,7 +74,6 @@ export const CategoryTable = (_: ICategoryTableProps) => {
         <Box className="element-info-popup">
           <img
             className="category-element-image"
-            loading="eager"
             src={`./assets/${open?.imageUrl}`}
             alt={open?.name}
           />
