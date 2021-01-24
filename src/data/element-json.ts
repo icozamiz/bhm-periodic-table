@@ -102,7 +102,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://directorxfilms.com/info/",
     imageUrl: "21.jpg",
     infoBlurb:
-      "Director X (formerly known as Little X) was born on October 31st, 1975 in Toronto, Canada, and is of Trinidadian and Swiss descent. X has been noted for directing high-budget, visually distinctive videos for popular artists including: Drake, Kendrick Lamar, Rihanna, Jay-Z, Kanye West, Fifth Harmony, Wiz Khalifa, and many more. His work has been nominated and awarded by the MTV Music Video Awards and Much Music Video Awards. X has directed commercials for Apple Music, Ebay, Virginia Black and Gap’s noteworthy ‘Meet Me In The Gap’ campaign. As a film director, X made his directorial debut in 2014 with an edgy drama titled ACROSS THE LINE which won Best Feature at the Atlantic Film Festival 2015.",
+      "Director X (formerly known as Little X) was born on October 31st, 1975 in Toronto, Canada, and is of Trinidadian and Swiss descent. X has been noted for directing high-budget, visually distinctive videos for popular artists including: Drake, Kendrick Lamar, Rihanna, Jay-Z, Kanye West, and many more. His work has been nominated and awarded by the MTV Music Video Awards and Much Music Video Awards. X has also directed commercials for Apple Music, Ebay, Virginia Black and Gap’s noteworthy ‘Meet Me In The Gap’ campaign.",
   },
   {
     category: "artists",
@@ -113,7 +113,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/arlene-duncan",
     imageUrl: "22.jpg",
     infoBlurb:
-      "Arlene Duncan, actor, singer, songwriter (born in Oakville, Ontario). Arlene Duncan is an award-winning actress and singer who has worked extensively in theatre, television, radio and film, but is perhaps best-known for her role as the conservative and crotchety café owner Fatima Dinssa on the hit CBC Television series “Little Mosque on the Prairie” (2007–12).",
+      "Arlene Duncan, actor, singer, and songwriter. Duncan is an award-winning actress and singer who has worked extensively in theatre, television, radio and film, but is perhaps best-known for her role as the conservative and crotchety café owner Fatima Dinssa on the hit CBC Television series “Little Mosque on the Prairie”.",
   },
   {
     category: "artists",
@@ -124,7 +124,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/clement-virgo",
     imageUrl: "23.jpg",
     infoBlurb:
-      "Clement Virgo, director, producer, writer (b at Montego Bay, Jamaica 1 June 1966). Clement Virgo came with his family to Canada in 1977 and attended West Preparatory Public School in north Toronto before the family moved to Regent Park, the city's largest public-housing estate, known for its troubles with drugs and crime.",
+      "Clement Virgo, director, producer, and writer. Virgo came with his family to Canada in 1977 and attended West Preparatory Public School in north Toronto. He completed high school at Danforth Technical School, where his interest in men's fashion landed him a job as a window dresser. Always very strongly visually oriented, film directing was a lifelong dream so Virgo applied and was accepted into the inaugural 1991 Summer Lab program at Norman Jewison's Canadian Film Centre",
   },
   {
     category: "artists",
@@ -148,7 +148,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/jennifer-holness",
     imageUrl: "25.jpg",
     infoBlurb:
-      "Jennifer Holness, producer, screenwriter, director (born 1969 in Montego Bay, Jamaica). Jennifer Holness is the president and co-founder of Hungry Eyes Film & Television, which emphasizes stories that engage with social issues and a dynamic representation of Black Canadians. “For me,” she told the Toronto Star in 2012, “filmmaking is about telling stories that don’t often get told.” Her notable works include the award-winning Love, Sex, and Eating the Bones (2003), Home Again (2012) and the Gemini Award-winning miniseries Guns (2009).",
+      "Jennifer Holness, producer, screenwriter, and director. Holness is the president and co-founder of Hungry Eyes Film & Television which emphasizes stories that engage with social issues. Her notable works include the award-winning Home Again (2012) and the Gemini Award-winning miniseries Guns (2009).",
   },
   {
     category: "artists",
@@ -160,7 +160,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/shelton-brooks-emc",
     imageUrl: "26.jpg",
     infoBlurb:
-      "Shelton L. Brooks. Songwriter, pianist, comedian, actor, b Amherstburg, near Windsor, Ont, 4 May 1886, d Los Angeles, California, 6 Sep 1975. Brooks played organ and piano at home as a boy, and attended his preacher father's Nazery African Methodist Episcopal Church.",
+      "Shelton L. Brooks, Songwriter, pianist, comedian, and actor. Brooks played organ and piano at home as a boy, and attended his preacher father's Nazery African Methodist Episcopal Church. Despite no formal music training, Brooks began performing as a ragtime pianist in Detroit and Chicago clubs. He then toured the USA and Canada on the Keith and Orpheum vaudeville circuits as a comedian.",
   },
   {
     category: "artists",
@@ -183,7 +183,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/sandra-brewster",
     imageUrl: "28.jpg",
     infoBlurb:
-      "Sandra Brewster, visual artist (born in 1973 in Toronto, ON). Sandra Brewster is a multimedia artist working primarily in drawing, painting and mixed-media to explore questions of race, representation and memory. As an artist, educator and organizer, Brewster is an active presence in Toronto’s artistic community, and her work has been exhibited across Canada and the world.",
+      "Sandra Brewster, visual artist, educator, and organizer. Brewster is a multimedia artist working primarily in drawing, painting and mixed-media to explore questions of race, representation and memory. Brewster is also an active presence in Toronto’s artistic community and her work has been exhibited across Canada and the world.",
   },
   {
     category: "athletes",
@@ -195,7 +195,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/sandra-brewster",
     imageUrl: "29.jpg",
     infoBlurb:
-      "Barbara Howard, athlete, educator (born 8 May 1920 in Vancouver, BC; died 26 January 2017 in Vancouver). Barbara Howard is believed to be the first Black female athlete to represent Canada in international competition. At only 17 years old, she broke the British Empire record for the 100-yard dash, qualifying to represent Canada at the 1938 British Empire Games in Sydney, Australia. At the Games, she finished sixth in the 100-yard race but won silver and bronze medals as part of the 440-yard and 660-yard relay teams. Howard never competed in the Olympic Games, which were cancelled in 1940 and 1944 because of the Second World War. In 1941, she became the first racialized person to be hired by the Vancouver School Board. She had a 43-year career in education, including 14 years as a physical education teacher, before retiring in 1984.",
+      "Barbara Howard, athlete, and educator. Howard is believed to be the first Black female athlete to represent Canada in international competition. At only 17 years old, she broke the British Empire record for the 100-yard dash, qualifying to represent Canada at the 1938 British Empire Games in Sydney, Australia. In 1941, she became the first racialized person to be hired by the Vancouver School Board. She had a 43-year career in education, including 14 years as a physical education teacher.",
   },
   {
     category: "athletes",
@@ -207,7 +207,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/ferguson-arthur-jenkins",
     imageUrl: "30.jpg",
     infoBlurb:
-      'Ferguson "Fergie" Arthur Jenkins, CM, baseball player (born 13 December 1943 in Chatham, ON). Arguably the finest Canadian-born baseball player, Jenkins began his major-league career in Philadelphia before joining the Chicago Cubs in 1966.',
+      'Ferguson "Fergie" Arthur Jenkins, baseball player. Arguably the finest Canadian-born baseball player, Jenkins began his major-league career in Philadelphia before joining the Chicago Cubs in 1966.',
   },
   {
     category: "athletes",
@@ -219,7 +219,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/angella-issajenko",
     imageUrl: "39.jpg",
     infoBlurb:
-      'Angella Issajenko, sprinter (b in Jamaica 28 Sept 1958). Known as "Angella Taylor" for most of her athletic career since 1978, Issajenko has been one of Canada\'s outstanding international sprinters.',
+      'Angella (Angella Taylor) Issajenko, sprinter. Issajenko has been one of Canada\'s most outstanding international sprinters. She has won medals at Commonwealth, Olympic, Pan-American and World University games, in addition to other prestigious championships.',
   },
   {
     category: "athletes",
@@ -231,7 +231,7 @@ export const jsonData: IElement[] = [
       "https://www.cbu.ca/alumni/honorary-degree-recipients/clotilda-adessa-coward-douglas-yakimchuk/",
     imageUrl: "40.jpg",
     infoBlurb:
-      "Cape Breton University is honoured to celebrate the distinguished career and exemplary record of community service of Clotilda Yakimchuk, a retired nursing professional, mentor, activist and role model, who has made significant contributions to her profession and to her community.",
+      "Clotilda Yakimchuk, retired nursing professional, mentor, activist and role model. In 1954, Yakimchuk became the first Black graduate of the Nova Scotia Hospital School of Nursing and received a post graduate psychiatric nursing certificate from the Nova Scotia Hospital and a diploma in adult education from St.FX University.",
   },
   {
     category: "athletes",
@@ -242,7 +242,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/bruny-surin",
     imageUrl: "41.jpg",
     infoBlurb:
-      "Bruny Surin, athlete (b at Cap Haïtien, Haiti, 12 July 1967). Surin was just seven years old when he immigrated to Québec. At the age of 17, he took an interest in the long jump and the triple jump. As a member of the Canadian team, he finished 15th in the long jump at the 1988 Seoul Olympic Games.",
+      "Bruny Surin, athlete. Surin was just seven years old when he immigrated to Québec. At the age of 17, he took an interest in the long jump and the triple jump. As a member of the Canadian team, he finished 15th in the long jump at the 1988 Seoul Olympic Games.",
   },
   {
     category: "athletes",
@@ -253,7 +253,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/donovan-bailey",
     imageUrl: "42.jpg",
     infoBlurb:
-      "Donovan Anthony Bailey, O.Ont., track and field sprinter (born 16 December 1967 in Manchester Parish, Jamaica). Donovan Bailey won the gold medal for Canada in the men’s 100m at the 1996 Olympic Summer Games in Atlanta, Georgia, and set a world record with a time of 9.84 seconds. He later won a second Olympic gold medal when he led Team Canada to a first-place finish in the men’s 4x100m relay. During his athletic career, he also won four medals (three gold and one silver) at the International Association of Athletics Federations (IAAF) World Championships.",
+      "Donovan Anthony Bailey, track and field sprinter. Bailey won the gold medal for Canada in the men’s 100m at the 1996 Olympic Summer Games in Atlanta, Georgia, and set a world record with a time of 9.84 seconds. He later won a second Olympic gold medal when he led Team Canada to a first-place finish in the men’s 4x100m relay.",
   },
   {
     category: "athletes",
@@ -265,7 +265,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/ferguson-arthur-jenkins",
     imageUrl: "43.jpg",
     infoBlurb:
-      'Ferguson "Fergie" Arthur Jenkins, CM, baseball player (born 13 December 1943 in Chatham, ON). Arguably the finest Canadian-born baseball player, Jenkins began his major-league career in Philadelphia before joining the Chicago Cubs in 1966.',
+      'Ferguson "Fergie" Arthur Jenkins, baseball player. Arguably the finest Canadian-born baseball player, Jenkins began his major-league career in Philadelphia before joining the Chicago Cubs in 1966.',
   },
   {
     category: "athletes",
@@ -276,7 +276,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/grant-fuhr",
     imageUrl: "44.jpg",
     infoBlurb:
-      "Grant Fuhr, hockey player (b at Spruce Grove, Alta 28 Sept 1962). Grant Fuhr was one of the National Hockey League's best-ever goalies and a member of the outstanding Edmonton Oilers lineup of the 1980s. Fuhr began his professional career in 1980 with the WHL'S Victoria Cougars, being named to the First All-Star Team both years he played. In 1981 he was drafted as a first-round pick by the Oilers, commencing his 10-year stint with the successful team.",
+      "Grant Fuhr, hockey player. Fuhr was one of the NHL's best-ever goalies and a member of the outstanding Edmonton Oilers lineup of the 1980s. Fuhr began his professional career in 1980 with the WHL'S Victoria Cougars. In 1981 he was drafted as a first-round pick by the Oilers, commencing his 10-year stint with the successful team.",
   },
   {
     category: "athletes",
@@ -287,7 +287,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/harry-jerome",
     imageUrl: "45.jpg",
     infoBlurb:
-      "Harry Winston Jerome, OC, track and field athlete, consultant, teacher (born 30 September 1940 in Prince Albert, SK; died 7 December 1982 in Vancouver, BC). Three-time Olympian Harry Jerome won the bronze medal in the 100 m race at the 1964 Olympic Summer Games in Tokyo, Japan. He also won gold medals at the 1966 Commonwealth Games and the 1967 Pan American Games. Jerome broke the Canadian record in the 220-yard dash when he was only 18 years old and set or equalled world records in the 60-yard indoor dash, the 100-yard dash, the 100 m sprint and the 440-yard relay. Following his retirement from competition, he promoted amateur and youth sport through national and provincial programs. Jerome also advocated for better support of Canadian athletes and for greater representation of racialized Canadians on Canadian television and advertising. He was the recipient of numerous honours and awards, including the Order of Canada.",
+      "Harry Winston Jerome, track and field athlete, consultant, teacher. Three-time Olympian Harry Jerome won the bronze medal in the 100 m race at the 1964 Olympic Summer Games in Tokyo, Japan. Jerome also broke the Canadian record in the 220-yard dash when he was only 18 years old. Following retirement, Jerome advocated for better support of Canadian athletes and for greater representation of racialized Canadians on television and advertising. He was the recipient of numerous honours and awards, including the Order of Canada.",
   },
   {
     category: "athletes",
@@ -299,7 +299,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/perdita-felicien",
     imageUrl: "46.jpg",
     infoBlurb:
-      "Perdita Felicien, track and field hurdler (born 29 August 1980 in Oshawa, ON). Perdita Felicien is the first Canadian woman to win an individual medal in track at the IAAF World Championships. She is a two-time Olympian and a world champion in the 100 m hurdles (2003) and indoor world champion in the 60 m hurdles (2004). A 10-time Canadian champion, she set the national record in the 100 m hurdles (12.46 seconds) in June 2004.",
+      "Perdita Felicien, track and field hurdler. Felicien is the first Canadian woman to win an individual medal in track at the IAAF World Championships. She is a two-time Olympian and a world champion in the 100 m hurdles (2003) and indoor world champion in the 60 m hurdles (2004). A 10-time Canadian champion, she set the national record in the 100 m hurdles (12.46 seconds) in June 2004.",
   },
   {
     category: "entrepreneurs",
@@ -310,7 +310,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/carrie-best",
     imageUrl: "3.jpg",
     infoBlurb:
-      "Carrie Mae Best (née Prevoe), OC, ONS, LLD, human rights activist, author, journalist, publisher and broadcaster (born 4 March 1903 in New Glasgow, Nova Scotia; died 24 July 2001 in New Glasgow, Nova Scotia). Sparked by incidents of racial discrimination, Carrie Best became a civil rights activist. Co-founder of The Clarion, one of the first newspapers in Nova Scotia owned and published by Black Canadians, she used the platform to advocate for Black rights. As editor, she publicly supported Viola Desmond in her case against the Roseland Theatre. Best used her voice in radio and print to bring positive change to society in Nova Scotia and Canada.",
+      "Carrie Mae Best, human rights activist, author, journalist, publisher, and broadcaster. Sparked by incidents of racial discrimination, Carrie Best became a civil rights activist. Co-founder of The Clarion, one of the first newspapers in Nova Scotia owned and published by Black Canadians, she used the platform to advocate for Black rights. As editor, she publicly supported Viola Desmond in her case against the Roseland Theatre and used her voice in radio and print to bring positive change to society in Nova Scotia and Canada.",
   },
   {
     category: "entrepreneurs",
@@ -321,7 +321,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/elijah-mccoy",
     imageUrl: "11.jpg",
     infoBlurb:
-      "Elijah McCoy, engineer, inventor (born 2 May 1843 or 1844 in Colchester, Canada West; died 10 October 1929 in Wayne County, Michigan.) McCoy was an African-Canadian mechanical engineer and inventor best known for his groundbreaking innovations in industrial lubrication.",
+      "Elijah McCoy, engineer, inventor. McCoy was an African-Canadian mechanical engineer and inventor best known for his groundbreaking innovations in industrial lubrication.",
   },
   {
     category: "entrepreneurs",
@@ -332,7 +332,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/viola-desmond",
     imageUrl: "19.jpg",
     infoBlurb:
-      "Viola Irene Desmond (née Davis), businesswoman, civil rights activist (born 6 July 1914 in Halifax, NS; died 7 February 1965 in New York, NY). Viola Desmond built a career and business as a beautician and was a mentor to young Black women in Nova Scotia through her Desmond School of Beauty Culture. In 1946, Viola Desmond challenged racial discrimination when she refused to leave the segregated Whites-only section of the Roseland Theatre in New Glasgow, Nova Scotia. Viola Desmond was arrested, jailed overnight and convicted without legal representation for an obscure tax offence as a result. Despite the efforts of the Nova Scotian Black community to assist her appeal, Viola Desmond was unable to remove the charges against her and went unpardoned in her lifetime. Desmond’s courageous refusal to accept an act of racial discrimination provided inspiration to later generations of Black persons in Nova Scotia and in the rest of Canada. In 2010, Lieutenant-Governor Mayann Francis issued Desmond a free pardon. In December 2016, the Bank of Canada announced that Viola Desmond would be the first Canadian woman to be featured by herself on the face of a banknote — the $10 note released on 19 November 2018. Viola Desmond was named a National Historic Person by the Canadian government in 2018.",
+      "Viola Irene Desmond (née Davis), businesswoman, civil rights activist. Desmond built a career and business in Nova Scotia through her Desmond School of Beauty Culture. In 1946, Viola Desmond challenged racial discrimination when she refused to leave the segregated Whites-only section of the Roseland Theatre in New Glasgow, Nova Scotia where she was further arrested, jailed, and convicted. In December 2016, the Bank of Canada announced that Viola Desmond would be the first Canadian woman to be featured by herself on the face of a banknote — the $10 note released on 19 November 2018. Viola Desmond was named a National Historic Person by the Canadian government in 2018.",
   },
   {
     category: "entrepreneurs",
@@ -343,7 +343,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://thecanadianencyclopedia.ca/en/article/denham-jolly",
     imageUrl: "37.jpg",
     infoBlurb:
-      "Brandeis Denham Jolly, C.M., teacher, entrepreneur, publisher, broadcaster, philanthropist, civil rights activist, community leader (born 26 August 1935 in Industry Cove, Jamaica). Jolly began his business career by purchasing and operating rooming houses and nursing homes. He later purchased and became the publisher of Contrast, a Black community newspaper in Toronto and established FLOW 93.5, the first Black-owned radio station and the first station in Canada to showcase Black music and the stories of the Black community. Jolly also was involved with or founded and led community groups — such as the Black Action Defence Committee — that sought to end police violence targeting young Black men. Jolly also contributed generously to several causes including scholarships for promising young Black Canadians.",
+      "Brandeis Denham Jolly, teacher, entrepreneur, publisher, broadcaster, philanthropist, civil rights activist, and community leader. Jolly began his business career by purchasing and operating rooming houses and nursing homes. He later purchased and became the publisher of Contrast, a Black community newspaper in Toronto and established FLOW 93.5, the first Black-owned radio station. Jolly was also involved in founding the Black Action Defence Committee — that sought to end police violence targeting young Black men. Jolly also contributed generously to several causes including scholarships for promising young Black Canadians.",
   },
   {
     category: "entrepreneurs",
@@ -355,7 +355,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/michael-lee-chin",
     imageUrl: "55.jpg",
     infoBlurb:
-      "Michael Lee-Chin, businessman, investor and philanthropist (born 3 January 1951 in Port Antonio, Jamaica). Lee-Chin is president and chairman of Portland Holdings, a private investment company. According to Canadian Business magazine, Lee-Chin has an estimated net worth of more than $3.95 billion (as of 2017) and was ranked the 20th wealthiest Canadian. He is also one of the richest Jamaicans. Lee-Chin is also a dedicated philanthropist and has pledged and donated more than $60 million to hospitals, universities and, most notably, the Royal Ontario Museum, where the Michael Lee-Chin Crystal is named in honour of his $30-million pledge.",
+      "Michael Lee-Chin, businessman, investor, and philanthropist. Lee-Chin is president and chairman of Portland Holdings, a private investment company. Lee-Chin has an estimated net worth of more than $3.95 billion (as of 2017) and was ranked the 20th wealthiest Canadian. He is also one of the richest Jamaicans. Lee-Chin is also a dedicated philanthropist and has pledged and donated more than $60 million to hospitals, universities and, most notably, the Royal Ontario Museum, where the Michael Lee-Chin Crystal is named in honour of his $30-million pledge.",
   },
   {
     category: "entrepreneurs",
@@ -366,7 +366,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.halifaxexaminer.ca/featured/yes-i-am-a-negro/",
     imageUrl: "87.jpg",
     infoBlurb:
-      "Gloria Baylis, a native of Barbados, emigrated to Canada in 1952. As a registered nurse (trained in England and accredited in Canada), Gloria first attracted public attention in 1964. She applied for a nursing position at the Queen Elizabeth Hotel in Montreal (then operated by the Hilton chain), and was informed, contrary to fact, that all of the nursing positions were filled. Despite her undeniable qualifications, she was refused employment because she was Black.",
+      "Gloria Baylis, a native of Barbados, emigrated to Canada in 1952. As a registered nurse (trained in England and accredited in Canada), Gloria first attracted public attention in 1964 where she applied for a nursing position at the Queen Elizabeth Hotel in Montreal (then operated by the Hilton chain), and was informed, contrary to fact, that all of the nursing positions were filled. Despite her undeniable qualifications, she was refused employment because she was Black.",
   },
   {
     category: "firsts",
@@ -377,7 +377,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/anne-cools",
     imageUrl: "47.jpg",
     infoBlurb:
-      "Anne Clare Cools, administrator, community worker, senator (born on 12 August 1943 in Barbados, British West Indies). An influential Black Canadian activist, Anne Cools served four months in jail for her role in the Sir George Williams Affair, for which she was pardoned in 1981. She founded Women in Transition, one of Canada’s first shelters for female victims of violence. She also served on the National Parole Board of Canada. In 1984, she became the first Black Canadian to be named to the Senate. She served as a Liberal, Conservative and independent senator for more than 30 years, and was known as the Dean of the Senate for her knowledge of parliamentary history and procedure.",
+      "Anne Clare Cools, administrator, community worker, senator. An influential Black Canadian activist, Anne Cools served four months in jail for her role in the Sir George Williams Affair, for which she was pardoned in 1981. She founded Women in Transition, one of Canada’s first shelters for female victims of violence. In 1984, she became the first Black Canadian to be named to the Senate. She served as a Liberal, Conservative, and independent senator for more than 30 years, anf was known as the Dean of the Senate for her knowledge of parliamentary history and procedure.",
   },
   {
     category: "firsts",
@@ -389,7 +389,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/donald-h-oliver",
     imageUrl: "48.jpg",
     infoBlurb:
-      "Donald H. Oliver, QC, senator 1990–2013, lawyer, businessman (born 16 November 1938 in Wolfville, NS). Donald Oliver was the second Black Canadian and the first Black Canadian man appointed to the Senate of Canada, on 7 September 1990.",
+      "Donald H. Oliver, senator, lawyer, and businessman. Oliver was the second Black Canadian and the first Black Canadian man appointed to the Senate of Canada, on September 7, 1990.",
   },
   {
     category: "firsts",
@@ -401,7 +401,7 @@ export const jsonData: IElement[] = [
       "https://www.capebretonpost.com/lifestyles/phills-first-black-man-to-be-awarded-order-of-canada-called-pier-home-19193/",
     imageUrl: "57.jpg",
     infoBlurb:
-      'Phills was born in dire poverty in the West Indies before coming to Canada. And while he may have a special place in Canadian history as the first black man to receive the prestigious honour, of equal significance was the role he played in showing his immigrant community of Whitney Pier — Cape Breton\'s historic "melting pot" — that any man, through hard work and determination, could overcome hardship and build a rich life for themselves and their families in a new land.',
+      'Phills was born in dire poverty in the West Indies before coming to Canada. He played an important role in showing his immigrant community of Whitney Pier — Cape Breton\'s historic "melting pot" — that any man, through hard work and determination, could overcome hardship and build a rich life for themselves and their families in a new land.',
   },
   {
     category: "firsts",
@@ -413,7 +413,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/lincoln-maccauley-alexander",
     imageUrl: "72.jpg",
     infoBlurb:
-      "Lincoln MacCauley Alexander, CC, OOnt, QC, lieutenant-governor of Ontario 1985–91, member of Parliament 1968–80, lawyer, public servant (born 21 January 1922 in Toronto, ON; died 19 October 2012 in Hamilton, ON). Alexander was the first Black Canadian member of Parliament (1968), Cabinet minister (1979) and lieutenant-governor (Ontario, 1985). In recognition of his many important accomplishments, 21 January has been celebrated as Lincoln Alexander Day across Canada since 2015.",
+      "Lincoln MacCauley Alexander, lieutenant-governor of Ontario, member of Parliament, lawyer, and public servant. Alexander was the first Black Canadian member of Parliament (1968), Cabinet minister (1979) and lieutenant-governor (Ontario, 1985). In recognition of his many important accomplishments, January 21st has been celebrated as Lincoln Alexander Day across Canada since 2015.",
   },
   {
     category: "firsts",
@@ -424,7 +424,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/mary-ann-shadd",
     imageUrl: "73.jpg",
     infoBlurb:
-      "Mary Ann Camberton Shadd Cary, educator, publisher, abolitionist (born 9 October 1823 in Wilmington, Delaware; died 5 June 1893 in Washington, DC). Mary Ann Shadd was the first Black female newspaper publisher in Canada. Shadd founded and edited The Provincial Freeman. She also established a racially integrated school for Black refugees in Windsor, Canada West. She played an important role in giving Black people a voice and advocating for women’s rights. In 1994, Shadd was designated a Person of National Historic Significance in Canada.",
+      "Mary Ann Camberton Shadd Cary, educator, publisher, and abolitionist. Mary Ann Shadd was the first Black female newspaper publisher in Canada. Shadd founded and edited The Provincial Freeman. She also established a racially integrated school for Black refugees in Windsor, Canada West. She played an important role in giving Black people a voice and advocating for women’s rights. In 1994, Shadd was designated a Person of National Historic Significance in Canada.",
   },
   {
     category: "firsts",
@@ -436,7 +436,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/john-anderson-ernest-alleyne",
     imageUrl: "74.jpg",
     infoBlurb:
-      'John Anderson Ernest Alleyne, choreographer and ballet company director (b at Bridgetown, Barbados 25 Jan 1960). John Alleyne was raised in rural Québec from the age of 4. He began to dance when he was 8 and joined the National Ballet School in Toronto at 11. He graduated in 1978 and joined the Stuttgart Ballet in Germany, where he stayed for 6 years, to great acclaim. "One cannot imagine the company without his elastic grace and spirited dance," said the 1981-82 Stuttgarter Ballett Annual.',
+      'John Anderson Ernest Alleyne, choreographer, and ballet company director. Alleyne was raised in rural Québec from the age of 4. He began to dance when he was 8 and joined the National Ballet School in Toronto at 11. He graduated in 1978 and joined the Stuttgart Ballet in Germany, where he stayed for 6 years, to great acclaim. "One cannot imagine the company without his elastic grace and spirited dance," said the 1981-82 Stuttgarter Ballett Annual.',
   },
   {
     category: "firsts",
@@ -448,7 +448,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/stanley-g-grizzle",
     imageUrl: "75.jpg",
     infoBlurb:
-      "Stanley George Sinclair Grizzle, CM, OOnt, citizenship judge, politician, civil servant, labour union activist (born 18 November 1918 in Toronto, ON; died 12 November 2016 in Toronto, ON). Stanley Grizzle had an illustrious career as a railway porter, soldier, civil servant, citizenship judge and activist for the rights of Black Canadians.",
+      "Stanley George Sinclair Grizzle, citizenship judge, politician, civil servant, and labour union activist. Grizzle had an illustrious career as a railway porter, soldier, civil servant, citizenship judge and activist for the rights of Black Canadians.",
   },
   {
     category: "firsts",
@@ -459,7 +459,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/willie-oree",
     imageUrl: "76.jpg",
     infoBlurb:
-      "Willie O’Ree, CM, ONB, hockey player (born 15 October 1935 in Fredericton, NB). Willie O’Ree became the first Black hockey player to play a National Hockey League (NHL) game on 18 January 1958. He played professional hockey for more than 20 years, including 45 games with the NHL’s Boston Bruins. Since 1998, O’Ree has been the NHL’s Director of Youth Development and ambassador for NHL Diversity, and has led the Hockey is for Everyone program. He received the Lester Patrick Trophy in 2003 for his outstanding service to hockey in the United States. In 2018, the NHL established the Willie O’Ree Community Hero Award in his honour. O’Ree is a Member of both the Order of Canada and the Order of New Brunswick. He has been inducted into the New Brunswick Sports Hall of Fame and the Hockey Hall of Fame. He was named to Canada’s Sports Hall of Fame as a Builder on 27 May 2020 and will be formally inducted in 2021. The Boston Bruins will retire his No. 22 jersey on 18 February 2021.",
+      "Willie O’Ree, hockey player. O’Ree became the first Black hockey player to play a National Hockey League (NHL) game on 18 January 1958. He played professional hockey for more than 20 years, including 45 games with the NHL’s Boston Bruins. Since 1998, O’Ree has been the NHL’s Director of Youth Development and ambassador for NHL Diversity, and has led the Hockey is for Everyone program. O’Ree is a Member of both the Order of Canada and the Order of New Brunswick. The Boston Bruins will retire his No. 22 jersey on 18 February 2021.",
   },
   {
     category: "firsts",
@@ -471,7 +471,7 @@ export const jsonData: IElement[] = [
       "https://www.queensu.ca/gazette/alumnireview/stories/its-all-about-integrity",
     imageUrl: "77.jpg",
     infoBlurb:
-      "After sitting for eight years in the Quebec National Assembly (QNA) as a member of the Liberal government – including five years as a cabinet minister – Yolande James, Law’03, now finds herself sitting in Opposition and coming to grips with a whole new set of challenges and priorities. Former Premier Jean Charest last fall had tabbed James to become the province’s next environment minister. Instead, the Liberals lost out to the Parti Québécois in last September’s general election, and when James, who retained her own seat, returned to the Assembly it was as Deputy Opposition House Leader and critic for Sustainable Development and the Environment.",
+      "After sitting for eight years in the Quebec National Assembly (QNA) as a member of the Liberal government – including five years as a cabinet minister, Yolande James now finds herself sitting in Opposition and coming to grips with a whole new set of challenges and priorities. Former Premier Jean Charest last fall had tabbed James to become the province’s next environment minister.",
   },
   {
     category: "firsts",
@@ -482,7 +482,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://governingcouncil.utoronto.ca/zanana-akande",
     imageUrl: "78.jpg",
     infoBlurb:
-      "Zanana Akande has worked towards social justice by addressing education, communications and the media, feminism, race relations and social change. She has worked as a teacher, consultant and administrator in the public education system, and a lecturer at the university level. She continues to speak on issues of effective communication, social change, community development and diversity—a topic she has presented locally and abroad. Ms Akande has worked in the media with MTV, and was a co-founder of Tiger Lily, a magazine giving voice to the perspectives of women of colour. One of a partnership of five to win the license for a radio station in 2000, Ms Akande served as a director of Milestone Media Inc.",
+      "Zanana Akande has worked towards social justice by addressing education, the media, feminism, race relations, and social change. She has worked as a teacher, consultant, and administrator in the public education system, and a lecturer at the university level. She continues to speak on issues of effective communication, social change, community development and diversity. Ms Akande has worked in the media with MTV, and was a co-founder of Tiger Lily, a magazine giving voice to the perspectives of women of colour.",
   },
   {
     category: "firsts",
@@ -494,7 +494,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/leonard-braithwaite",
     imageUrl: "79.jpg",
     infoBlurb:
-      "Leonard Austin Braithwaite, CM, OOnt, QC, lawyer, politician (born 23 October 1923 in Toronto, ON; died 28 March 2012 in Toronto). Braithwaite was the first Black Canadian elected to a provincial legislature. He served as a Liberal member of the Ontario Legislature from 1963 to 1975.",
+      "Leonard Austin Braithwaite, lawyer, and politician. Braithwaite was the first Black Canadian elected to a provincial legislature. He served as a Liberal member of the Ontario Legislature from 1963 to 1975.",
   },
   {
     category: "firsts",
@@ -505,7 +505,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/angela-james",
     imageUrl: "80.jpg",
     infoBlurb:
-      "Angela James, hockey player (born 22 December 1964 in Toronto, ON). Known as \"the Wayne Gretzky of women's hockey,\" Angela James was a pioneering and dominant force in women's hockey during the 1980s and 1990s. James led the Canadian women’s hockey team to four world championships (1990, 1992, 1994, and 1997). She was also one of the first three women to be inducted into the International Ice Hockey Federation Hall of Fame. When James was inducted into the Hockey Hall of Fame (in Toronto) in 2010, she was one of the first two women, the first openly gay player, and the second black athlete to ever be inducted.",
+      "Angela James, hockey player. Known as \"the Wayne Gretzky of women's hockey,\" Angela James was a pioneering and dominant force in women's hockey during the 1980s and 1990s. James led the Canadian women’s hockey team to four world championships (1990, 1992, 1994, and 1997). She was also one of the first three women to be inducted into the International Ice Hockey Federation Hall of Fame. When James was inducted into the Hockey Hall of Fame (in Toronto) in 2010, she was one of the first two women, the first openly gay player, and the second black athlete to ever be inducted.",
   },
   {
     category: "firsts",
@@ -516,7 +516,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/daniel-igali",
     imageUrl: "89.jpg",
     infoBlurb:
-      "Daniel Igali, wrestler (b at Port Harcourt, Nigeria, 3 Feb 1974). Daniel Igali is Canada's first-ever gold medalist in Olympic wrestling. Igali grew up in Nigeria as one of 21 children. Wrestling was an important part of the culture of the Ijaw tribe. Each match was accompanied by drumming, thought to be instructing the wrestler during the match, with traditional tribal wrestling songs being hummed in the background. Victory was gained with a single takedown.",
+      "Daniel Igali, wrestler. Igali is Canada's first-ever gold medalist in Olympic wrestling. Igali grew up in Nigeria as one of 21 children. Wrestling was an important part of the culture of the Ijaw tribe. Each match was accompanied by drumming, thought to be instructing the wrestler during the match, with traditional tribal wrestling songs being hummed in the background. Victory was gained with a single takedown.",
   },
   {
     category: "firsts",
@@ -527,7 +527,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/delos-davis",
     imageUrl: "104.jpg",
     infoBlurb:
-      "Delos Rogest Davis, KC, teacher and lawyer (born 4 August 1846 in Maryland, died 13 April 1915 in Anderdon Township, ON). Davis was the second Black lawyer in Canada and the first Black person appointed to the King’s Counsel in all of the British Empire.",
+      "Delos Rogest Davis, teacher, and lawyer. Davis was the second Black lawyer in Canada and the first Black person appointed to the King’s Counsel in all of the British Empire.",
   },
   {
     category: "firsts",
@@ -539,7 +539,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/robert-sutherland",
     imageUrl: "105.jpg",
     infoBlurb:
-      "Robert Sutherland, lawyer, benefactor (born c. 1830 in Jamaica; died 2 June 1878 in Toronto, ON). Sutherland was the first university student and graduate of colour in Canada, as well as its first Black lawyer. He endowed his estate to Queen’s University, his alma mater, saving the institution from financial straits.",
+      "Robert Sutherland, lawyer, and benefactor. Sutherland was the first university student and graduate of colour in Canada, as well as its first Black lawyer. He endowed his estate to Queen’s University, his alma mater, saving the institution from financial straits.",
   },
   {
     category: "firsts",
@@ -551,7 +551,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/addie-aylestock",
     imageUrl: "106.jpg",
     infoBlurb:
-      "Mabel Adeline (Addie) Aylestock, minister of the British Methodist Episcopal Church (born 8 September 1909 in Glen Allan, ON; died 25 July 1998 in Toronto, ON). The first Black woman to be ordained in Canada, Aylestock helped organize congregations in several communities in Ontario, as well as in Québec (Montréal) and Nova Scotia (Africville and Halifax).",
+      "Mabel Adeline (Addie) Aylestock, minister of the British Methodist Episcopal Church. The first Black woman to be ordained in Canada, Aylestock helped organize congregations in several communities in Ontario, as well as in Québec (Montréal) and Nova Scotia (Africville and Halifax).",
   },
   {
     category: "firsts",
@@ -563,7 +563,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/mathieu-da-costa",
     imageUrl: "107.jpg",
     infoBlurb:
-      "Mathieu Da Costa (depending on the language of the documents that mention his name, also known as “Mateus Da Costa,” “Mathieu de Coste,” “Matheus de Cost” and “een Swart genamd Matheu”), interpreter (dates and places of birth and death unknown). Da Costa is one of the most fascinating and elusive figures in the early history of Canada. Historians consider him the first Black person known to have visited Canada, probably in the company of Pierre Dugua de Mons and Samuel de Champlain. But many aspects of his life remain unclear or unknown.",
+      "Mathieu Da Costa (depending on the language of the documents that mention his name, also known as “Mateus Da Costa,” “Mathieu de Coste,” “Matheus de Cost” and “een Swart genamd Matheu”), and interpreter. Da Costa is one of the most fascinating and elusive figures in the early history of Canada. Historians consider him the first Black person known to have visited Canada, probably in the company of Pierre Dugua de Mons and Samuel de Champlain. But many aspects of his life remain unclear or unknown.",
   },
   {
     category: "firsts",
@@ -575,7 +575,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/mayann-elizabeth-francis",
     imageUrl: "108.jpg",
     infoBlurb:
-      "Upon her return to Canada, she worked in a variety of senior public service positions including director and chief executive officer of the Nova Scotia Human Rights Commission (1999-2006) and provincial ombudsman (2000-03), the first woman to hold that position.",
+      "Upon her return to Canada, Francis worked in a variety of senior public service positions including director and chief executive officer of the Nova Scotia Human Rights Commission (1999-2006) and provincial ombudsman (2000-03), the first woman to hold that position.",
   },
   {
     category: "firsts",
@@ -586,7 +586,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://thecanadianencyclopedia.ca/en/article/rosemary-brown",
     imageUrl: "112.jpg",
     infoBlurb:
-      "Rosemary Brown, née Wedderburn, OC, OBC, social worker, politician (born 17 June 1930 in Kingston, Jamaica; died 26 April 2003 in Vancouver, BC). Rosemary Brown was Canada's first Black female member of a provincial legislature and the first woman to run for leadership of a federal political party.",
+      "Rosemary Brown, née Wedderburn, social worker, and politician. Brown was Canada's first Black female member of a provincial legislature and the first woman to run for leadership of a federal political party.",
   },
   {
     category: "government",
@@ -597,7 +597,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.gg.ca/en/honours/recipients/146-8403",
     imageUrl: "5.jpg",
     infoBlurb:
-      "A nurse by profession, Daurene Lewis is an entrepreneur and a civic leader. The first Black mayor of Nova Scotia and the first Black woman to be elected mayor in Canada, she has many accomplishments to her credit. In Annapolis Royal, she helped develop the Farmers' Market, the boardwalk and the Historic Gardens. This woman of action is also known as a tireless volunteer. She has dedicated her time and energy to the advancement of women in business, the betterment of race relations and the promotion of the arts. She is currently principal of the Halifax campuses of the Nova Scotia Community College.",
+      "A nurse by profession, Daurene Lewis is an entrepreneur and a civic leader. The first Black mayor of Nova Scotia and the first Black woman to be elected mayor in Canada. In Annapolis Royal, she helped develop the Farmers' Market, the boardwalk and the Historic Gardens. She has also dedicated her time and energy to the advancement of women in business, the betterment of race relations and the promotion of the arts. She is currently principal of the Halifax campuses of the Nova Scotia Community College.",
   },
   {
     category: "government",
@@ -608,7 +608,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/jean-augustine",
     imageUrl: "14.jpg",
     infoBlurb:
-      "Jean Augustine (née Simon), PC, CM, first Black female MP and Cabinet minister, social justice advocate, teacher, principal (born 9 September 1937 in Happy Hill, Grenada). Jean Augustine was a trailblazing politician and social activist: elected the first Black female Member of Parliament (1993), appointed the first Black woman in Cabinet (2002), and named first Fairness Commissioner by the Government of Ontario (2007). Her legacy includes the federal declaration of February as Black History Month, a motion she introduced in 1995.",
+      "Jean Augustine (née Simon), first Black female MP and Cabinet minister, social justice advocate, teacher, and principal. Augustine was a trailblazing politician and social activist. Elected the first Black female Member of Parliament (1993), appointed the first Black woman in Cabinet (2002), and named first Fairness Commissioner by the Government of Ontario (2007). Her legacy includes the federal declaration of February as Black History Month, a motion she introduced in 1995.",
   },
   {
     category: "government",
@@ -619,7 +619,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/thomas-peters",
     imageUrl: "32.jpg",
     infoBlurb:
-      "Thomas Peters, black community leader (b c 1738; d at Freetown, Sierra Leone, 25 June 1792). During the American Revolution, Britain promised freedom and equality to rebel-owned slaves who joined the LOYALIST cause. Among the thousands to respond, Peters joined the Black Pioneers and gained the rank of sergeant. Following the British defeat, some 3500 black Loyalists were transported to Nova Scotia and New Brunswick. When, through disorganization and discrimination, these promises of equality remained unfulfilled, Peters was selected to present the black case before the Crown. He travelled to London in 1790 with petitions outlining the blacks' grievances, including denial of the vote, trial by jury and equitable land grants.",
+      "Thomas Peters, black community leader. During the American Revolution, Britain promised freedom and equality to rebel-owned slaves who joined the LOYALIST cause. Following the British defeat, black Loyalists were transported to Nova Scotia and New Brunswick where through disorganization and discrimination, promises of equality remained unfulfilled, Peters was selected to present the black case before the Crown and travelled to London in 1790 with petitions outlining the blacks' grievances, including denial of the vote, trial by jury and equitable land grants.",
   },
   {
     category: "government",
@@ -631,7 +631,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/alfred-schmitz-shadd",
     imageUrl: "33.jpg",
     infoBlurb:
-      "Alfred Schmitz Shadd, educator, physician, farmer, politician, pharmacist, editor, civic leader (born 1870 in Raleigh Township, Kent County, ON; died 1915 in Winnipeg, MB). Alfred Schmitz Shadd was from a distinguished Black family known for its abolitionist and equal rights stance. In 1896 Shadd moved from Chatham, Ontario, to Kinistino, North-West Territories where he taught school. He returned to the University of Toronto to complete his medical degree in 1898. Shadd practised medicine in Kinistino and later in Melfort. The \"country doctor's\" talents and energies became respected by local Aboriginal persons and white settlers of the Carrot River park belt. He operated a drugstore, engaged in mixed farming and stock breeding, edited the town's newspaper, and served on town council and various boards. In 1901, he was an unsuccessful candidate in the territorial elections. In the 1905 election, as the Equal Rights Party candidate he came within 52 votes of becoming the first Black person elected to a provincial legislature. In his forceful speeches and editorials he stressed stronger provincial government, taxes for the Canadian Pacific Railway and local control of schools. A Canadian black granite stone marks his Melfort burial place.",
+      "Alfred Schmitz Shadd, educator, physician, farmer, politician, pharmacist, editor, and civic leader. Shadd completed his medical degree in 1898 and decided to practice medicine in Kinistino, Northwest Territories. The \"country doctor's\" talents and energies became respected by local Aboriginal persons of the Carrot River park belt. He operated a drugstore, engaged in mixed farming and stock breeding, edited the town's newspaper, and served on town council and various boards. In the 1905 election, as the Equal Rights Party candidate he came within 52 votes of becoming the first Black person elected to a provincial legislature.",
   },
   {
     category: "government",
@@ -643,7 +643,7 @@ export const jsonData: IElement[] = [
       "https://www.gg.ca/en/governor-general/former-governors-general/michaelle-jean",
     imageUrl: "51.jpg",
     infoBlurb:
-      "Michaëlle Jean was born in Port-au-Prince, Haiti. She immigrated to Canada with her family in 1968, fleeing the dictatorial regime of the time. After studying comparative literature at the Université de Montréal, she taught Italian in the Université’s Department of Literature and Modern Languages. During her studies, Ms. Jean worked for eight years with Quebec shelters for battered women, while actively contributing to the establishment of a network of emergency shelters throughout Quebec and elsewhere in Canada. She later ventured into journalism and became a highly regarded journalist and anchor of information programs at Radio-Canada television and CBC Newsworld. She is married to Jean-Daniel Lafond and they have a daughter, Marie-Éden. Michaëlle Jean was the 27th governor general of Canada, from September 27, 2005, to September 30, 2010.",
+      "Michaëlle Jean was born in Port-au-Prince, Haiti. She immigrated to Canada with her family in 1968. After studying comparative literature at the Université de Montréal, she taught Italian in the Université’s Department of Literature and Modern Languages. During her studies, Jean worked with Quebec shelters for battered women, while actively contributing to the establishment of a network of emergency shelters throughout Canada. She later ventured into journalism and became an anchor for Radio-Canada television and CBC Newsworld. Michaëlle Jean was the 27th governor general of Canada, from September 27, 2005, to September 30, 2010.",
   },
   {
     category: "government",
@@ -654,7 +654,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://pm.gc.ca/en/cabinet/honourable-ahmed-hussen",
     imageUrl: "52.jpg",
     infoBlurb:
-      "The Honourable Ahmed Hussen was first elected in 2015 to represent the riding of York South—Weston. Minister Hussen immigrated to Canada in 1993 and settled in Toronto. He began his career in public service after high school, working with the Hamilton-Wentworth social services department. Minister Hussen co-founded the Regent Park Community Council in 2002. As its president, he played a key role in securing the $500-million revitalization project for Regent Park while advocating for its 15,000 residents to ensure that their interests were protected. He was awarded the Queen’s Gold Medal for his leadership efforts in the Regent Park community. Serving as National President for the Canadian Somali Congress, Minister Hussen worked with national and regional authorities to advocate on important issues to Canadians of Somali heritage, strengthening civic engagement and integration. His results-driven reputation led to an invitation from the Toronto City Summit Alliance to join a task force for modernizing income security for adults.",
+      "The Honourable Ahmed Hussen was first elected in 2015 to represent the riding of York South—Weston. Minister Hussen immigrated to Canada in 1993 and settled in Toronto. He began his career in public service after high school, working with the Hamilton-Wentworth social services department. He was awarded the Queen’s Gold Medal for his leadership efforts in the Regent Park community. Serving as National President for the Canadian Somali Congress, Minister Hussen worked with national and regional authorities to advocate on important issues to Canadians of Somali heritage, strengthening civic engagement and integration.",
   },
   {
     category: "lgbtq",
@@ -665,7 +665,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://syrusmarcusware.com/",
     imageUrl: "113.jpg",
     infoBlurb:
-      "Syrus Marcus Ware is a Vanier Scholar, a visual artist, community activist, researcher, youth-advocate and educator. For 12 years, he was the Coordinator of the Art Gallery of Ontario Youth Program. Syrus is currently a facilitator/designer for the Cultural Leaders Lab (Toronto Arts Council & The Banff Centre). He is the inaugural artist-in-residence for Daniels Spectrum (2016/2017). Syrus is also a core-team member of Black Lives Matter Toronto.",
+      "Syrus Marcus Ware is a Vanier Scholar, visual artist, community activist, researcher, youth-advocate, and educator. For 12 years, he was the Coordinator of the Art Gallery of Ontario Youth Program. Syrus is currently a facilitator/designer for the Cultural Leaders Lab (Toronto Arts Council & The Banff Centre). He is the inaugural artist-in-residence for Daniels Spectrum (2016/2017). Syrus is also a core-team member of Black Lives Matter Toronto.",
   },
   {
     category: "lgbtq",
@@ -677,7 +677,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/dbiyoung-anitafrika",
     imageUrl: "114.jpg",
     infoBlurb:
-      "Debbie Young (d'bi.young anitafrika), dub poet, playwright, actor (born 1978 in Kingston, Jamaica). A Dora Award–winning actress and playwright, d’bi.young anitafrika is best known for her trilogy of plays, the sankofa trilogy: bloodclaat: one oomaan story, benu,and word!sound!powah!, and as the founder of Watah Theatre Institute.",
+      "Debbie Young (d'bi.young anitafrika), dub poet, playwright, and actor. A Dora Award–winning actress and playwright, d’bi.young anitafrika is best known for her trilogy of plays, the sankofa trilogy: bloodclaat: one oomaan story, benu,and word!sound!powah!, and as the founder of Watah Theatre Institute.",
   },
   {
     category: "lgbtq",
@@ -688,7 +688,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/afua-cooper",
     imageUrl: "115.jpg",
     infoBlurb:
-      "Afua (Ava Pamela) Cooper, educator, historian, performance artist, poet (born 8 November 1957 in the Whithorn district of Westmoreland, Jamaica), is considered one of the most influential and pioneering voices in the Canadian dub poetry and spoken word movement. Her poems are published in numerous regional, national and international journals and anthologies. Afua Cooper also has CDs of her performances that make her work well known to the global community. In addition to her renown as a performance artist, she is an internationally-ranked historian. She has taught Caribbean cultural studies, history, women's studies and Black studies at Ryerson and York universities, at the University of Toronto and at Dalhousie University.",
+      "Afua (Ava Pamela) Cooper, educator, historian, performance artist, and poet. Cooper is considered one of the most influential and pioneering voices in the Canadian dub poetry and spoken word movement. Her poems are published in numerous regional, national and international journals and anthologies. She is also an internationally-ranked historian where she teaches Caribbean cultural studies, history, women's studies and Black studies at Ryerson and York universities, at the University of Toronto and at Dalhousie University.",
   },
   {
     category: "lgbtq",
@@ -699,7 +699,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://munkschool.utoronto.ca/csus/profile/walcott-rinaldo/",
     imageUrl: "116.jpg",
     infoBlurb:
-      "Rinaldo Walcott is the Director of Women and Gender Studies Institute and an Associate Professor at the Ontario Institute for Studies in Education both at University of Toronto. His research is in the area of Black Diaspora Cultural Studies, gender and sexuality.",
+      "Rinaldo Walcott is the Director of Women and Gender Studies Institute and an Associate Professor at the Ontario Institute for Studies in Education both at University of Toronto. His research is in the area of Black Diaspora Cultural Studies, gender, and sexuality.",
   },
   {
     category: "lgbtq",
@@ -710,7 +710,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.queerevents.ca/queer/individual/courtnay-mcfarlane",
     imageUrl: "117.jpg",
     infoBlurb:
-      "Visual artist, poet and manager of children, youth and adult services at Davenport-Perth Neighbourhood Community Health Centre. McFarlane was a founding member of a number of Black queer groups and organizations in the early ’80s and ’90s — such as Zami, Sepia, AYA Men — that provided voice and visibility for Black LGBTQ2 individuals and issues. This activism in many ways laid the foundation for events, organizations and movements addressing Black LGBTQ2 communities today. He has also been on the board of the Toronto Inside Out Film Festival. He is also currently curating an exhibit at Toronto’s BAND Gallery called Legacies in Motion: Black Queer Toronto Archive Project as part of the Myseum Intersections festival 2019.  This exhibit seeks to unearth the stories of the vibrant period of political organizing and cultural activism from Black LGBTQ2 communities in Toronto in the 1980s and 1990s. Drawing its diverse exhibit materials from personal archives, which feature images, documents, videos and visual art, Legacies in Motion directly challenges the common narratives within mainstream LGBTQ communities that often render the history and contributions of Black queers as invisible and marginal.",
+      "Visual artist, poet, manager of children, youth, and adult services at Davenport-Perth Neighbourhood Community Health Centre. McFarlane was a founding member of a number of Black queer groups and organizations in the early ’80s and ’90s — such as Zami, Sepia, AYA Men. He has also been on the board of the Toronto Inside Out Film Festival and is currently curating an exhibit at Toronto’s BAND Gallery called Legacies in Motion which seeks to unearth the stories of the vibrant period of political organizing and cultural activism from Black LGBTQ2 communities in Toronto in the 1980s and 1990s.",
   },
   {
     category: "musicians",
@@ -721,7 +721,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.oscarpeterson.com/",
     imageUrl: "2.jpg",
     infoBlurb:
-      "An eminent jazz pianist with technical mastery and limitless creativity, Oscar Peterson was a performer who could instantly inspire awe. He earned the nickname “Maharaja of the Keyboard” from none other than Duke Ellington, and can count many of the greatest names in jazz among his devoted legion of fans. Peterson was born August 15, 1925, in Montreal. His performance career began while he was still in high school, as pianist with the Johnny Holmes Orchestra. After a few years with the orchestra, he formed his own trio, the first in a format he maintained throughout his lifelong career.",
+      "An eminent jazz pianist with technical mastery and limitless creativity, Oscar “Maharaja of the Keyboard” Peterson was a performer who could instantly inspire awe. His performance career began while he was still in high school, as pianist with the Johnny Holmes Orchestra. After a few years with the orchestra, he formed his own trio, the first in a format he maintained throughout his lifelong career.",
   },
   {
     category: "musicians",
@@ -733,7 +733,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/portia-white-emc",
     imageUrl: "10.jpg",
     infoBlurb:
-      "Portia May White, contralto, teacher (born 24 June 1911 in Truro, NS; died 13 February 1968 in Toronto, ON). Portia White was the first Black Canadian concert singer to win international acclaim. She was considered one of the best classical singers of the 20th century. Her voice was described by one critic as “a gift from heaven.” She was often compared to the celebrated African American contralto Marian Anderson. The Nova Scotia Talent Trust was established in 1944 specifically to enable White to concentrate on her professional career. She was named a “person of national historic significance” by the Government of Canada in 1995.",
+      "Portia May White, contralto, and teacher. Portia White was the first Black Canadian concert singer to win international acclaim. She was considered one of the best classical singers of the 20th century. Her voice was described by one critic as “a gift from heaven.” The Nova Scotia Talent Trust was established in 1944 specifically to enable White to concentrate on her professional career. She was named a “person of national historic significance” by the Government of Canada in 1995.",
   },
   {
     category: "musicians",
@@ -745,7 +745,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/al-hajj-sayyd-abdul-al-khabyyr-emc",
     imageUrl: "18.jpg",
     infoBlurb:
-      "Al-Hajj Sayyd Abdul Al-Khabyyr studied clarinet and saxophone in New York with Cecil Scott and others. After travelling in 1954 with the trombonist Snub Mosley to Montreal, he worked there 1954-5 with Al Cowans and then led his own band in local nightclubs. In Ottawa 1957-70 he was a member, variously, of the Canadian Jazz Quartet (with Richard Wyands, piano, Wyatt Ruther, bass, and Doug Johnston, drums), the Ottawa Saxophone Quartet and studio or dance bands led by Champ Champagne, Buster Monroe, and others. He led his own orchestra 1959-63 and 1963-5 at the Gatineau Country Club.",
+      "Al-Hajj Sayyd Abdul Al-Khabyyr studied clarinet and saxophone in New York with Cecil Scott and others. In Ottawa, he was a member of the Canadian Jazz Quartet (with Richard Wyands, piano, Wyatt Ruther, bass, and Doug Johnston, drums), the Ottawa Saxophone Quartet and studio or dance bands led by Champ Champagne, Buster Monroe, and others. He later led his own orchestry at the Gatineau Country Club.",
   },
   {
     category: "musicians",
@@ -757,7 +757,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/eleanor-collins-emc",
     imageUrl: "36.jpg",
     infoBlurb:
-      "Elnora Ruth Collins (née Procter), CM, singer, actor (born 21 November 1919 in Edmonton, Alberta). Vancouver’s “first lady of jazz,” Eleanor Collins was the first Canadian woman to have her own national television show, CBC TV’s The Eleanor Show (1955) and Eleanor 1964). Often compared to American singer Lena Horne, Collins performed on many television and radio variety shows, as well as in clubs. Collins is a member of the Order of Canada, the BC Entertainment Hall of Fame and the recipient of numerous lifetime achievement awards.",
+      "Elnora Ruth Collins (née Procter), singer, and actor. Vancouver’s “first lady of jazz,” Eleanor Collins was the first Canadian woman to have her own national television show, CBC TV’s The Eleanor Show (1955). Often compared to American singer Lena Horne, Collins performed on many television and radio variety shows, as well as in clubs. Collins is a member of the Order of Canada, the BC Entertainment Hall of Fame and the recipient of numerous lifetime achievement awards.",
   },
   {
     category: "musicians",
@@ -769,7 +769,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/garnet-brooks-emc",
     imageUrl: "54.jpg",
     infoBlurb:
-      "Garnet Brooks. Tenor, (born 4 September 1937 in London, ON; died 21 July 2009 in Regina, SK). Brooks' voice studies began in his native city and continued 1960-4 in Toronto at the Royal Conservatory of Music, where his teachers were Mary Raze, Dorothy Allan Park, John Coveart and Douglas Bodle.",
+      "Garnet Brooks, tenor. Brooks' voice studies began in his native city and continued in Toronto at the Royal Conservatory of Music, where his teachers were Mary Raze, Dorothy Allan Park, John Coveart, and Douglas Bodle.",
   },
   {
     category: "musicians",
@@ -780,7 +780,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/knaan-emc",
     imageUrl: "86.jpg",
     infoBlurb:
-      "K'Naan fled Somalia's civil war in 1991, and lived in Harlem, New York, for less than a year before settling in Toronto. K'Naan was exposed to North American hip hop while living in Somalia, and despite the language barrier, was immediately entranced. He learned English with the help of hip-hop lyrics (the US rap duo Eric B. & Rakim was a major influence) and soon afterward began writing his own poetry and rap verses.",
+      "K'Naan fled Somalia's civil war in 1991, and lived in Harlem, New York for less than a year before settling in Toronto. K'Naan was exposed to North American hip hop while living in Somalia and despite the language barrier was immediately entranced. He learned English with the help of hip-hop lyrics and soon afterward began writing his own poetry and rap verses.",
   },
   {
     category: "musicians",
@@ -791,7 +791,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/jully-black",
     imageUrl: "118.jpg",
     infoBlurb:
-      "Jully Ann Inderia Gordon, singer, songwriter, actor, TV personality (born 8 November 1977 in Toronto, ON). Known as “Canada’s Queen of R&B,” Jully Black is an award-winning R&B and soul singer-songwriter. In 2013, CBC Music named her one of the 25 Greatest Canadian Singers Ever. Her rich and soulful alto voice has garnered comparisons to Tina Turner and Amy Winehouse. Her album Revival (2007) was certified gold in Canada and won the Juno Award for R&B/Soul Recording of the Year. She has written songs for Destiny’s Child, Nas, Sean Paul and Missy Elliott, among others, and started her own recording, management and publishing company. Black has appeared on stage in productions of trey anthony’s play Da Kink in My Hair and Tony Kushner and Jeanine Tesori’s Caroline, or Change. She is also a popular television host and panel guest. ",
+      "Jully Ann Inderia Gordon, singer, songwriter, actor, and TV personality. Known as “Canada’s Queen of R&B,” Jully Black is an award-winning R&B and soul singer-songwriter. In 2013, CBC Music named her one of the 25 Greatest Canadian Singers Ever. Her rich and soulful alto voice has garnered comparisons to Tina Turner and Amy Winehouse. She has written songs for Destiny’s Child, Nas, Sean Paul and Missy Elliott, among others, and started her own recording, management and publishing company.",
   },
   {
     category: "poets",
@@ -802,7 +802,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/claire-harris",
     imageUrl: "9.jpg",
     infoBlurb:
-      "Claire Harris, poet (born 13 June 1937 in Port-of-Spain, Trinidad). Harris has written numerous collections of poetry since her first volume, Fables from the Women’s Quarters, was published in 1984. Her work has garnered national and international acclaim — she was nominated for the Governor General’s Award for Poetry, Fables won the Commonwealth Award for Poetry. Harris’ poetry often voices the psychological struggles experienced by women of color who face oppression and violence.",
+      "Claire Harris, poet. Harris has written numerous collections of poetry since her first volume, Fables from the Women’s Quarters, was published in 1984. Her work has garnered national and international acclaim — she was nominated for the Governor General’s Award for Poetry, Fables won the Commonwealth Award for Poetry. Harris’ poetry often voices the psychological struggles experienced by women of color who face oppression and violence.",
   },
   {
     category: "poets",
@@ -814,7 +814,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/dany-laferriere",
     imageUrl: "17.jpg",
     infoBlurb:
-      "Dany Laferrière, né Windson Kléber, novelist, essayist, poet and journalist (born 13 April 1953 in Port-au-Prince, Haiti). Winner of the prestigious Prix Medicis and the first Haitian, Canadian and Québécois to be elected to the Académie française, Laferrière has established himself as one of the premiere chroniclers of the immigrant experience and one of the finest novelists of his generation.",
+      "Dany Laferrière (née Windson Kléber), novelist, essayist, poet, and journalist. Winner of the prestigious Prix Medicis and the first Haitian, Canadian, and Québécois to be elected to the Académie française, Laferrière has established himself as one of the premiere chroniclers of the immigrant experience and one of the finest novelists of his generation.",
   },
   {
     category: "poets",
@@ -825,7 +825,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/dionne-brand",
     imageUrl: "35.jpg",
     infoBlurb:
-      "Dionne Brand, CM, FRSC, poet, writer, filmmaker, educator, activist (born 7 January 1953 in Guayaguayare, Trinidad). Dionne Brand is one of Canada’s most accomplished poets. She is known for her experimental poetry, which challenges assumptions of gender identity, sexuality and race. She has published books, contributed to anthologies, and directed and edited several documentaries for the National Film Board. She has also held various positions teaching literature, creative writing and women’s studies at universities across Canada and the United States. Winner of the Governor General’s Award and the Griffin Poetry Prize, and a former poet laureate of Toronto, Brand was appointed to the Order of Canada in 2017 for her contributions to Canadian literature.",
+      "Dionne Brand, poet, writer, filmmaker, educator, and activist. Brand is known for her experimental poetry, which challenges assumptions of gender identity, sexuality and race. She has published books, contributed to anthologies, and directed and edited several documentaries for the National Film Board. Brand was appointed to the Order of Canada in 2017 for her contributions to Canadian literature.",
   },
   {
     category: "poets",
@@ -836,7 +836,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/dwayne-morgan",
     imageUrl: "53.jpg",
     infoBlurb:
-      "Dwayne Morgan, poet, spoken word artist, motivational speaker (b at Toronto 15 Oct 1974). While Morgan's ancestors are from Jamaica, he grew up in Toronto. His work is strongly influenced by hip-hop culture and touches upon a variety of social issues such as drug use, family violence, and racism. Known for his range, he can have an audience in deep contemplation one moment and hysterics the next, with a skilfully and memorably delivered message. Morgan is the founder of Up From The Roots entertainment, which focuses on promoting urban artists, with a special focus on African Canadians. In 2008 Morgan, along with fellow poets Tomy Bewick and Leviathan Grant, created the group The Dream Chasers. Theirs was the premier show at the Hamilton Fringe Festival in 2009 and the Critics' Pick of the festival. A member of the Spoken Word Arts Network, Morgan brings knowledge of spoken word to a larger Canadian audience.",
+      "Dwayne Morgan, poet, spoken word artist, and motivational speaker. Morgan's work is strongly influenced by hip-hop culture and touches upon a variety of social issues such as drug use, family violence, and racism. Morgan is the founder of Up From The Roots entertainment, which focuses on promoting urban artists, with a special focus on African Canadians.",
   },
   {
     category: "poets",
@@ -848,7 +848,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/lillian-allen-emc",
     imageUrl: "85.jpg",
     infoBlurb:
-      "Lillian Allen, poet, vocalist, lyricist, community activist, teacher (born 5 April 1951 in Kingston, Jamaica). Lillian Allen is Canada's foremost dub poet, performing verses on social and political issues in a rhythmic, declamatory vocal style to reggae accompaniment. She has appeared at literary, music and feminist festivals and events in Canada, the US, the Caribbean, England and Europe, and was heard at Expo 86.",
+      "Lillian Allen, poet, vocalist, lyricist, community activist, and teacher. Allen is Canada's foremost dub poet, performing verses on social and political issues in a rhythmic, declamatory vocal style to reggae accompaniment. She has appeared at literary, music and feminist festivals and events in Canada, the US, the Caribbean, England and Europe, and was heard at Expo 86.",
   },
   {
     category: "theatre",
@@ -859,7 +859,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.writerstrust.com/authors/andre-alexis/",
     imageUrl: "4.jpg",
     infoBlurb:
-      "André Alexis is a fiction author who grew up in Ottawa. His novel Fifteen Dogs won the Scotiabank Giller Prize and Rogers Writers’ Trust Fiction Prize in 2015. He was also a Rogers Writers' Trust Fiction Prize finalist in 1997 for his debut novel, Childhood, and in 2014 for Pastoral. Days by Moonlight is the fourth book published in a planned series of five novels examining philosophical themes. Born in Trinidad, Alexis now lives in Toronto.",
+      "André Alexis is a fiction author who grew up in Ottawa. His novel Fifteen Dogs won the Scotiabank Giller Prize and Rogers Writers’ Trust Fiction Prize in 2015. Days by Moonlight is the fourth book published in a planned series of five novels examining philosophical themes. Born in Trinidad, Alexis now lives in Toronto.",
   },
   {
     category: "theatre",
@@ -870,7 +870,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/djanet-sears",
     imageUrl: "12.jpg",
     infoBlurb:
-      "Djanet Sears, née Janet, playwright, director, producer, actor, teacher (b at London, Eng 1959). Djanet Sears immigrated with her family to Saskatoon, Sask, in 1974 and relocated to Oakville, Ont, the following year. She acquired a BFA honours degree in theatre from York University in 1999 and studied at the Canadian Film Centre and NYU in New York. In the 1980s, questioning her place in Canada as a member of a visible minority and in search of her ancestral roots, she made a journey to Africa. It was a cathartic experience and upon returning to Canada, she constructed the play Afrika Solo. It brought her national recognition, and she became a lightning rod and galvanizing force for the African-Canadian theatre movement.",
+      "Djanet Sears (née Janet), playwright, director, producer, actor, and teacher. Sears immigrated with her family to Saskatoon, Sask, in 1974 and acquired a BFA honours degree in theatre from York University in 1999. Most notably, she constructed the play Afrika Solo which brought her national recognition, and became a lightning rod and galvanizing force for the African-Canadian theatre movement.",
   },
   {
     category: "theatre",
@@ -882,7 +882,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/george-elliott-clarke",
     imageUrl: "20.jpg",
     infoBlurb:
-      "George Elliott Clarke, poet, anthologist (b at Windsor Plains, NS 12 Feb 1960). George Elliott Clarke was born near Windsor Plains, a black Loyalist community, and grew up in Halifax. He earned a BA at the University of Waterloo, an MA at Dalhousie, and a PhD at Queen's University. Clarke taught at Duke University and McGill before joining the Department of English at the University of Toronto in 1999, where he was later appointed the first E.J. Pratt Professor of Canadian Literature. Clarke's poetry, prose, drama and criticism document the history and culture of blacks in Canada, especially Nova Scotia, by interfacing the archival with the personal. George Elliott Clarke calls himself \"Africadian,\" a term he coined to describe the descendants of black United Empire Loyalists who came to the Maritime provinces in the late 18th century.",
+      "George Elliott Clarke, poet, and anthologist. Clarke earned a BA at the University of Waterloo, an MA at Dalhousie, and a PhD at Queen's University. Clarke's poetry, prose, drama and criticism document the history and culture of blacks in Canada, especially Nova Scotia, by interfacing the archival with the personal. Clarke calls himself \"Africadian,\" a term he coined to describe the descendants of black United Empire Loyalists who came to the Maritime provinces in the late 18th century.",
   },
   {
     category: "theatre",
@@ -893,7 +893,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/lorena-gale",
     imageUrl: "38.jpg",
     infoBlurb:
-      "Lorena Gale, actor, playwright, activist (born 9 May 1958 in Montréal, QC; died 21 June 2009 in Vancouver, BC). Lorna Gale achieved a strong and varied body of work in Canadian theatre, but she was perhaps best known for her role as the high priestess Elosha in the television series Battlestar Galactica (2004­–08).",
+      "Lorena Gale, actor, playwright, and activist. Gale achieved a strong and varied body of work in Canadian theatre, but she was perhaps best known for her role as the high priestess Elosha in the television series Battlestar Galactica (2004­–08).",
   },
   {
     category: "theatre",
@@ -904,7 +904,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/yanna-mcintosh",
     imageUrl: "56.jpg",
     infoBlurb:
-      "Yanna McIntosh (born 1970 in Jamaica). McIntosh is one of Canada's pre-eminent stage actors, known for her dramatic range and fiery intensity. She has also had an active career in television. McIntosh was two when her family moved to Toronto. She was educated at Vaughan Road Academy, the University of Toronto and the American Repertory Theatre Institute at Harvard University. She studied English and drama at university, becoming a teacher for several years.",
+      "Yanna McIntosh is one of Canada's pre-eminent stage actors, known for her dramatic range and fiery intensity. She has also had an active career in television. McIntosh was two when her family moved to Toronto. She was educated at Vaughan Road Academy, the University of Toronto, and the American Repertory Theatre Institute at Harvard University. She studied English and drama at university, becoming a teacher for several years.",
   },
   {
     category: "theatre",
@@ -915,7 +915,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/trey-anthony",
     imageUrl: "88.jpg",
     infoBlurb:
-      "Trey Anthony (trey anthony), comedian, playwright, screenwriter, producer (born 1974 in London, England). The first Black Canadian woman to have her own prime-time show on a Canadian television network, trey anthony is best known for her award-winning play and television series, 'da Kink in my Hair.",
+      "Trey Anthony (trey anthony), comedian, playwright, screenwriter, and producer. The first Black Canadian woman to have her own prime-time show on a Canadian television network, trey anthony is best known for her award-winning play and television series, 'da Kink in my Hair.",
   },
   {
     category: "visual-arts",
@@ -926,7 +926,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/deanna-bowen",
     imageUrl: "109.jpg",
     infoBlurb:
-      "Deanna Bowen, visual artist (born 5 November 1969 in Oakland, California). Bowen is a multidisciplinary artist whose work addresses African migration, personal and community histories, genealogy and the history of enslavement, often drawing on archival documents to create works that witness traumatic histories. Bowen’s work is widely shown throughout Canada, as well as in the United States and Europe.",
+      "Deanna Bowen, visual artist. Bowen is a multidisciplinary artist whose work addresses African migration, personal and community histories, genealogy and the history of enslavement, often drawing on archival documents to create works that witness traumatic histories. Bowen’s work is widely shown throughout Canada, as well as in the United States and Europe.",
   },
   {
     category: "visual-arts",
@@ -938,7 +938,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/sylvia-hamilton",
     imageUrl: "110.jpg",
     infoBlurb:
-      "Sylvia D. Hamilton, filmmaker, writer, educator (born in Beechville, NS). Sylvia Hamilton specializes in re-evaluating sanitized accounts of Canadian history and focusing on the perspectives of Black Canadians, particularly Black Canadian women. Her films include Black Mother Black Daughter (1989), the Gemini Award winner Speak It! From the Heart of Black Nova Scotia (1993), the biographical documentary Portia White: Think On Me (2000) and The Little Black Schoolhouse (2007). In both her essays and films, Hamilton draws on collective experiences to document diverse and inclusive communities, bringing to light what previous historians have overlooked.",
+      "Sylvia D. Hamilton, filmmaker, writer, and educator. Hamilton specializes in re-evaluating accounts of Canadian history and focusing on the perspectives of Black Canadian women. Her films include Black Mother Black Daughter (1989) and the Gemini Award winner Speak It! From the Heart of Black Nova Scotia (1993). In both her essays and films, Hamilton brings to light what previous historians have overlooked.",
   },
   {
     category: "visual-arts",
@@ -949,7 +949,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/camille-turner",
     imageUrl: "111.jpg",
     infoBlurb:
-      "Camille Turner, artist (born 11 March 1960 in Kingston, Jamaica). Camille Turner’s new media and performance works question Canadian identity and notions of belonging, and interrogate the erasure of Black history from Canadian narratives. Turner is active throughout Canada and internationally, where she regularly performs as her beauty queen persona, Miss Canadiana.",
+      "Camille Turner, artist. Turner’s new media and performance works question Canadian identity and notions of belonging, and interrogates the erasure of Black history from Canadian narratives. Turner is active throughout Canada and internationally, where she regularly performs as her beauty queen persona, Miss Canadiana.",
   },
   {
     category: "writers",
@@ -960,7 +960,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.penguinrandomhouse.ca/authors/140747/tessa-mcwatt",
     imageUrl: "1.jpg",
     infoBlurb:
-      "Tessa McWatt is the author of six novels and two books for young people. Her fiction has been nominated for the Governor General’s Award, the City of Toronto Book Awards, and the OCM Bocas Prize. She is the co-editor, along with Dionne Brand and Rabindranath Maharaj, of Luminous Ink: Writers on Writing in Canada. Her first picture book for children, Where Are You Agnes?, is based on the life of abstract expressionist painter Agnes Martin. She is one of the winners of the Eccles British Library Award 2018, for her memoir: Shame on Me: An Anatomy of Race and Belonging, which also won the Bocas Prize for Non-Fiction 2020. She is also a librettist, most recently working with British composer Hannah Kendall. Their chamber opera, The Knife of Dawn, premiered at the Roundhouse, London, in 2016, and they are working on a new full-length opera. McWatt is also in the process of bringing John Berger’s novel To the Wedding, to the screen, with award winning film director Andrea Pallaoro. Tessa McWatt is a Professor of Creative Writing at the University of East Anglia and is on the Board of Trustees at Wasafiri. She lives in London.",
+      "Tessa McWatt is the author of six novels and two books for young people. Her fiction has been nominated for the Governor General’s Award and is winner of the Eccles British Library Award 2018. She is also a librettist working on the chamber opera, The Knife of Dawn. McWatt is also a Professor of Creative Writing at the University of East Anglia and is on the Board of Trustees at Wasafiri.",
   },
   {
     category: "writers",
@@ -971,7 +971,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://quillandquire.com/authors/after-the-giller/",
     imageUrl: "6.jpg",
     infoBlurb:
-      "Austin Clarke, the Barbadian-Canadian writer, died at age 81 on June 26. Clarke was one of Canada’s leading literary figures and is widely credited for writing the Black experience into Canadian literature and contributing to a Canadian literary tradition that more accurately reflected the country’s diverse nature. His books included novels such as The Polished Hoe and More, memoirs including Love and Sweet Food and ‘Membering and two collections of poetry, Where the Sun Shines Best and In Your Crib. Clarke, who came to Canada from Barbados as a student in 1955, was a lifelong critic of Canadian racism and was at the forefront of the development of a distinctly Canadian approach to Black radicalism that emerged in the 1960s.",
+      "Austin Clarke, writer. Clarke was one of Canada’s leading literary figures who attempts to more accurately reflect the country’s diverse nature. His works include The Polished Hoe and More, Love and Sweet Food and ‘Membering and two collections of poetry, and Where the Sun Shines Best and In Your Crib. Clarke, who came to Canada from Barbados as a student in 1955, was a lifelong critic of Canadian racism.",
   },
   {
     category: "writers",
@@ -982,7 +982,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.writerstrust.com/authors/david-chariandy/",
     imageUrl: "7.jpg",
     infoBlurb:
-      "David Chariandy won the 2017 Rogers Writers’ Trust Fiction Prize for Brother. His debut novel, Soucouyant, was nominated for 11 literary awards, including a Governor General’s Literary Award. His first work of creative nonfiction, I’ve Been Meaning to Tell You: A Letter to My Daughter, was published in 2018. Earlier this year, Chariandy was announced as a Windham-Campbell Prize winner for his body of work, a prestigious international literary award administered by Yale University. A professor at Simon Fraser University, Chariandy lives in Vancouver.",
+      "David Chariandy won the 2017 Rogers Writers’ Trust Fiction Prize for Brother. His debut novel, Soucouyant, was nominated for 11 literary awards, including a Governor General’s Literary Award. Chariandy has also been awarded the Windham-Campbell Prize for his body of work, a prestigious international literary award administered by Yale University. A professor at Simon Fraser University, Chariandy lives in Vancouver.",
   },
   {
     category: "writers",
@@ -993,7 +993,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.penguinrandomhouse.com/authors/57816/esi-edugyan/",
     imageUrl: "8.jpg",
     infoBlurb:
-      "Esi Edugyan is author of the novels The Second Life of Samuel Tyne and Half-Blood Blues, which won the Scotiabank Giller Prize and was a finalist for the Man Booker Prize, the Governor General’s Literary Award, the Rogers Writers’ Trust Fiction Prize and the Orange Prize. She lives in Victoria, British Columbia.",
+      "Esi Edugyan is the author of the novels The Second Life of Samuel Tyne and Half-Blood Blues, which won the Scotiabank Giller Prize and was a finalist for the Man Booker Prize, the Governor General’s Literary Award, the Rogers Writers’ Trust Fiction Prize, and the Orange Prize. She lives in Victoria, British Columbia.",
   },
   {
     category: "writers",
@@ -1004,7 +1004,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.lawrencehill.com/",
     imageUrl: "15.jpg",
     infoBlurb:
-      "Lawrence Hill is the son of American immigrants — a black father and a white mother — who came to Canada the day after they married in 1953 in Washington, D.C. Growing up in the predominantly white suburb of Don Mills, Ontario in the sixties, Hill was greatly influenced by his parents’ work in the human rights movement. Much of Hill’s writing touches on issues of identity and belonging. Hill is the author of ten books including the novels The Book of Negroes and The Illegal, and the non-fiction books Blood: the Stuff of Life, and Dear Sir, I intend to Burn your Book: An Anatomy of a Book Burning. Hill is a winner of the Rogers Writers’ Trust Fiction Prize, the Commonwealth Writers’ Prize for Best Book, and both CBC Radio’s Canada Reads and Radio-Canada’s Combat des livres.",
+      "Growing up in the predominantly white suburb of Don Mills, Ontario in the 1960s, Hill was greatly influenced by his parents’ work in the human rights movement. Much of Hill’s writing touches on issues of identity and belonging. Hill is the author of ten books including The Book of Negroes. Hill is also a winner of the Rogers Writers’ Trust Fiction Prize, and the Commonwealth Writers’ Prize for Best Book.",
   },
   {
     category: "writers",
@@ -1015,7 +1015,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.nourbese.com/about/",
     imageUrl: "16.jpg",
     infoBlurb:
-      "M. NOURBESE PHILIP is a poet and writer and lawyer who lives in the City of Toronto. She was born in Tobago and now lives in Canada.In l965, when graduating from Bishop Anstey High School, M. NOURBESE PHILIP was awarded the Cipriani Memorial Scholarship for standing first in a Caribbean wide examination at the high school level. This award entitled her to carry out her undergraduate studies at the University of the West Indies.In l968 Ms NOURBESE PHILIP received her B.Sc.(Econ.) degree from the University of the West Indies. M. NOURBESE PHILIP completed a Masters degree in Political Science (1970) as well as a degree in law at the University of Western Ontario, London, Ontario, Canada(1973).",
+      "M. NOURBESE PHILIP is a poet, writer, and lawyer who lives in the City of Toronto. She was born in Tobago and now lives in Canada. In 1968 Philip received her B.Sc.(Econ.) degree from the University of the West Indies, completed a Masters degree in Political Science (1970) as well as a degree in law at the University of Western Ontario, London, Ontario, Canada (1973).",
   },
   {
     category: "writers",
@@ -1026,6 +1026,6 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/mariatu-kamara",
     imageUrl: "34.jpg",
     infoBlurb:
-      "Mariatu Kamara, author, UNICEF Canada’s Special Representative for Children in Armed Conflict, humanitarian and activist (born 25 May 1986 in Yonkro, Sierra Leone). Mariatu Kamara, a survivor of the civil war in Sierra Leone, immigrated to Canada in 2002. Since moving to Canada, she has worked with Free The Children and UNICEF Canada to promote the rights of women and children and highlight the impact of war on children. Her memoir, The Bite of the Mango (2008), has won several awards. Founder of the Mariatu Foundation, Kamara was named a Voices of Courage Honoree by the Women’s Refugee Commission in 2009.",
+      "Mariatu Kamara, author, humanitarian, and activist. Kamara, a survivor of the civil war in Sierra Leone, immigrated to Canada in 2002. Since moving to Canada, she has worked with Free The Children and UNICEF Canada to promote the rights of women and children and highlight the impact of war on children. Her memoir, The Bite of the Mango (2008), has won several awards.",
   },
 ];

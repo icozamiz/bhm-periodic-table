@@ -6,8 +6,6 @@
   grid-column: 3/13;
   grid-row: 2/4;
   grid-template-columns: auto 1fr;
-  max-width: 51vw;
-  margin-left: 0.1vw;
   .element-image {
     height: 10vw;
   }
@@ -73,6 +71,7 @@
   }
   .element-info {
     padding: 12px 18px;
+    font-size: 1vw;
     .title {
       font-weight: bold;
     }
