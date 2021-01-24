@@ -14,7 +14,6 @@ export const ElementInfoCard = ({
   onClick,
   isMobile,
 }: IElementInfoCardProps) => {
-  const [hasImageError, setHasImageError] = useState(false);
   const { number, category, id, name, dates } = element;
   return (
     <Box
@@ -23,7 +22,6 @@ export const ElementInfoCard = ({
     >
       {!isMobile ? (
         <img
-          onError={() => setHasImageError(true)}
           className="element-image"
           src={`./assets/${element.imageUrl}`}
           alt={element.name}
