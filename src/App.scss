@@ -1,5 +1,12 @@
 .bhm-periodic-table-app {
-  margin: 0.1vh;
+  &.desktop {
+    height: calc((var(--vh) * 100));
+    background-image: url("images/bhm-banner.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.93;
+    overflow: hidden;
+  }
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,15 +14,21 @@
   text-align: center;
   .bhm-title {
     font-size: 36px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 6px;
   }
   .bhm-periodic-table-container {
-    height: calc((var(--vh) * 100) - 164px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     .legend-container {
       margin-top: 18px;
+      .legend {
+        background-color: white;
+        color: black;
+      }
     }
   }
 }

@@ -21,7 +21,7 @@ export const ElementInfoCard = ({
       className={`element-info-card`}
       onClick={() => onClick && onClick(element)}
     >
-      {!hasImageError && !isMobile ? (
+      {!isMobile ? (
         <img
           onError={() => setHasImageError(true)}
           className="element-image"

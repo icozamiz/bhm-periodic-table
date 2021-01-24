@@ -880,9 +880,9 @@ export const jsonData: IElement[] = [
     dates: "02.12.1960 -",
     urlLink:
       "https://www.thecanadianencyclopedia.ca/en/article/george-elliott-clarke",
-    imageUrl:
-      "20George Elliott Clarke, poet, anthologist (b at Windsor Plains, NS 12 Feb 1960). George Elliott Clarke was born near Windsor Plains, a black Loyalist community, and grew up in Halifax. He earned a BA at the University of Waterloo, an MA at Dalhousie, and a PhD at Queen's University. Clarke taught at Duke University and McGill before joining the Department of English at the University of Toronto in 1999, where he was later appointed the first E.J. Pratt Professor of Canadian Literature. Clarke's poetry, prose, drama and criticism document the history and culture of blacks in Canada, especially Nova Scotia, by interfacing the archival with the personal. George Elliott Clarke calls himself \"Africadian,\" a term he coined to describe the descendants of black United Empire Loyalists who came to the Maritime provinces in the late 18th century.",
-    infoBlurb: "",
+    imageUrl: "20.jpg",
+    infoBlurb:
+      "George Elliott Clarke, poet, anthologist (b at Windsor Plains, NS 12 Feb 1960). George Elliott Clarke was born near Windsor Plains, a black Loyalist community, and grew up in Halifax. He earned a BA at the University of Waterloo, an MA at Dalhousie, and a PhD at Queen's University. Clarke taught at Duke University and McGill before joining the Department of English at the University of Toronto in 1999, where he was later appointed the first E.J. Pratt Professor of Canadian Literature. Clarke's poetry, prose, drama and criticism document the history and culture of blacks in Canada, especially Nova Scotia, by interfacing the archival with the personal. George Elliott Clarke calls himself \"Africadian,\" a term he coined to describe the descendants of black United Empire Loyalists who came to the Maritime provinces in the late 18th century.",
   },
   {
     category: "theatre",

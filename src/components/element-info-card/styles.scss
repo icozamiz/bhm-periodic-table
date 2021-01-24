@@ -1,12 +1,15 @@
 @import "../../color-constants.scss";
 
 .element-info-card {
+  overflow: hidden;
+  display: grid;
   grid-column: 3/13;
   grid-row: 2/4;
-  overflow: hidden;
-  display: flex;
+  grid-template-columns: auto 1fr;
+  max-width: 51vw;
+  margin-left: 0.1vw;
   .element-image {
-    height: 10.2vw;
+    height: 10vw;
   }
   .element-box {
     border: 1px solid $border;
@@ -14,7 +17,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 10.2vw;
+    width: 10vw;
     .number {
       font-size: 0.9vw;
     }
@@ -69,15 +72,14 @@
     }
   }
   .element-info {
+    padding: 12px 18px;
     .title {
       font-weight: bold;
     }
-    padding: 0 36px;
-    flex-grow: 1;
+    background-color: white;
+    border: 1px solid black;
     display: grid;
-    justify-content: center;
-    align-items: center;
+    align-items: start;
     text-align: start;
-    max-width: 36vw;
   }
 }
