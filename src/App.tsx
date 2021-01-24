@@ -6,14 +6,11 @@ import { ICategory } from "./types";
 import { useWindowSize } from "./hooks/useWindowSize";
 import { useDeviceTypes } from "./hooks/useDeviceTypes";
 import { CategoryTable } from "./components/category-table";
-import ReactGA from "react-ga";
 
 const setViewWidthAndHeight = (width: string, height: string) => {
   document.body.style.setProperty(`--vw`, width);
   document.body.style.setProperty(`--vh`, height);
 };
-const trackingId = "G-35ZL4R0S4N"; // Replace with your Google Analytics tracking ID
-ReactGA.initialize(trackingId);
 function App() {
   const [selectedCategory, setSelectedCategory] = useState("");
   const windowSize = useWindowSize();
