@@ -11,7 +11,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/kay-livingstone",
     imageUrl: "13.jpg",
     infoBlurb:
-      "Kathleen (Kay) Livingstone (née Jenkins), organizer and activist, broadcaster, actor (born 13 October 1919 in London, ON; died 25 July 1975). Kay Livingstone founded the Canadian Negro Women’s Association in 1951 and organized the first National Congress of Black Women in 1973. An established radio broadcaster and actor, Livingstone also devoted a great deal of her life and energy to social activism and organizing. Her tireless work to encourage a national discussion around the position of racialized people in society, particularly Black women, led Livingstone to coin the term visible minority in 1975.",
+      "Kathleen (Kay) Livingstone (née Jenkins), organizer, activist, broadcaster, and actor. Livingstone founded the Canadian Negro Women’s Association in 1951 and organized the first National Congress of Black Women in 1973. An established radio broadcaster and actor, Livingstone also devoted a great deal of her life and energy to social activism and organizing. Her tireless work to encourage a national discussion around the position of racialized people in society, particularly Black women, led Livingstone to coin the term visible minority in 1975.",
   },
   {
     category: "activists",
@@ -23,7 +23,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/bromley-armstrong",
     imageUrl: "31.jpg",
     infoBlurb:
-      "Bromley Lloyd Armstrong, CM, OOnt, Black trade unionist, community organizer and activist (born 9 February 1926 in Kingston, Jamaica; died 17 August 2018 in Toronto, ON). Bromley Armstrong was a pivotal figure in the early anti-discrimination campaigns in Ontario that led to Canada’s first anti-discrimination laws. A self-described “blood and guts” ally of the working poor, Armstrong demonstrated a lifelong commitment to the trade union movement and the battle against disadvantage and discrimination. For more than six decades, Armstrong worked for human rights, helping to generate civic and government support for racial equality and advocating for human rights reforms in public policy.",
+      "Bromley Lloyd Armstrong, Black trade unionist, community organizer, and activist. Armstrong was a pivotal figure in the early anti-discrimination campaigns in Ontario that led to Canada’s first anti-discrimination laws. A self-described “blood and guts” ally of the working poor, Armstrong also demonstrated a lifelong commitment to the trade union movement and the battle against disadvantage and discrimination. For more than six decades, Armstrong worked to generate civic and government support for racial equality and advocating for human rights reforms in public policy.",
   },
   {
     category: "activists",
@@ -34,7 +34,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/calvin-ruck",
     imageUrl: "49.jpg",
     infoBlurb:
-      "Calvin Woodrow Ruck, CM, senator, social worker, human rights activist, author (born 4 September 1925 in Sydney, NS; died 19 October 2004 in Ottawa, ON). Ruck took leading roles in the Nova Scotia Association for the Advancement of Coloured People, the NS Association of Social Workers, and the Black Cultural Society of Nova Scotia. He was the third Black Canadian appointed to the Senate.",
+      "Calvin Woodrow Ruck, senator, social worker, human rights activist, and author. Ruck took leading roles in the Nova Scotia Association for the Advancement of Coloured People, the NS Association of Social Workers, and the Black Cultural Society of Nova Scotia. He was the third Black Canadian appointed to the Senate.",
   },
   {
     category: "activists",
@@ -45,7 +45,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/hugh-burnett",
     imageUrl: "50.jpg",
     infoBlurb:
-      "Hugh Burnett, civil rights activist, carpenter (born 14 July 1918 in Dresden, ON; died 29 September 1991 in London, ON). Burnett was a key figure in the fight for anti-discrimination legislation in Ontario. Through the 1940s and early 1950s, he organized tirelessly against racial discrimination in public service in his hometown of Dresden, Ontario, rising to prominence as a leader and organizer of the National Unity Association (NUA), a coalition of Black community members pushing for equal rights in Dresden and the surrounding area. He was instrumental to in bringing about legislative and legal victories for civil rights at the provincial level related to the 1954 Fair Accommodation Practices Act, an early anti-discrimination law in Ontario.",
+      "Hugh Burnett, civil rights activist, and carpenter. Burnett was a key figure in the fight for anti-discrimination legislation in Ontario. Through the 1940s and early 1950s, he organized tirelessly against racial discrimination in public service in his hometown of Dresden, Ontario, rising to prominence as a leader and organizer of the National Unity Association (NUA). He was instrumental to in bringing about legislative and legal victories for civil rights at the provincial level related to the 1954 Fair Accommodation Practices Act, an early anti-discrimination law in Ontario.",
   },
   {
     category: "activists",
@@ -56,7 +56,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/josiah-henson",
     imageUrl: "81.jpg",
     infoBlurb:
-      "Josiah Henson, spiritual leader, author, founder of the Black community settlement at Dawn, Canada West (born 15 June 1789 in Charles County, Maryland; died 5 May 1883 in Dresden, ON). Born enslaved, Henson escaped to Upper Canada in 1830.",
+      "Josiah Henson, spiritual leader, author, and founder of the Black community settlement at Dawn, Canada West. Born enslaved, Henson escaped to Upper Canada in 1830. He founded the Dawn Settlement near Dresden, Upper Canada, for American fugitives from enslavement. He and a group of associates organized a trade-labour school, the British-American Institute. Henson served as Dawn's spiritual leader and patriarch and published his autobiography in 1849. He was also (allegedly) Harriet Beecher Stowe's model for the lead character in her novel Uncle Tom's Cabin (1852).",
   },
   {
     category: "activists",
@@ -67,7 +67,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/en/article/rocky-jones",
     imageUrl: "82.jpg",
     infoBlurb:
-      "Burnley Allan (“Rocky”) Jones, ONS, lawyer and Black Canadian activist (born 26 August 1941 in Truro , NS; died 29 July 2013, in Halifax, NS). Jones spent much of his life fighting for social justice for Black and Indigenous people in Canada; his was a strong voice in the areas of human rights , race and poverty . As a lawyer, Jones focused his attention in these areas, also advocating for prisoners’ rights.",
+      "Burnley Allan (“Rocky”) Jones, lawyer, and Black Canadian activist. Jones spent much of his life fighting for social justice for Black and Indigenous people in Canada; his was a strong voice in the areas of human rights, race and poverty. As a lawyer, Jones focused his attention in these areas, also advocating for prisoners’ rights.",
   },
   {
     category: "activists",
@@ -91,7 +91,7 @@ export const jsonData: IElement[] = [
       "https://montrealgazette.com/news/local-news/montreals-black-pioneers-they-paved-the-way-for-others",
     imageUrl: "84.jpg",
     infoBlurb:
-      "When Gwen Lord applied to become a teacher with the Protestant School Board of Greater Montreal in 1961, she was relieved the interviewer was someone she knew well, the father of a best friend. She hoped graduating top of her class with a bachelor’s degree in science and a specialty in education from Sir George Williams University (now Concordia) would trump skin colour.",
+      "Gwendolyn (Gwen) Lord was a role model and trailblazer in the educaiton field in Montreal's black community. Lord went on to become a star math and science teacher, and in 1977, the first black principal in the PSBGM (now the English Montreal School Board), at Northmount High School. She stayed 11 years before becoming a senior board administrator.",
   },
   {
     category: "artists",
@@ -102,7 +102,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://directorxfilms.com/info/",
     imageUrl: "21.jpg",
     infoBlurb:
-      "Director X (formerly known as Little X) was born on October 31st, 1975 in Toronto, Canada, and is of Trinidadian and Swiss descent. Moving to New York City, he became the protégé of pioneering director Hype Williams. X has been noted for directing high-budget, visually distinctive videos for popular artists, including: Drake, Kendrick Lamar, Rihanna, Jay-Z, Kanye West, Fifth Harmony, Wiz Khalifa, Usher, John Mayer, Korn, Iggy Azalea, Sean Paul and many more. His work has been nominated and awarded by the MTV Music Video Awards and Much Music Video Awards. X has directed commercials for Apple Music, Ebay, Virginia Black and Gap’s noteworthy ‘Meet Me In The Gap’ campaign. As a film director, X made his directorial debut in 2014 with an edgy drama titled ACROSS THE LINE which won Best Feature at the Atlantic Film Festival 2015.",
+      "Director X (formerly known as Little X) was born on October 31st, 1975 in Toronto, Canada, and is of Trinidadian and Swiss descent. X has been noted for directing high-budget, visually distinctive videos for popular artists including: Drake, Kendrick Lamar, Rihanna, Jay-Z, Kanye West, Fifth Harmony, Wiz Khalifa, and many more. His work has been nominated and awarded by the MTV Music Video Awards and Much Music Video Awards. X has directed commercials for Apple Music, Ebay, Virginia Black and Gap’s noteworthy ‘Meet Me In The Gap’ campaign. As a film director, X made his directorial debut in 2014 with an edgy drama titled ACROSS THE LINE which won Best Feature at the Atlantic Film Festival 2015.",
   },
   {
     category: "artists",
