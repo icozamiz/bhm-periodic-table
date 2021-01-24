@@ -1,0 +1,91 @@
+$mobile-popover-top-button-distance-from-top: 19px;
+$mobile-popover-top-button-distance-from-side: 16px;
+$mobile-container-max-width: 1000px;
+$tappable-area-padding: 16px;
+
+@mixin increase-tappable-area {
+  padding: $tappable-area-padding;
+  margin: -$tappable-area-padding;
+}
+
+@function vh($value) {
+  @return calc(var(--vh) * #{$value});
+}
+
+@function vw($value) {
+  @return calc(var(--vw) * #{$value});
+}
+
+$full-screen-height: vh(100);
+$full-screen-width: vw(100);
+
+.mobile-popover-card-root {
+  margin: 0;
+  border: 0;
+
+  .MuiDialog-paper {
+    max-width: $mobile-container-max-width;
+    left: 0 !important;
+    border-radius: 20px 20px 0 0;
+    position: fixed;
+    margin: 0;
+    bottom: 0;
+    overflow-x: hidden;
+
+    @media only screen and (min-width: $mobile-container-max-width) {
+      left: calc(50% - #{$mobile-container-max-width / 2}) !important;
+    }
+  }
+
+  .mobile-popover-card-container {
+    max-width: $mobile-container-max-width;
+
+    .mobile-popover-card-header {
+      width: $full-screen-width;
+      max-width: $mobile-container-max-width;
+      margin: 0;
+    }
+
+    .mobile-popover-card-content-container {
+      width: $full-screen-width;
+      max-width: $mobile-container-max-width;
+      margin: 0;
+    }
+
+    .mobile-popover-card-top-button {
+      position: absolute;
+      top: $mobile-popover-top-button-distance-from-top;
+
+      button {
+        @include increase-tappable-area();
+      }
+
+      &.right {
+        right: $mobile-popover-top-button-distance-from-side;
+      }
+      &.left {
+        left: $mobile-popover-top-button-distance-from-side;
+      }
+    }
+
+    .mobile-popover-card-bottom-button {
+      width: $full-screen-width;
+      max-width: $mobile-container-max-width;
+    }
+  }
+
+  &.full-screen {
+    .MuiDialog-container.MuiDialog-scrollPaper {
+      justify-content: flex-end;
+
+      .MuiDialog-paperWidthSm.MuiDialog-paperScrollPaper.MuiDialog-paper.MuiPaper-rounded {
+        width: 100%;
+        height: 100%;
+        max-width: $full-screen-width;
+        max-height: $full-screen-height;
+        border-radius: 0px;
+        margin: 0px;
+      }
+    }
+  }
+}

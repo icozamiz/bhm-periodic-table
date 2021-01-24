@@ -1,0 +1,1 @@
+export { MobilePopoverCard } from "./component";

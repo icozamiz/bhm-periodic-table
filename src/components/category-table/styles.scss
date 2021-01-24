@@ -64,3 +64,23 @@
     }
   }
 }
+.mobile-element-info-popup {
+  .element-info-popup {
+    text-align: center;
+    padding: 24px;
+    .category-element-image {
+      height: 25vw;
+    }
+    .info-blurb {
+      text-align: start;
+    }
+    .learn-more-button {
+      margin-top: 6px;
+      border: 1px solid black;
+      border-radius: 12px;
+      padding: 6px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+}

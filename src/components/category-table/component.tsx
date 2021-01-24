@@ -1,17 +1,25 @@
-import { Box } from "@material-ui/core";
+import { Box, IconButton } from "@material-ui/core";
 import * as React from "react";
 import { jsonData } from "../../data/element-json";
 import { IElement } from "../../types";
 import { categories } from "../../data/categories";
 import { ElementCard } from "../element-card";
 import "./styles.scss";
+import { MobilePopoverCard } from "../mobile-popover-card";
+import CloseIcon from "@material-ui/icons/Close";
 
 export interface ICategoryTableProps {}
 
 export const CategoryTable = (_: ICategoryTableProps) => {
+  const [open, setOpen] = React.useState<IElement | null>(null);
   const elData: { [categoryName: string]: IElement[] } = {};
   const onElementClicked = (element: IElement) => {
-    window.open(element.urlLink, "_blank");
+    setOpen(element);
+  };
+  const onMoreInfoClicked = (element: IElement | null) => {
+    if (element) {
+      window.open(element.urlLink, "_blank");
+    }
   };
   categories.map((cat) => (elData[cat.id] = []));
   jsonData.forEach((data) => {
@@ -48,6 +56,38 @@ export const CategoryTable = (_: ICategoryTableProps) => {
           ))}
         </>
       ))}
+      <MobilePopoverCard
+        open={!!open}
+        className="mobile-element-info-popup"
+        contentClassName="mobile-element-info-popup-container"
+        onClose={() => setOpen(null)}
+        topRightButton={
+          <IconButton
+            aria-label="close"
+            className="close-button"
+            size="small"
+            onClick={() => setOpen(null)}
+          >
+            <CloseIcon fontSize="inherit" />
+          </IconButton>
+        }
+      >
+        <Box className="element-info-popup">
+          <img
+            className="category-element-image"
+            loading="eager"
+            src={`./assets/${open?.imageUrl}`}
+            alt={open?.name}
+          />
+          <Box className="info-blurb">{open?.infoBlurb}</Box>
+          <Box
+            className="learn-more-button"
+            onClick={() => onMoreInfoClicked(open)}
+          >
+            Learn More
+          </Box>
+        </Box>
+      </MobilePopoverCard>
     </Box>
   );
 };
