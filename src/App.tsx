@@ -31,15 +31,6 @@ function App() {
   return (
     <Box className={containerClass}>
       <h1 className="bhm-title">Periodic Table of Canadian Black History</h1>
-      <Box className="bhm-description">
-        This
-        <a href="https://github.com/icozamiz/bhm-periodic-table">project</a>was
-        created using data from
-        <a href="https://www.parentsfordiversity.com/">Parents for Diversity</a>
-        in co-operation with
-        <a href="https://twitter.com/MrOzamiz">Mr. Ozamiz</a>a teacher in
-        Ottawa, ON, Canada.
-      </Box>
       {matchesDesktop ? (
         <Box className="bhm-periodic-table-container">
           <PeriodicTable
@@ -57,6 +48,37 @@ function App() {
       ) : (
         <CategoryTable></CategoryTable>
       )}
+      <Box className="bhm-description">
+        <span>This</span>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/icozamiz/bhm-periodic-table"
+        >
+          project
+        </a>
+        <span>was created by</span>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/isabela-ozamiz-68458a67/"
+        >
+          Isabela Ozamiz
+        </a>
+        <span> using data from</span>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.parentsfordiversity.com/"
+        >
+          Parents for Diversity
+        </a>
+        <span>in co-operation with</span>
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/MrOzamiz">
+          Mr. Ozamiz
+        </a>
+        <span>a teacher in Ottawa, ON, Canada.</span>
+      </Box>
     </Box>
   );
 }

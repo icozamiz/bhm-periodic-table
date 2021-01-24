@@ -19,13 +19,18 @@
     padding: 6px;
   }
   .bhm-description {
-    font-size: 18px;
-    background-color: white;
-    border: 1px solid black;
-    padding: 6px;
-    margin-bottom: -28px;
+    text-align: center;
+    font-size: 14px;
+    height: 100px;
+    width: 300px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
     a {
+      color: white;
       padding: 0 3px;
+      cursor: pointer;
     }
   }
   .bhm-periodic-table-container {
