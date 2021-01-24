@@ -23,8 +23,11 @@ function App() {
     `${windowSize.width * 0.01}px`,
     `${windowSize.height * 0.01}px`
   );
+  const containerClass = matchesDesktop
+    ? "bhm-periodic-table-app desktop"
+    : "bhm-periodic-table-app";
   return (
-    <Box className="bhm-periodic-table-app">
+    <Box className={containerClass}>
       <h1 className="bhm-title">Periodic Table of Canadian Black History</h1>
       {matchesDesktop ? (
         <Box className="bhm-periodic-table-container">
