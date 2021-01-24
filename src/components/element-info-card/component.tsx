@@ -1,5 +1,4 @@
 import { Box } from "@material-ui/core";
-import { useState } from "react";
 import { IElement } from "../../types";
 import "./styles.scss";
 
