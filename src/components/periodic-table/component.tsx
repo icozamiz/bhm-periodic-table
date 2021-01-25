@@ -1,10 +1,12 @@
-import { Box } from "@material-ui/core";
+import { Box, IconButton } from "@material-ui/core";
 import * as React from "react";
 import { ElementCard } from "..";
 import { jsonData } from "../../data/element-json";
 import { useDeviceTypes } from "../../hooks/useDeviceTypes";
 import { IElement } from "../../types";
 import { ElementInfoCard } from "../element-info-card";
+import { MobilePopoverCard } from "../mobile-popover-card";
+import CloseIcon from "@material-ui/icons/Close";
 import "./styles.scss";
 
 export interface IPeriodicTableProps {
@@ -50,7 +52,7 @@ export const PeriodicTable = ({
             ></ElementCard>
           );
         })}
-        {selectedElement && (
+        {selectedElement && !matchesMobile && (
           <ElementInfoCard element={selectedElement}></ElementInfoCard>
         )}
         {sortedData.slice(4, sortedData.length).map((e: IElement) => {
@@ -65,6 +67,39 @@ export const PeriodicTable = ({
           );
         })}
       </Box>
+      {matchesMobile && (
+        <MobilePopoverCard
+          open={!!selectedElement}
+          className="mobile-element-info-popup"
+          contentClassName="mobile-element-info-popup-container"
+          onClose={() => setSelectedElement(null)}
+          topRightButton={
+            <IconButton
+              aria-label="close"
+              className="close-button"
+              size="small"
+              onClick={() => setSelectedElement(null)}
+            >
+              <CloseIcon fontSize="inherit" />
+            </IconButton>
+          }
+        >
+          <Box className="element-info-popup">
+            <img
+              className="category-element-image"
+              src={`./assets/${selectedElement?.imageUrl}`}
+              alt={selectedElement?.name}
+            />
+            <Box className="info-blurb">{selectedElement?.infoBlurb}</Box>
+            <Box
+              className="learn-more-button"
+              onClick={() => window.open(selectedElement?.urlLink, "_blank")}
+            >
+              Learn More
+            </Box>
+          </Box>
+        </MobilePopoverCard>
+      )}
     </>
   );
 };
