@@ -37,7 +37,7 @@ export const ElementInfoCard = ({
       {element.infoBlurb ? (
         <Box className="element-info">
           <Box className="title">{name}</Box>
-          <Box>{element.infoBlurb}</Box>
+          <Box className="info-blurb">{element.infoBlurb}</Box>
         </Box>
       ) : (
         <Box className="element-info">{name}</Box>
