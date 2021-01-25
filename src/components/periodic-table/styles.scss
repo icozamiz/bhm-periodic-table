@@ -27,3 +27,29 @@
     grid-column-start: 4;
   }
 }
+.mobile-table-element-info-popup {
+  .element-info-popup {
+    text-align: center;
+    padding: 24px;
+    .category-element-image {
+      height: 25vw;
+    }
+    .category-element-name {
+      font-size: 16px;
+      font-weight: bold;
+      padding: 12px 0;
+    }
+    .info-blurb {
+      text-align: start;
+    }
+    .learn-more-button {
+      margin-top: 12px;
+      box-sizing: border-box;
+      border: solid black 1px;
+      border-radius: 12px;
+      padding: 6px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+}

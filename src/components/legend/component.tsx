@@ -13,7 +13,6 @@ export const Legend = ({
   selectedCategory,
   onCategorySelected,
 }: ILegendProps) => {
-  console.log(selectedCategory);
   return (
     <Box className="legend">
       {categories.map((category) => {

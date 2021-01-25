@@ -70,7 +70,7 @@ export const PeriodicTable = ({
       {matchesMobile && (
         <MobilePopoverCard
           open={!!selectedElement}
-          className="mobile-element-info-popup"
+          className="mobile-table-element-info-popup"
           contentClassName="mobile-element-info-popup-container"
           onClose={() => setSelectedElement(null)}
           topRightButton={
@@ -90,6 +90,7 @@ export const PeriodicTable = ({
               src={`./assets/${selectedElement?.imageUrl}`}
               alt={selectedElement?.name}
             />
+            <Box className="category-element-name">{selectedElement?.name}</Box>
             <Box className="info-blurb">{selectedElement?.infoBlurb}</Box>
             <Box
               className="learn-more-button"
