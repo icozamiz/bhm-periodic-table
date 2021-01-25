@@ -1,4 +1,4 @@
-import { Box, IconButton } from "@material-ui/core";
+import { Box, Button, IconButton } from "@material-ui/core";
 import * as React from "react";
 import { jsonData } from "../../data/element-json";
 import { IElement } from "../../types";
@@ -29,9 +29,12 @@ export const CategoryTable = ({ showDesktopView }: ICategoryTableProps) => {
   });
   return (
     <Box className="bhm-category-table">
-      <Box className="show-table-button" onClick={() => showDesktopView(true)}>
+      <Button
+        className="show-table-button"
+        onClick={() => showDesktopView(true)}
+      >
         Show Table View
-      </Box>
+      </Button>
       {categories.map((cat) => (
         <>
           <h1 key={cat.id}>{cat.name}</h1>

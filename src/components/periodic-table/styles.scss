@@ -1,11 +1,15 @@
 @import "../../color-constants.scss";
 .show-list-button {
-  margin-top: 6px;
-  border: 1px solid black;
+  width: 170px;
+  box-sizing: border-box;
+  border: 2px solid black !important;
+  box-shadow: 2px 2px black;
   border-radius: 12px;
   padding: 6px;
-  font-weight: bold;
+  margin-top: 6px;
+  font-weight: normal;
   font-size: 16px;
+  align-self: center;
 }
 .bhm-periodic-table {
   display: grid;

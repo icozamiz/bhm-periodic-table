@@ -1,4 +1,4 @@
-import { Box, IconButton } from "@material-ui/core";
+import { Box, Button, IconButton } from "@material-ui/core";
 import * as React from "react";
 import { ElementCard } from "..";
 import { jsonData } from "../../data/element-json";
@@ -36,9 +36,9 @@ export const PeriodicTable = ({
   return (
     <>
       {matchesMobile && (
-        <Box className="show-list-button" onClick={() => showListView()}>
+        <Button className="show-list-button" onClick={() => showListView()}>
           Show List View
-        </Box>
+        </Button>
       )}
       <Box className="bhm-periodic-table">
         {sortedData.slice(0, 4).map((e: IElement) => {
