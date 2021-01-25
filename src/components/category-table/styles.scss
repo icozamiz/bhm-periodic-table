@@ -2,7 +2,16 @@
 .bhm-category-table {
   display: flex;
   flex-direction: column;
-  padding: 0 24px;
+  .show-table-button {
+    width: 150px;
+    margin-top: 6px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 6px;
+    font-weight: normal;
+    font-size: 16px;
+    align-self: center;
+  }
   .category-element {
     display: flex;
     flex-direction: row;

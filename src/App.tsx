@@ -12,6 +12,7 @@ const setViewWidthAndHeight = (width: string, height: string) => {
   document.body.style.setProperty(`--vh`, height);
 };
 function App() {
+  const [forceDesktopView, setForceDesktopView] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState("");
   const windowSize = useWindowSize();
   const { matchesDesktop } = useDeviceTypes();
@@ -24,13 +25,14 @@ function App() {
   );
   const containerClass = matchesDesktop
     ? "bhm-periodic-table-app desktop"
-    : "bhm-periodic-table-app";
+    : "bhm-periodic-table-app mobile";
   return (
     <Box className={containerClass}>
       <h1 className="bhm-title">Periodic Table of Canadian Black History</h1>
-      {matchesDesktop ? (
+      {matchesDesktop || forceDesktopView ? (
         <Box className="bhm-periodic-table-container">
           <PeriodicTable
+            showListView={() => setForceDesktopView(false)}
             onCategoryHovered={(category) => setSelectedCategory(category)}
           ></PeriodicTable>
           <Box className="legend-container">
@@ -43,7 +45,9 @@ function App() {
           </Box>
         </Box>
       ) : (
-        <CategoryTable></CategoryTable>
+        <CategoryTable
+          showDesktopView={(show) => setForceDesktopView(show)}
+        ></CategoryTable>
       )}
       {matchesDesktop && <AboutBadge></AboutBadge>}
     </Box>
