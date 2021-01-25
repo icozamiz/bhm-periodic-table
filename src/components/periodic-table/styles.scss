@@ -1,4 +1,12 @@
 @import "../../color-constants.scss";
+.show-list-button {
+  margin-top: 6px;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 6px;
+  font-weight: bold;
+  font-size: 16px;
+}
 .bhm-periodic-table {
   display: grid;
   grid-template-columns: repeat(17, auto) 1fr;
