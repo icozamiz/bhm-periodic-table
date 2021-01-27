@@ -32,6 +32,30 @@
       height: calc((var(--vh) * 100));
       overflow: hidden;
     }
+    .p4d-logo {
+      background: white;
+      border-radius: 6px;
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      height: 70px;
+      padding: 12px;
+    }
+    &.mobile {
+      .p4d-logo {
+        background: white;
+        border-radius: 6px;
+        position: absolute;
+        bottom: 12px;
+        right: 12px;
+        left: unset;
+        height: 36px;
+        padding: 12px;
+      }
+      .about-badge {
+        width: 180px;
+      }
+    }
     .bhm-title {
       font-size: 36px;
       border-radius: 6px;

@@ -1,10 +1,5 @@
 import React, { useState } from "react";
-import {
-  Switch,
-  Route,
-  useHistory,
-  RouteComponentProps,
-} from "react-router-dom";
+import { Switch, Route, RouteComponentProps } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.scss";
 import { Box, IconButton, Menu, MenuItem } from "@material-ui/core";
@@ -23,14 +18,13 @@ const setViewWidthAndHeight = (width: string, height: string) => {
 };
 
 function App() {
-  const history = useHistory();
   const [anchorEl, setAnchorEl] = React.useState<
     (EventTarget & Element) | null
   >(null);
   const togglePopover = (event: any) => {
     setAnchorEl(anchorEl ? null : event.currentTarget);
   };
-  const handleClose = (route: string, history: any) => {
+  const handleClose = (route: string) => {
     setAnchorEl(null);
     switch (route) {
       case "about":
@@ -74,12 +68,10 @@ function App() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={() => handleClose("about", history)}>About</MenuItem>
-        <MenuItem onClick={() => handleClose("/", history)}>Table</MenuItem>
-        <MenuItem onClick={() => handleClose("donate", history)}>
-          Donate
-        </MenuItem>
-        <MenuItem onClick={() => handleClose("p4d", history)}>
+        <MenuItem onClick={() => handleClose("about")}>About</MenuItem>
+        <MenuItem onClick={() => handleClose("/")}>Table</MenuItem>
+        <MenuItem onClick={() => handleClose("donate")}>Donate</MenuItem>
+        <MenuItem onClick={() => handleClose("p4d")}>
           Parents For Diversity
         </MenuItem>
       </Menu>
@@ -131,6 +123,12 @@ function App() {
                   showDesktopView={(show) => setForceDesktopView(show)}
                 ></CategoryTable>
               )}
+              <img
+                onClick={() => handleClose("p4d")}
+                className="p4d-logo"
+                alt="Parents for Diversity Logo"
+                src="/assets/p4d_logo.png"
+              ></img>
               <AboutBadge className={containerClass}></AboutBadge>
             </Box>
           </Route>
