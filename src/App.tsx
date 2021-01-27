@@ -89,7 +89,10 @@ function App() {
             path="/about"
             render={(browserRouterProps: RouteComponentProps) => (
               <Box className={clsx("about-page-container", containerClass)}>
-                <AboutPage {...browserRouterProps}></AboutPage>
+                <AboutPage
+                  language={"english"}
+                  {...browserRouterProps}
+                ></AboutPage>
               </Box>
             )}
           ></Route>

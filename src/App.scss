@@ -15,6 +15,12 @@
     &.desktop {
       height: calc((var(--vh) * 100));
     }
+    &.mobile {
+      .donate-page,
+      .about-page {
+        margin: 14vh 5vw;
+      }
+    }
   }
   .bhm-periodic-table-app {
     display: flex;
