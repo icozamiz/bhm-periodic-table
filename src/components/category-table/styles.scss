@@ -2,10 +2,14 @@
 .bhm-category-table {
   display: flex;
   flex-direction: column;
+  h1 {
+    color: $white;
+  }
   .show-table-button {
     width: 180px;
-    border: 2px solid black;
-    box-shadow: 2px 2px black;
+    border: 2px solid $white;
+    box-shadow: 2px 2px $white;
+    color: $white;
     margin-top: 6px;
     border-radius: 12px;
     padding: 6px;

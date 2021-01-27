@@ -2,8 +2,9 @@
 .show-list-button {
   width: 170px;
   box-sizing: border-box;
-  border: 2px solid black !important;
-  box-shadow: 2px 2px black;
+  border: 2px solid $white !important;
+  box-shadow: 2px 2px $white;
+  color: $white !important;
   border-radius: 12px;
   padding: 6px;
   margin-top: 6px;
@@ -12,6 +13,7 @@
   align-self: center;
 }
 .bhm-periodic-table {
+  color: black;
   display: grid;
   grid-template-columns: repeat(17, auto) 1fr;
   border-collapse: collapse;

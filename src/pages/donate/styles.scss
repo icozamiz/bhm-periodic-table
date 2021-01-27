@@ -1,0 +1,47 @@
+@import "../../color-constants.scss";
+.donate-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $white;
+  color: $grey;
+  text-align: start;
+  margin: 6vh 20vw;
+  padding: 60px 0 120px 0;
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    margin: 0 10vw;
+    margin-bottom: 1vh;
+  }
+  .info {
+    padding-top: 12px;
+    .info-description {
+      padding-bottom: 12px;
+    }
+    .donate-point {
+      display: flex;
+      margin: 0 11vw;
+      p {
+        margin: 0 0 1vh 0;
+      }
+    }
+    p {
+      line-height: 1.5;
+      font-size: 18px;
+      margin-bottom: 2vh;
+      margin: 0 10vw;
+    }
+  }
+  .donate-button {
+    width: 200px;
+    text-transform: unset;
+    margin-top: 24px;
+    background: $grey;
+    color: $white;
+    &:hover {
+      color: $grey;
+    }
+  }
+}

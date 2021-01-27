@@ -1,0 +1,21 @@
+@import "../../color-constants.scss";
+.about-page {
+  background-color: $white;
+  color: $grey;
+  text-align: start;
+  margin: 6vh 20vw;
+  padding: 60px 0 120px 0;
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    margin: 0 10vw;
+    margin-bottom: 1vh;
+  }
+  p {
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 0 10vw;
+    margin-bottom: 1vh;
+  }
+}
