@@ -124,7 +124,7 @@ function App() {
                 ></CategoryTable>
               )}
               <img
-                onClick={() => handleClose("p4d")}
+                onClick={() => handleClose("about")}
                 className="p4d-logo"
                 alt="Parents for Diversity Logo"
                 src="/assets/p4d_logo.png"
