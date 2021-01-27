@@ -219,7 +219,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/angella-issajenko",
     imageUrl: "39.jpg",
     infoBlurb:
-      'Angella (Angella Taylor) Issajenko, sprinter. Issajenko has been one of Canada\'s most outstanding international sprinters. She has won medals at Commonwealth, Olympic, Pan-American and World University games, in addition to other prestigious championships.',
+      "Angella (Angella Taylor) Issajenko, sprinter. Issajenko has been one of Canada's most outstanding international sprinters. She has won medals at Commonwealth, Olympic, Pan-American and World University games, in addition to other prestigious championships.",
   },
   {
     category: "athletes",
@@ -1009,7 +1009,7 @@ export const jsonData: IElement[] = [
   {
     category: "writers",
     number: "16",
-    id: "M",
+    id: "Mn",
     name: "M.NourebeSe Philip",
     dates: "02.03.1947",
     urlLink: "https://www.nourbese.com/about/",
