@@ -56,7 +56,7 @@ function App() {
     <Box className="app-container">
       <IconButton
         aria-label="menu"
-        className="menu-button"
+        className={clsx(containerClass, "menu-button")}
         onClick={(event) => togglePopover(event)}
       >
         <MenuIcon fontSize="inherit" />

@@ -5,6 +5,12 @@
     position: absolute;
     top: 12px;
     right: 12px;
+    &.mobile {
+      color: white;
+      position: unset;
+      top: unset;
+      right: unset;
+    }
   }
   .about-page-container,
   .donate-page-container {
