@@ -28,7 +28,9 @@ export const PeriodicTable = ({
       : window.open(element.urlLink, "_blank");
   };
   const onElementHovered = (element: IElement | null) => {
-    setSelectedElement(element);
+    if (!matchesMobile) {
+      setSelectedElement(element);
+    }
   };
   const sortedData = jsonData.sort(
     (a, b) => parseInt(a.number) - parseInt(b.number)
