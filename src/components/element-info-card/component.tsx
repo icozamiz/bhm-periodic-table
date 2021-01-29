@@ -37,7 +37,9 @@ export const ElementInfoCard = ({
       {element.infoBlurb ? (
         <Box className="element-info">
           <Box className="title">{name}</Box>
-          <Box className="info-blurb">{element.infoBlurb}</Box>
+          <Box className="info-blurb">
+            {element.infoBlurb.slice(0, 250)}... (Click to see more info)
+          </Box>
         </Box>
       ) : (
         <Box className="element-info">{name}</Box>

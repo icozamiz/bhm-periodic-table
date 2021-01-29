@@ -12,6 +12,7 @@
   height: 10vw;
   .element-image {
     height: 10vw;
+    max-width: 11vw;
   }
   .element-info {
     padding: 12px;
@@ -19,9 +20,15 @@
     display: grid;
     align-items: start;
     text-align: start;
-    overflow: scroll;
+    overflow: none;
+    grid-template-rows: auto 1fr;
+    row-gap: 6px;
     .title {
       font-weight: bold;
+    }
+
+    .info-blurb {
+      font-size: 1vw;
     }
   }
 }
