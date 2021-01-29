@@ -258,14 +258,14 @@ export const jsonData: IElement[] = [
   {
     category: "athletes",
     number: "43",
-    id: "Fj",
-    name: "Fergie Jenkins",
-    dates: "12.13. 1943 -",
+    id: "Adg",
+    name: "Andre De Grasse",
+    dates: "11.10. 1994 -",
     urlLink:
-      "https://www.thecanadianencyclopedia.ca/en/article/ferguson-arthur-jenkins",
+      "https://www.thecanadianencyclopedia.ca/en/article/andre-de-grasse",
     imageUrl: "43.jpg",
     infoBlurb:
-      'Ferguson "Fergie" Arthur Jenkins, baseball player. Arguably the finest Canadian-born baseball player, Jenkins began his major-league career in Philadelphia before joining the Chicago Cubs in 1966.',
+      "Andre De Grasse, sprinter (born 10 November 1994 in Scarborough). While Donovan Bailey was the first Canadian to run under 10 seconds in the 100m dash, De Grasse is the first to break both the 10-second barrier in the 100m dash and the 20-second barrier in the 200m dash.",
   },
   {
     category: "athletes",
