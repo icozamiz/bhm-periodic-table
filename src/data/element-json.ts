@@ -210,28 +210,28 @@ export const jsonData: IElement[] = [
       'Ferguson "Fergie" Arthur Jenkins, baseball player. Arguably the finest Canadian-born baseball player, Jenkins began his major-league career in Philadelphia before joining the Chicago Cubs in 1966.',
   },
   {
-    category: "athletes",
+    category: "firsts",
     number: "39",
-    id: "Ai",
-    name: "Angella Issajenko",
-    dates: "09.28.1958 -",
-    urlLink:
-      "https://www.thecanadianencyclopedia.ca/en/article/angella-issajenko",
-    imageUrl: "39.jpg",
-    infoBlurb:
-      "Angella (Angella Taylor) Issajenko, sprinter. Issajenko has been one of Canada's most outstanding international sprinters. She has won medals at Commonwealth, Olympic, Pan-American and World University games, in addition to other prestigious championships.",
-  },
-  {
-    category: "athletes",
-    number: "40",
     id: "Cay",
     name: "Clotilda Adesa Yakimchuk",
     dates: "1932 -",
     urlLink:
       "https://www.cbu.ca/alumni/honorary-degree-recipients/clotilda-adessa-coward-douglas-yakimchuk/",
-    imageUrl: "40.jpg",
+    imageUrl: "39.jpg",
     infoBlurb:
       "Clotilda Yakimchuk, retired nursing professional, mentor, activist and role model. In 1954, Yakimchuk became the first Black graduate of the Nova Scotia Hospital School of Nursing and received a post graduate psychiatric nursing certificate from the Nova Scotia Hospital and a diploma in adult education from St.FX University.",
+  },
+  {
+    category: "athletes",
+    number: "40",
+    id: "Ai",
+    name: "Angella Issajenko",
+    dates: "09.28.1958 -",
+    urlLink:
+      "https://www.thecanadianencyclopedia.ca/en/article/angella-issajenko",
+    imageUrl: "40.jpg",
+    infoBlurb:
+      "Angella (Angella Taylor) Issajenko, sprinter. Issajenko has been one of Canada's most outstanding international sprinters. She has won medals at Commonwealth, Olympic, Pan-American and World University games, in addition to other prestigious championships.",
   },
   {
     category: "athletes",

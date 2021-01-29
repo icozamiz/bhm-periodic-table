@@ -23,12 +23,12 @@ export const PeriodicTable = ({
     null
   );
   const onElementClicked = (element: IElement) => {
-    // matchesMobile      ?
-    setSelectedElement(element);
-    // : window.open(element.urlLink, "_blank");
+    matchesMobile
+      ? setSelectedElement(element)
+      : window.open(element.urlLink, "_blank");
   };
   const onElementHovered = (element: IElement | null) => {
-    // setSelectedElement(element);
+    setSelectedElement(element);
   };
   const sortedData = jsonData.sort(
     (a, b) => parseInt(a.number) - parseInt(b.number)
