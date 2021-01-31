@@ -1,3 +1,5 @@
+@import "./color-constants.scss";
+
 .app-container {
   position: relative;
   .menu-button {
@@ -59,6 +61,46 @@
       }
       .about-badge {
         width: 180px;
+      }
+      .element-card {
+        &:hover {
+          &.activists {
+            background-color: $activists;
+          }
+          &.artists {
+            background-color: $artists;
+          }
+          &.athletes {
+            background-color: $athletes;
+          }
+          &.firsts {
+            background-color: $firsts;
+          }
+          &.entrepreneurs {
+            background-color: $entrepreneurs;
+          }
+          &.government {
+            background-color: $government;
+          }
+          &.lgbtq {
+            background-color: $lgbtq;
+          }
+          &.musicians {
+            background-color: $musicians;
+          }
+          &.poets {
+            background-color: $poets;
+          }
+          &.theatre {
+            background-color: $theatre;
+          }
+          &.visual-arts {
+            background-color: $visual-arts;
+          }
+          &.writers {
+            background-color: $writers;
+          }
+        }
       }
     }
     .bhm-title {
