@@ -26,6 +26,6 @@ export const frCategories: ICategory[] = [
   { id: "musicians", name: "Musiciens" },
   { id: "poets", name: "Poètes" },
   { id: "theatre", name: "Théâtre" },
-  { id: "visual-arts", name: "Arts Visels" },
+  { id: "visual-arts", name: "Arts Visuels" },
   { id: "writers", name: "Écrivains" },
 ];
