@@ -9,10 +9,10 @@ import { MobilePopoverCard } from "../mobile-popover-card";
 import CloseIcon from "@material-ui/icons/Close";
 
 export interface ICategoryTableProps {
-  showDesktopView: (show: boolean) => void;
+  showTableView: (show: boolean) => void;
 }
 
-export const CategoryTable = ({ showDesktopView }: ICategoryTableProps) => {
+export const CategoryTable = ({ showTableView }: ICategoryTableProps) => {
   const [open, setOpen] = React.useState<IElement | null>(null);
   const elData: { [categoryName: string]: IElement[] } = {};
   const onElementClicked = (element: IElement) => {
@@ -29,10 +29,7 @@ export const CategoryTable = ({ showDesktopView }: ICategoryTableProps) => {
   });
   return (
     <Box className="bhm-category-table">
-      <Button
-        className="show-table-button"
-        onClick={() => showDesktopView(true)}
-      >
+      <Button className="show-table-button" onClick={() => showTableView(true)}>
         Show Table View
       </Button>
       {categories.map((cat) => (

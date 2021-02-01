@@ -32,7 +32,7 @@ function App() {
   const [isFrench, setIsFrench] = useState(
     detectBrowserLanguage().includes("fr")
   );
-  const [forceDesktopView, setForceDesktopView] = useState(true);
+  const [showTableView, setShowTableView] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState("");
   const windowSize = useWindowSize();
   const { matchesDesktop } = useDeviceTypes();
@@ -121,11 +121,11 @@ function App() {
                   ? "Tableau périodique de l'histoire des Noirs au Canada"
                   : "Periodic Table of Canadian Black History"}
               </h1>
-              {matchesDesktop || forceDesktopView ? (
+              {showTableView ? (
                 <Box className="bhm-periodic-table-container">
                   <PeriodicTable
                     isFrench={isFrench}
-                    showListView={() => setForceDesktopView(false)}
+                    showListView={() => setShowTableView(false)}
                     onCategoryHovered={(category) =>
                       setSelectedCategory(category)
                     }
@@ -142,7 +142,7 @@ function App() {
                 </Box>
               ) : (
                 <CategoryTable
-                  showDesktopView={(show) => setForceDesktopView(show)}
+                  showTableView={() => setShowTableView(true)}
                 ></CategoryTable>
               )}
               <img
