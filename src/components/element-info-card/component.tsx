@@ -4,12 +4,14 @@ import "./styles.scss";
 
 export interface IElementInfoCardProps {
   element: IElement;
+  isFrench: boolean;
   isMobile?: boolean;
   onClick?: (element: IElement) => void;
 }
 
 export const ElementInfoCard = ({
   element,
+  isFrench,
   onClick,
   isMobile,
 }: IElementInfoCardProps) => {
@@ -38,7 +40,7 @@ export const ElementInfoCard = ({
         <Box className="element-info">
           <Box className="title">{name}</Box>
           <Box className="info-blurb">
-            {element.infoBlurb.slice(0, 250)}... <i>(Click to see more info)</i>
+            {element.infoBlurb.slice(0, 250)}... <i>{isFrench ? "(Cliquez pour voir plus d'informations)" :"(Click to see more info)"}</i>
           </Box>
         </Box>
       ) : (
