@@ -16,7 +16,7 @@ export const donateFr = {
     "Parents for Diversity est un collectif de parents et d’alliés déterminés à garantir le droit de chaque enfant à une éducation sans discrimination. Nous plaidons pour que les écoles, les familles et les communautés promeuvent l'équité et l'éducation inclusive et prennent des mesures significatives pour protéger les droits humains pour tous en:",
   infoPoints: [
     "sensibiliser tous les membres de la société aux implications du racisme, de l'intolérance et de la discrimination dans le système éducatif;",
-    "élaborer des ateliers, du matériel et des ressources pour les familles et les écoles;",
+    "développer des ateliers, du matériel et des ressources pour les familles et les écoles;",
     "aider les soignants et les familles à défendre les enfants victimes de discrimination ou de préjugés à l'école.",
   ],
   buttonText: "Faire un don maintenant",

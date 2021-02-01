@@ -2,6 +2,7 @@ import { Box, Button, IconButton } from "@material-ui/core";
 import * as React from "react";
 import { ElementCard } from "..";
 import { jsonData } from "../../data/element-json";
+import { jsonData as frJsonData } from "../../data/element-json-fr";
 import { useDeviceTypes } from "../../hooks/useDeviceTypes";
 import { IElement } from "../../types";
 import { ElementInfoCard } from "../element-info-card";
@@ -34,7 +35,7 @@ export const PeriodicTable = ({
       setSelectedElement(element);
     }
   };
-  const dataToDisplay = isFrench ? jsonData : jsonData;
+  const dataToDisplay = isFrench ? frJsonData : jsonData;
   const sortedData = dataToDisplay.sort(
     (a, b) => parseInt(a.number) - parseInt(b.number)
   );
@@ -42,7 +43,7 @@ export const PeriodicTable = ({
     <>
       {matchesMobile && (
         <Button className="show-list-button" onClick={() => showListView()}>
-          Show List View
+          {isFrench ? "Voir Comme Liste" :"Show List View"}
         </Button>
       )}
       <Box className="bhm-periodic-table">
@@ -58,7 +59,7 @@ export const PeriodicTable = ({
           );
         })}
         {selectedElement && !matchesMobile && (
-          <ElementInfoCard element={selectedElement}></ElementInfoCard>
+          <ElementInfoCard isFrench={isFrench} element={selectedElement}></ElementInfoCard>
         )}
         {sortedData.slice(4, sortedData.length).map((e: IElement) => {
           return (
@@ -101,7 +102,7 @@ export const PeriodicTable = ({
               className="learn-more-button"
               onClick={() => window.open(selectedElement?.urlLink, "_blank")}
             >
-              Learn More
+              {isFrench ? "Savoir Plus" : "Learn More"}
             </Box>
           </Box>
         </MobilePopoverCard>
