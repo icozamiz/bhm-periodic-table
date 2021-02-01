@@ -2,6 +2,21 @@
 
 .app-container {
   position: relative;
+  .language-toggle {
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+    &.mobile {
+      color: white;
+      top: 12px;
+      right: 12px;
+      left: unset;
+    }
+  }
   .menu-button {
     color: white;
     position: absolute;
@@ -127,4 +142,9 @@
       }
     }
   }
+}
+
+.menu-link {
+  text-decoration: none;
+  color: black;
 }

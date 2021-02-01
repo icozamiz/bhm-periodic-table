@@ -12,9 +12,11 @@ import "./styles.scss";
 export interface IPeriodicTableProps {
   onCategoryHovered: (category: string) => void;
   showListView: () => void;
+  isFrench: boolean;
 }
 
 export const PeriodicTable = ({
+  isFrench,
   onCategoryHovered,
   showListView,
 }: IPeriodicTableProps) => {
@@ -32,7 +34,8 @@ export const PeriodicTable = ({
       setSelectedElement(element);
     }
   };
-  const sortedData = jsonData.sort(
+  const dataToDisplay = isFrench ? jsonData : jsonData;
+  const sortedData = dataToDisplay.sort(
     (a, b) => parseInt(a.number) - parseInt(b.number)
   );
   return (

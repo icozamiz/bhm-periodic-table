@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Switch, Route, RouteComponentProps } from "react-router-dom";
+import { Switch, Route, RouteComponentProps, Link } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.scss";
 import { Box, IconButton, Menu, MenuItem } from "@material-ui/core";
@@ -24,23 +24,11 @@ function App() {
   const togglePopover = (event: any) => {
     setAnchorEl(anchorEl ? null : event.currentTarget);
   };
-  const handleClose = (route: string) => {
+  const handleClose = () => {
     setAnchorEl(null);
-    switch (route) {
-      case "about":
-        window.open("/about", "_self");
-        break;
-      case "p4d":
-        window.open("https://www.parentsfordiversity.com/", "_blank");
-        break;
-      case "donate":
-        window.open("/donate", "_self");
-        break;
-      default:
-        window.open("/", "_self");
-    }
   };
   const [forceDesktopView, setForceDesktopView] = useState(false);
+  const [isFrench, setIsFrench] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState("");
   const windowSize = useWindowSize();
   const { matchesDesktop } = useDeviceTypes();
@@ -54,35 +42,57 @@ function App() {
   const containerClass = matchesDesktop ? "desktop" : "mobile";
   return (
     <Box className="app-container">
-      <IconButton
-        aria-label="menu"
-        className={clsx(containerClass, "menu-button")}
-        onClick={(event) => togglePopover(event)}
-      >
-        <MenuIcon fontSize="inherit" />
-      </IconButton>
-      <Menu
-        id="simple-menu"
-        anchorEl={anchorEl}
-        keepMounted
-        open={Boolean(anchorEl)}
-        onClose={handleClose}
-      >
-        <MenuItem onClick={() => handleClose("about")}>About</MenuItem>
-        <MenuItem onClick={() => handleClose("/")}>Table</MenuItem>
-        <MenuItem onClick={() => handleClose("donate")}>Donate</MenuItem>
-        <MenuItem onClick={() => handleClose("p4d")}>
-          Parents For Diversity
-        </MenuItem>
-      </Menu>
       <Router>
+        <Box className={clsx(containerClass, "language-toggle")}>
+          <Box onClick={() => setIsFrench(!isFrench)}>
+            {isFrench ? "English" : "Français"}
+          </Box>
+        </Box>
+        <IconButton
+          aria-label="menu"
+          className={clsx(containerClass, "menu-button")}
+          onClick={(event) => togglePopover(event)}
+        >
+          <MenuIcon fontSize="inherit" />
+        </IconButton>
+        <Menu
+          id="simple-menu"
+          anchorEl={anchorEl}
+          keepMounted
+          open={Boolean(anchorEl)}
+          onClose={handleClose}
+        >
+          <Link to="/about" className="menu-link">
+            <MenuItem onClick={() => handleClose()}>
+              {isFrench ? "À propos de" : "About"}
+            </MenuItem>
+          </Link>
+          <Link to="/table" className="menu-link">
+            <MenuItem onClick={() => handleClose()}>
+              {isFrench ? "Tableau" : "Table"}
+            </MenuItem>
+          </Link>
+          <Link to="/donate" className="menu-link">
+            <MenuItem onClick={() => handleClose()}>
+              {isFrench ? "Donné" : "Donate"}
+            </MenuItem>
+          </Link>
+          <MenuItem
+            onClick={() => {
+              handleClose();
+              window.open("https://www.parentsfordiversity.com/", "_blank");
+            }}
+          >
+            Parents For Diversity
+          </MenuItem>
+        </Menu>
         <Switch>
           <Route
             path="/about"
             render={(browserRouterProps: RouteComponentProps) => (
               <Box className={clsx("about-page-container", containerClass)}>
                 <AboutPage
-                  language={"english"}
+                  isFrench={isFrench}
                   {...browserRouterProps}
                 ></AboutPage>
               </Box>
@@ -92,18 +102,24 @@ function App() {
             path="/donate"
             render={(browserRouterProps: RouteComponentProps) => (
               <Box className={clsx("donate-page-container", containerClass)}>
-                <DonatePage {...browserRouterProps}></DonatePage>
+                <DonatePage
+                  isFrench={isFrench}
+                  {...browserRouterProps}
+                ></DonatePage>
               </Box>
             )}
           ></Route>
           <Route path="/">
             <Box className={clsx("bhm-periodic-table-app", containerClass)}>
               <h1 className="bhm-title">
-                Periodic Table of Canadian Black History
+                {isFrench
+                  ? "Tableau périodique de l'histoire des Noirs au Canada"
+                  : "Periodic Table of Canadian Black History"}
               </h1>
               {matchesDesktop || forceDesktopView ? (
                 <Box className="bhm-periodic-table-container">
                   <PeriodicTable
+                    isFrench={isFrench}
                     showListView={() => setForceDesktopView(false)}
                     onCategoryHovered={(category) =>
                       setSelectedCategory(category)
@@ -111,6 +127,7 @@ function App() {
                   ></PeriodicTable>
                   <Box className="legend-container">
                     <Legend
+                      isFrench={isFrench}
                       selectedCategory={selectedCategory}
                       onCategorySelected={(category: ICategory) =>
                         setSelectedCategory(category.id)
@@ -124,7 +141,10 @@ function App() {
                 ></CategoryTable>
               )}
               <img
-                onClick={() => handleClose("about")}
+                onClick={() => {
+                  handleClose();
+                  window.open("https://www.parentsfordiversity.com/", "_blank");
+                }}
                 className="p4d-logo"
                 alt="Parents for Diversity Logo"
                 src="/assets/p4d_logo.png"

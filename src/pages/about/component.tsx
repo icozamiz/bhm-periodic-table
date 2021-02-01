@@ -1,15 +1,15 @@
 import { Box } from "@material-ui/core";
 import { RouteComponentProps } from "react-router-dom";
-import { aboutEn } from "./about-data";
+import { aboutEn, aboutFr } from "./about-data";
 
 import "./styles.scss";
 
 export interface IAboutPageProps extends RouteComponentProps {
-  language: string;
+  isFrench: boolean;
 }
 
-export const AboutPage = ({ language }: IAboutPageProps) => {
-  const lang = language === "french" ? aboutEn : aboutEn;
+export const AboutPage = ({ isFrench }: IAboutPageProps) => {
+  const lang = isFrench ? aboutFr : aboutEn;
   const {
     title,
     subtitle,

@@ -9,3 +9,15 @@ export const aboutEn = {
   contentEnd:
     "the contributions and achievements of Black Canadians are often excluded from textbooks and curriculum. The Periodic Table of Canadian Black History is a tool that educators, students, and families can use to explore and celebrate the stories, voices, and accomplishments of Black Canadians.",
 };
+
+export const aboutFr = {
+  title: "À propos",
+  subtitle: "L'idée",
+  contentStart:
+    "Inspiré par un projet similaire d'une bibliothèque scolaire américaine, le tableau périodique original de l'histoire des Noirs au Canada a été créé en 2020 par un membre du Conseil des parents pour la diversité et affiché dans une école primaire d'Ottawa. Les modèles et outils pour créer le tableau périodique des Canadiens L'histoire des Noirs a été partagée sur le site Web Parents for Diversity, et bientôt nous avons vu des écoles de l'Ontario et d'aussi loin que Vancouver créer leurs propres tableaux périodiques! Comme l'a démontré ",
+  contentJoin: "du",
+  link1: "#BlackedOutHistory",
+  link2: "Ontario Black History Society",
+  contentEnd:
+    "Les contributions et les réalisations des Canadiens noirs sont souvent exclues des manuels et des programmes. Le Tableau périodique de l'histoire des Noirs au Canada est un outil que les éducateurs, les élèves et les familles peuvent utiliser pour explorer et célébrer les histoires, les voix et les réalisations des Canadiens noirs. ",
+};
