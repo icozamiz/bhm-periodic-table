@@ -30,7 +30,8 @@ function App() {
 
   const detectBrowserLanguage = require("detect-browser-language");
   const [isFrench, setIsFrench] = useState(
-    detectBrowserLanguage().includes("fr")
+    detectBrowserLanguage().includes("fr") ||
+      window.location.href.includes("fr")
   );
   const [showTableView, setShowTableView] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState("");
