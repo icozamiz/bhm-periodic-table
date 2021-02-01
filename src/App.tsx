@@ -32,7 +32,7 @@ function App() {
   const [isFrench, setIsFrench] = useState(
     detectBrowserLanguage().includes("fr")
   );
-  const [forceDesktopView, setForceDesktopView] = useState(false);
+  const [forceDesktopView, setForceDesktopView] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState("");
   const windowSize = useWindowSize();
   const { matchesDesktop } = useDeviceTypes();
