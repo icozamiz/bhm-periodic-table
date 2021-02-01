@@ -1,5 +1,19 @@
 @import "../../color-constants.scss";
+.show-list-button {
+  width: 170px;
+  box-sizing: border-box;
+  border: 2px solid $white !important;
+  box-shadow: 2px 2px $white;
+  color: $white !important;
+  border-radius: 12px;
+  padding: 6px;
+  margin-top: 6px;
+  font-weight: normal;
+  font-size: 16px;
+  align-self: center;
+}
 .bhm-periodic-table {
+  color: black;
   display: grid;
   grid-template-columns: repeat(17, auto) 1fr;
   border-collapse: collapse;
@@ -13,5 +27,31 @@
   .element-72,
   .element-104 {
     grid-column-start: 4;
+  }
+}
+.mobile-table-element-info-popup {
+  .element-info-popup {
+    text-align: center;
+    padding: 24px;
+    .category-element-image {
+      height: 25vw;
+    }
+    .category-element-name {
+      font-size: 16px;
+      font-weight: bold;
+      padding: 12px 0;
+    }
+    .info-blurb {
+      text-align: start;
+    }
+    .learn-more-button {
+      margin-top: 12px;
+      box-sizing: border-box;
+      border: solid black 1px;
+      border-radius: 12px;
+      padding: 6px;
+      font-weight: bold;
+      font-size: 16px;
+    }
   }
 }

@@ -1,7 +1,8 @@
 @import "../../color-constants.scss";
 
 .element-card {
-  border: 1px solid $border;
+  box-sizing: border-box;
+  border: solid black 1px;
   height: 5vw;
   width: 5vw;
   display: grid;
@@ -12,11 +13,12 @@
   cursor: pointer;
 
   .element-number {
+    padding-top: 3px;
     font-size: 0.5vw;
   }
 
   .element-id {
-    font-size: 36px;
+    font-size: 2.1vw;
     font-weight: bold;
     overflow: hidden;
     white-space: nowrap;

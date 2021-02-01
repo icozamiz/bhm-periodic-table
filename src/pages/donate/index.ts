@@ -1,0 +1,1 @@
+export { DonatePage } from "./component";

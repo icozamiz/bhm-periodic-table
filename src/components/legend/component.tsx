@@ -1,22 +1,24 @@
 import { Box } from "@material-ui/core";
 import * as React from "react";
 import "./styles.scss";
-import { categories } from "../../data/categories";
+import { categories, frCategories } from "../../data/categories";
 import { ICategory } from "../../types";
 
 export interface ILegendProps {
+  isFrench: boolean;
   selectedCategory: string;
   onCategorySelected: (category: ICategory) => void;
 }
 
 export const Legend = ({
+  isFrench,
   selectedCategory,
   onCategorySelected,
 }: ILegendProps) => {
-  console.log(selectedCategory);
+  const cats = isFrench ? frCategories : categories;
   return (
     <Box className="legend">
-      {categories.map((category) => {
+      {cats.map((category) => {
         const className =
           selectedCategory === category.id
             ? `${category.id} icon selected`

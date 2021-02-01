@@ -2,16 +2,16 @@
 
 .legend {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(6, auto);
   border: 1px solid $border;
-  padding: 12px;
+  padding: 6px;
   .legend-item {
-    display: flex;
-    align-items: center;
-    padding-bottom: 12px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 6px;
     .icon {
-      height: 24px;
-      width: 24px;
+      height: 1vw;
+      width: 1vw;
       border: 3px solid transparent;
       &.activists {
         background-color: $activists;
@@ -54,9 +54,9 @@
       }
     }
     .label {
-      padding: 0 12px;
-      text-align: center;
-      font-size: 18px;
+      padding: 0 6px;
+      text-align: start;
+      font-size: 1vw;
       font-weight: bold;
     }
   }
