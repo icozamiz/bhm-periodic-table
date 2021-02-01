@@ -223,7 +223,7 @@ export const jsonData: IElement[] = [
       "Angella (Angella Taylor) Issajenko, sprinteuse. Issajenko a été l'une des sprinteurs internationaux les plus remarquables du Canada. Elle a remporté des médailles aux Jeux du Commonwealth, olympiques, panaméricains et universitaires mondiaux.",
   },
   {
-    category: "athletes",
+    category: "firsts",
     number: "39",
     id: "Cay",
     name: "Clotilda Adesa Yakimchuk",
