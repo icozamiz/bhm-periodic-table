@@ -2,7 +2,7 @@ import { Box, Button, IconButton } from "@material-ui/core";
 import * as React from "react";
 import { jsonData } from "../../data/element-json";
 import { IElement } from "../../types";
-import { categories } from "../../data/categories";
+import { categories, frCategories } from "../../data/categories";
 import { ElementCard } from "../element-card";
 import "./styles.scss";
 import { MobilePopoverCard } from "../mobile-popover-card";
@@ -10,9 +10,13 @@ import CloseIcon from "@material-ui/icons/Close";
 
 export interface ICategoryTableProps {
   showTableView: () => void;
+  isFrench: boolean;
 }
 
-export const CategoryTable = ({ showTableView }: ICategoryTableProps) => {
+export const CategoryTable = ({
+  showTableView,
+  isFrench,
+}: ICategoryTableProps) => {
   const [open, setOpen] = React.useState<IElement | null>(null);
   const elData: { [categoryName: string]: IElement[] } = {};
   const onElementClicked = (element: IElement) => {
@@ -23,8 +27,10 @@ export const CategoryTable = ({ showTableView }: ICategoryTableProps) => {
       window.open(element.urlLink, "_blank");
     }
   };
-  categories.map((cat) => (elData[cat.id] = []));
-  jsonData.forEach((data) => {
+  const cats = isFrench ? categories : frCategories;
+  const dataToDisplay = isFrench ? jsonData : jsonData;
+  cats.map((cat) => (elData[cat.id] = []));
+  dataToDisplay.forEach((data) => {
     elData[data.category].push(data);
   });
   return (

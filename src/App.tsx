@@ -142,6 +142,7 @@ function App() {
                 </Box>
               ) : (
                 <CategoryTable
+                  isFrench={isFrench}
                   showTableView={() => setShowTableView(true)}
                 ></CategoryTable>
               )}
