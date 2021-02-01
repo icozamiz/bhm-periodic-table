@@ -99,7 +99,8 @@ export const jsonData: IElement[] = [
     id: "Dx",
     name: "Director X",
     dates: "10.31.1975",
-    urlLink: "https://translate.google.com/translate?hl=fr&sl=en&u=https://directorxfilms.com/&prev=search&pto=aue",
+    urlLink:
+      "https://translate.google.com/translate?hl=fr&sl=en&u=https://directorxfilms.com/&prev=search&pto=aue",
     imageUrl: "21.jpg",
     infoBlurb:
       "Director X (aussi connu sous le nom de Little X) est né le 31 octobre 1975 à Toronto, au Canada, et est d'origine trinidadienne et suisse. X a été connu pour avoir réalisé des vidéos pour des artistes populaires tels que: Drake, Kendrick Lamar, Rihanna, Jay-Z, Kanye West et autres. Il est gagnant de plusieurs MTV Music Video Awards et Much Music Video Awards et a également réalisé des publicités pour Apple Music, Ebay, et Virginia Black.",
@@ -206,7 +207,8 @@ export const jsonData: IElement[] = [
     urlLink:
       "https://www.thecanadianencyclopedia.ca/fr/article/ferguson-arthur-jenkins",
     imageUrl: "30.jpg",
-    infoBlurb: "Ferguson \"Fergie\" Arthur Jenkins, joueur de baseball. Sans doute le meilleur joueur de baseball né au Canada, Jenkins a commencé sa carrière dans les ligues majeures à Philadelphie avant de se joindre aux Cubs de Chicago en 1966.",
+    infoBlurb:
+      'Ferguson "Fergie" Arthur Jenkins, joueur de baseball. Sans doute le meilleur joueur de baseball né au Canada, Jenkins a commencé sa carrière dans les ligues majeures à Philadelphie avant de se joindre aux Cubs de Chicago en 1966.',
   },
   {
     category: "athletes",
@@ -217,7 +219,8 @@ export const jsonData: IElement[] = [
     urlLink:
       "https://www.thecanadianencyclopedia.ca/fr/article/angella-issajenko",
     imageUrl: "40.jpg",
-    infoBlurb: "Angella (Angella Taylor) Issajenko, sprinteuse. Issajenko a été l\'une des sprinteurs internationaux les plus remarquables du Canada. Elle a remporté des médailles aux Jeux du Commonwealth, olympiques, panaméricains et universitaires mondiaux.",
+    infoBlurb:
+      "Angella (Angella Taylor) Issajenko, sprinteuse. Issajenko a été l'une des sprinteurs internationaux les plus remarquables du Canada. Elle a remporté des médailles aux Jeux du Commonwealth, olympiques, panaméricains et universitaires mondiaux.",
   },
   {
     category: "athletes",
@@ -263,7 +266,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/en/article/andre-de-grasse",
     imageUrl: "43.jpg",
     infoBlurb:
-      'Andre De Grasse, athlète. Alors que Donovan Bailey a été le premier Canadien à courir moins de 10 secondes au 100m, De Grasse est le premier à franchir la barrière des 10 secondes au 100m et la barrière des 20 secondes au 200m. Aux Jeux olympiques d\'été de 2016 à Rio, De Grasse a remporté trois médailles: l\'argent au 200m, le bronze au 100m, et le bronze au relais 4x100m. À ce moment, il est le détenteur du record canadien du 200m',
+      "Andre De Grasse, athlète. Alors que Donovan Bailey a été le premier Canadien à courir moins de 10 secondes au 100m, De Grasse est le premier à franchir la barrière des 10 secondes au 100m et la barrière des 20 secondes au 200m. Aux Jeux olympiques d'été de 2016 à Rio, De Grasse a remporté trois médailles: l'argent au 200m, le bronze au 100m, et le bronze au relais 4x100m. À ce moment, il est le détenteur du record canadien du 200m",
   },
   {
     category: "athletes",
@@ -361,7 +364,8 @@ export const jsonData: IElement[] = [
     id: "Glb",
     name: "Gloria Leon Baylis",
     dates: "06.29.1929 - 04.12.2017",
-    urlLink: "https://translate.google.com/translate?hl=fr&sl=en&u=https://www.halifaxexaminer.ca/featured/yes-i-am-a-negro/&prev=search&pto=aue",
+    urlLink:
+      "https://translate.google.com/translate?hl=fr&sl=en&u=https://www.halifaxexaminer.ca/featured/yes-i-am-a-negro/&prev=search&pto=aue",
     imageUrl: "87.jpg",
     infoBlurb:
       "Gloria Baylis, originaire de la Barbade, a émigré au Canada en 1952. En tant qu'infirmière, Gloria a attiré l'attention du public pour la première fois en 1964 où elle a postulé pour un poste d'infirmière à l'hôtel Queen Elizabeth à Montréal (alors exploité par la chaîne Hilton) et a été informé que tous les postes étaient pourvus. Malgré ses qualifications indéniables, elle s'est vu refuser un emploi parce qu'elle était noire.",
@@ -399,7 +403,7 @@ export const jsonData: IElement[] = [
       "https://translate.google.com/translate?hl=fr&sl=en&u=https://www.capebretonpost.com/lifestyles/phills-first-black-man-to-be-awarded-order-of-canada-called-pier-home-19193/&prev=search&pto=aue",
     imageUrl: "57.jpg",
     infoBlurb:
-      'Phills est né dans la pauvreté extrême aux Antilles avant de venir au Canada. Il a joué un rôle important en montrant à sa communauté d’immigrants de Whitney Pier - le «melting pot» historique du Cap-Breton - que tout homme, grâce à son travail acharné et à sa détermination, pouvait surmonter les difficultés et bâtir une vie riche pour lui-même et sa famille dans un terre neuve.',
+      "Phills est né dans la pauvreté extrême aux Antilles avant de venir au Canada. Il a joué un rôle important en montrant à sa communauté d’immigrants de Whitney Pier - le «melting pot» historique du Cap-Breton - que tout homme, grâce à son travail acharné et à sa détermination, pouvait surmonter les difficultés et bâtir une vie riche pour lui-même et sa famille dans un terre neuve.",
   },
   {
     category: "firsts",
@@ -434,7 +438,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/fr/article/john-anderson-ernest-alleyne",
     imageUrl: "74.jpg",
     infoBlurb:
-      'John Anderson Ernest Alleyne, chorégraphe et directeur de ballet. Alleyne, née au Québec rural, a commencé à danser à l\'âge de 8 ans et s\'est joint à l\'École nationale de ballet de Toronto à 11 ans. "On ne peut pas imaginer la compagnie sans sa grâce élastique et sa danse animée", a déclaré le Stuttgarter Ballett Annual 1981-82.',
+      "John Anderson Ernest Alleyne, chorégraphe et directeur de ballet. Alleyne, née au Québec rural, a commencé à danser à l'âge de 8 ans et s'est joint à l'École nationale de ballet de Toronto à 11 ans. \"On ne peut pas imaginer la compagnie sans sa grâce élastique et sa danse animée\", a déclaré le Stuttgarter Ballett Annual 1981-82.",
   },
   {
     category: "firsts",
@@ -457,7 +461,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/fr/article/willie-oree",
     imageUrl: "76.jpg",
     infoBlurb:
-      "Willie O’Ree, joueur de hockey. O’Ree est devenu le premier joueur de hockey noir à jouer un match dans la LNH le 18 janvier 1958. Il a joué au hockey professionnel pendant plus de 20 ans, dont 45 matchs avec les Bruins de Boston. Depuis 1998, O’Ree est directeur du développement des jeunes et ambassadeur de la diversité dans la LNH, et dirige le programme \"Le hockey est pour tous\". O’Ree est membre de l’Ordre du Canada et de l’Ordre du Nouveau-Brunswick. Les Bruins de Boston retireront son chandail n°22 le 18 février 2021.",
+      'Willie O’Ree, joueur de hockey. O’Ree est devenu le premier joueur de hockey noir à jouer un match dans la LNH le 18 janvier 1958. Il a joué au hockey professionnel pendant plus de 20 ans, dont 45 matchs avec les Bruins de Boston. Depuis 1998, O’Ree est directeur du développement des jeunes et ambassadeur de la diversité dans la LNH, et dirige le programme "Le hockey est pour tous". O’Ree est membre de l’Ordre du Canada et de l’Ordre du Nouveau-Brunswick. Les Bruins de Boston retireront son chandail n°22 le 18 février 2021.',
   },
   {
     category: "firsts",
@@ -477,7 +481,8 @@ export const jsonData: IElement[] = [
     id: "Za",
     name: "Zanana Akande",
     dates: "09.06.1937",
-    urlLink: "https://translate.google.com/translate?hl=fr&sl=en&u=https://governingcouncil.utoronto.ca/zanana-akande&prev=search&pto=aue",
+    urlLink:
+      "https://translate.google.com/translate?hl=fr&sl=en&u=https://governingcouncil.utoronto.ca/zanana-akande&prev=search&pto=aue",
     imageUrl: "78.jpg",
     infoBlurb:
       "Zanana Akande lutte pour la justice sociale en forme d'éducation, médias, féminisme, et relations raciales. Elle a travaillé comme enseignante, consultante, et administratrice dans le système d'éducation publique et au niveau universitaire. Elle continue à poser des questions à propos du changement social, de développement communautaire, et de diversité. Mme Akande a travaillé dans les médias avec MTV et a été co-fondatrice de Tiger Lily, un magazine qui exprime les perspectives des femmes noires.",
@@ -660,7 +665,8 @@ export const jsonData: IElement[] = [
     id: "Smw",
     name: "Syrus Marcus Ware",
     dates: "00.00.00",
-    urlLink: "https://translate.google.com/translate?hl=fr&sl=en&u=https://syrusmarcusware.com/about/&prev=search&pto=aue",
+    urlLink:
+      "https://translate.google.com/translate?hl=fr&sl=en&u=https://syrusmarcusware.com/about/&prev=search&pto=aue",
     imageUrl: "113.jpg",
     infoBlurb:
       "Syrus Marcus Ware est un boursier Vanier, artiste visuel, activiste communautaire, et éducateur. Pendant 12 ans, il a été le coordonnateur du programme jeunesse du Musée des beaux-arts de l'Ontario. Syrus est actuellement animatrice pour le Cultural Leaders Lab (Toronto Arts Council & The Banff Centre). Il est le premier artiste en résidence de Daniels Spectrum (2016/2017). Syrus est également un membre de l'équipe principale de Black Lives Matter Toronto.",
@@ -675,7 +681,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/fr/article/dbiyoung-anitafrika",
     imageUrl: "114.jpg",
     infoBlurb:
-      "Debbie Young (d'bi.young anitafrika), poétesse, dramaturge, et comédienne. Actrice et dramaturge lauréate d'un Dora Award, d'bi.young anitafrika est principalement connue pour sa trilogie de pièces de théâtre, la trilogie sankofa: \"bloodclaat: one oomaan story\", \"benu\", et \"word!Sound!Powah!\", et fondatrice de Watah Institut du théâtre.",
+      'Debbie Young (d\'bi.young anitafrika), poétesse, dramaturge, et comédienne. Actrice et dramaturge lauréate d\'un Dora Award, d\'bi.young anitafrika est principalement connue pour sa trilogie de pièces de théâtre, la trilogie sankofa: "bloodclaat: one oomaan story", "benu", et "word!Sound!Powah!", et fondatrice de Watah Institut du théâtre.',
   },
   {
     category: "lgbtq",
@@ -694,7 +700,8 @@ export const jsonData: IElement[] = [
     id: "Rw",
     name: "Rinaldo Walcott",
     dates: "00.00.00",
-    urlLink: "https://translate.google.com/translate?hl=fr&sl=en&u=https://munkschool.utoronto.ca/csus/profile/walcott-rinaldo/&prev=search&pto=aue",
+    urlLink:
+      "https://translate.google.com/translate?hl=fr&sl=en&u=https://munkschool.utoronto.ca/csus/profile/walcott-rinaldo/&prev=search&pto=aue",
     imageUrl: "116.jpg",
     infoBlurb:
       "Rinaldo Walcott est directeur de l'Institut d'études sur les femmes et le genre et professeur agrégé à l'Institut d'études pédagogiques de l'Ontario. Ses domaines de recherche comprennent les études culturelles de la diaspora noire, le genre, et la sexualité.",
@@ -705,7 +712,8 @@ export const jsonData: IElement[] = [
     id: "Cmf",
     name: "Courtnay Mcfarlane",
     dates: "00.00.00 -",
-    urlLink: "https://translate.google.com/translate?hl=fr&sl=en&u=https://www.queerevents.ca/queer/individual/courtnay-mcfarlane&prev=search&pto=aue",
+    urlLink:
+      "https://translate.google.com/translate?hl=fr&sl=en&u=https://www.queerevents.ca/queer/individual/courtnay-mcfarlane&prev=search&pto=aue",
     imageUrl: "117.jpg",
     infoBlurb:
       "Artiste visuel, poète, gérant au Davenport-Perth Neighbourhood Community Health Centre. McFarlane était un member fondateur de plusieurs groupes et organisations pour les noires LGBTQ2 au début des années 80 et 90 - tels que Zami, Sepia, et AYA Men. Il a également été membre du conseil d'administration du Toronto Inside Out Film Festival et organise une exposition à la BAND Gallery de Toronto intitulée \"Legacies in Motion\", qui cherche à découvrir les histoires de la période d'activisme culturel des communautés noires LGBTQ2 à Toronto.",
@@ -716,7 +724,8 @@ export const jsonData: IElement[] = [
     id: "Op",
     name: "Oscar Peterson",
     dates: "08.15.1925 - 12.23.2007",
-    urlLink: "https://translate.google.com/translate?hl=fr&sl=en&u=https://www.oscarpeterson.com/&prev=search&pto=aue",
+    urlLink:
+      "https://translate.google.com/translate?hl=fr&sl=en&u=https://www.oscarpeterson.com/&prev=search&pto=aue",
     imageUrl: "2.jpg",
     infoBlurb:
       "Un pianiste renommé de jazz avec une maîtrise technique et une créativité sans limites, Oscar «Maharaja du clavier» Peterson était un pouvait instantanément inspirer la crainte. Sa carrière a commencé alors qu'il était encore au secondaire, en tant que pianiste avec le Johnny Holmes Orchestra. Après quelques années avec l'orchestre, il forme son propre trio, le premier dans un format qu'il a maintenu tout au long de sa carrière.",
@@ -834,7 +843,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/fr/article/dwayne-morgan",
     imageUrl: "53.jpg",
     infoBlurb:
-      "Dwayne Morgan, poète, artiste de création parlée, et conférencier motivateur. Le travail de Morgan est fortement influencé par la culture hip-hop et touche à une variété de problèmes sociaux tels que la consommation de drogues, la violence familiale, et le racisme. Morgan est le fondateur de \"Up From The Roots Entertainment\", qui se concentre sur la promotion des artistes urbains, avec un accent particulier sur les Afro-Canadiens.",
+      'Dwayne Morgan, poète, artiste de création parlée, et conférencier motivateur. Le travail de Morgan est fortement influencé par la culture hip-hop et touche à une variété de problèmes sociaux tels que la consommation de drogues, la violence familiale, et le racisme. Morgan est le fondateur de "Up From The Roots Entertainment", qui se concentre sur la promotion des artistes urbains, avec un accent particulier sur les Afro-Canadiens.',
   },
   {
     category: "poets",
@@ -857,7 +866,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/fr/article/andre-alexis",
     imageUrl: "4.jpg",
     infoBlurb:
-      "André Alexis est un auteur de fiction qui a grandi à Ottawa. Son roman \"Fifteen Dogs\" a remporté le Scotiabank Giller Prize et le Rogers Writers’ Trust Fiction Prize en 2015. \"Days by Moonlight\" est le quatrième livre publié dans une série prévue de cinq romans examinant des thèmes philosophiques. Né à Trinidad, Alexis vit maintenant à Toronto.",
+      'André Alexis est un auteur de fiction qui a grandi à Ottawa. Son roman "Fifteen Dogs" a remporté le Scotiabank Giller Prize et le Rogers Writers’ Trust Fiction Prize en 2015. "Days by Moonlight" est le quatrième livre publié dans une série prévue de cinq romans examinant des thèmes philosophiques. Né à Trinidad, Alexis vit maintenant à Toronto.',
   },
   {
     category: "theatre",
@@ -868,7 +877,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/fr/article/djanet-sears",
     imageUrl: "12.jpg",
     infoBlurb:
-      "Djanet Sears (née Janet), dramaturge, réalisatrice, productrice, actrice, et enseignante. Sears a immigré avec sa famille à Saskatoon en 1974 et a obtenu un baccalauréat spécialisé en théâtre de l'Université York en 1999. Plus particulièrement, elle a créé la pièce \"Afrika Solo\" qui lui a valu une reconnaissance nationale et est devenue un paratonnerre et une force de galvanisation pour le mouvement théâtral afro-canadien.",
+      'Djanet Sears (née Janet), dramaturge, réalisatrice, productrice, actrice, et enseignante. Sears a immigré avec sa famille à Saskatoon en 1974 et a obtenu un baccalauréat spécialisé en théâtre de l\'Université York en 1999. Plus particulièrement, elle a créé la pièce "Afrika Solo" qui lui a valu une reconnaissance nationale et est devenue un paratonnerre et une force de galvanisation pour le mouvement théâtral afro-canadien.',
   },
   {
     category: "theatre",
@@ -936,7 +945,7 @@ export const jsonData: IElement[] = [
       "https://www.thecanadianencyclopedia.ca/fr/article/sylvia-hamilton",
     imageUrl: "110.jpg",
     infoBlurb:
-      "Sylvia D. Hamilton, cinéaste, écrivaine, et éducatrice. Hamilton se spécialise dans la réévaluation des récits de l'histoire canadienne et se concentre sur les perspectives des femmes noires canadiennes. Ses films incluent \"Black Mother Black Daughter\" (1989) et le lauréat du prix Gemini \"Speak It! From the Heart of Black Nova Scotia\" (1993). Dans ses essais et films, Hamilton expose les histoires que les historiens néglige.",
+      'Sylvia D. Hamilton, cinéaste, écrivaine, et éducatrice. Hamilton se spécialise dans la réévaluation des récits de l\'histoire canadienne et se concentre sur les perspectives des femmes noires canadiennes. Ses films incluent "Black Mother Black Daughter" (1989) et le lauréat du prix Gemini "Speak It! From the Heart of Black Nova Scotia" (1993). Dans ses essais et films, Hamilton expose les histoires que les historiens néglige.',
   },
   {
     category: "visual-arts",
@@ -955,7 +964,8 @@ export const jsonData: IElement[] = [
     id: "T",
     name: "Tessa McWatt",
     dates: "1.1.1959 -",
-    urlLink: "https://translate.google.com/translate?hl=fr&sl=en&u=https://www.penguinrandomhouse.com/authors/140747/tessa-mcwatt&prev=search&pto=aue",
+    urlLink:
+      "https://translate.google.com/translate?hl=fr&sl=en&u=https://www.penguinrandomhouse.com/authors/140747/tessa-mcwatt&prev=search&pto=aue",
     imageUrl: "1.jpg",
     infoBlurb:
       "Tessa McWatt est auteure de six romans et deux livres pour les jeunes. Son travail fut nominée pour le Prix du Gouverneur général et lauréate du Eccles British Library Award 2018. Elle est également librettiste et travaille sur l'opéra \"The Knife of Dawn\". McWatt est aussi professeur d'écriture créative à l'Université d'East Anglia et est siège au conseil d'administration de Wasafiri.",
@@ -969,7 +979,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/fr/article/austin-clarke",
     imageUrl: "6.jpg",
     infoBlurb:
-      "Austin Clarke, écrivain. Clarke était l’une des personnalités littéraires les plus importantes du Canada qui s’efforce de refléter plus fidèlement la diversité du pays. Ses œuvres incluent \"The Polished Hoe and More\", \"Love and Sweet Food\", et \"‘Membering\" ainsi que 2 pièces de poésie, \"Where the Sun Shines Best\" et \"In Your Crib\". Clarke, qui est arrivé au Canada de la Barbade en tant qu'étudiant en 1955, a toujours critiqué le racisme au Canada.",
+      'Austin Clarke, écrivain. Clarke était l’une des personnalités littéraires les plus importantes du Canada qui s’efforce de refléter plus fidèlement la diversité du pays. Ses œuvres incluent "The Polished Hoe and More", "Love and Sweet Food", et "‘Membering" ainsi que 2 pièces de poésie, "Where the Sun Shines Best" et "In Your Crib". Clarke, qui est arrivé au Canada de la Barbade en tant qu\'étudiant en 1955, a toujours critiqué le racisme au Canada.',
   },
   {
     category: "writers",
@@ -977,10 +987,11 @@ export const jsonData: IElement[] = [
     id: "Dc",
     name: "David Chariandy",
     dates: "1969 -",
-    urlLink: "https://www.thecanadianencyclopedia.ca/fr/article/david-chariandy",
+    urlLink:
+      "https://www.thecanadianencyclopedia.ca/fr/article/david-chariandy",
     imageUrl: "7.jpg",
     infoBlurb:
-      "David Chariandy a remporté le Rogers Writers’ Trust Fiction Prize en 2017 pour \"Brother\". Son premier roman \"Soucouyant\" a été nominé pour 11 prix littéraires comprenant le Prix littéraire du Gouverneur général. Chariandy a également reçu le prix Windham-Campbell pour l'ensemble de ses œuvres, un prestigieux prix littéraire international administré par l'Université de Yale. Professeur à l'Université Simon Fraser, Chariandy vit à Vancouver.",
+      'David Chariandy a remporté le Rogers Writers’ Trust Fiction Prize en 2017 pour "Brother". Son premier roman "Soucouyant" a été nominé pour 11 prix littéraires comprenant le Prix littéraire du Gouverneur général. Chariandy a également reçu le prix Windham-Campbell pour l\'ensemble de ses œuvres, un prestigieux prix littéraire international administré par l\'Université de Yale. Professeur à l\'Université Simon Fraser, Chariandy vit à Vancouver.',
   },
   {
     category: "writers",
@@ -991,7 +1002,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/fr/article/esi-edugyan",
     imageUrl: "8.jpg",
     infoBlurb:
-      "Esi Edugyan est auteur des romans \"The Second Life of Samuel Tyne\" et \"Half-Blood Blues\" qui a remporté le Scotiabank Giller Prize et a été finaliste pour le Man Booker Prize, le Prix littéraire du Gouverneur général, le Rogers Writers 'Trust Fiction Prize, et le prix Orange. Elle vit à Victoria, en Colombie-Britannique.",
+      'Esi Edugyan est auteur des romans "The Second Life of Samuel Tyne" et "Half-Blood Blues" qui a remporté le Scotiabank Giller Prize et a été finaliste pour le Man Booker Prize, le Prix littéraire du Gouverneur général, le Rogers Writers \'Trust Fiction Prize, et le prix Orange. Elle vit à Victoria, en Colombie-Britannique.',
   },
   {
     category: "writers",
@@ -1002,7 +1013,7 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/fr/article/lawrence-hill",
     imageUrl: "15.jpg",
     infoBlurb:
-      "Ayant grandi dans la banlieue de Don Mills en Ontario dans les années 1960, qui avait une prédominance blanche, et  influencé par le travail de ses parents dans le mouvement des droits de personne, Hill est devenu écrivain qui touche aux questions d’identité et d’appartenance. Hill est auteur de dix livres comme \"The Book of Negroes\" et est également lauréate du Rogers Writers’ Trust Fiction Prize et du Commonwealth Writers’ Prize pour meilleur livre.",
+      'Ayant grandi dans la banlieue de Don Mills en Ontario dans les années 1960, qui avait une prédominance blanche, et  influencé par le travail de ses parents dans le mouvement des droits de personne, Hill est devenu écrivain qui touche aux questions d’identité et d’appartenance. Hill est auteur de dix livres comme "The Book of Negroes" et est également lauréate du Rogers Writers’ Trust Fiction Prize et du Commonwealth Writers’ Prize pour meilleur livre.',
   },
   {
     category: "writers",
@@ -1010,7 +1021,8 @@ export const jsonData: IElement[] = [
     id: "Mn",
     name: "M.NourebeSe Philip",
     dates: "02.03.1947",
-    urlLink: "https://www.thecanadianencyclopedia.ca/fr/article/marlene-nourbese-philip",
+    urlLink:
+      "https://www.thecanadianencyclopedia.ca/fr/article/marlene-nourbese-philip",
     imageUrl: "16.jpg",
     infoBlurb:
       "M. NOURBESE PHILIP est une poétesse, écrivaine, et avocate qui vit maintenat à Toronto. En 1968, Philip a obtenu son baccalauréat ès sciences (Econ.) De l'Université des Antilles, une maîtrise en science politique (1970), ainsi qu'un diplôme en droit à l'Université de Western Ontario, London, Ontario, Canada (1973).",
@@ -1024,6 +1036,6 @@ export const jsonData: IElement[] = [
     urlLink: "https://www.thecanadianencyclopedia.ca/fr/article/mariatu-kamara",
     imageUrl: "34.jpg",
     infoBlurb:
-      "Mariatu Kamara, auteure, humanitaire, et activiste. Kamara, une survivante de la guerre civile en Sierra Leone, a immigré au Canada en 2002. Depuis son arrivée au Canada, elle a travaillé avec Free The Children et UNICEF pour promouvoir les droits des femmes et des enfants et souligner l'impact de la guerre sur les enfants. Son mémoire, \"The Bite of the Mango\" (2008) a remporté plusieurs prix.",
+      'Mariatu Kamara, auteure, humanitaire, et activiste. Kamara, une survivante de la guerre civile en Sierra Leone, a immigré au Canada en 2002. Depuis son arrivée au Canada, elle a travaillé avec Free The Children et UNICEF pour promouvoir les droits des femmes et des enfants et souligner l\'impact de la guerre sur les enfants. Son mémoire, "The Bite of the Mango" (2008) a remporté plusieurs prix.',
   },
 ];
