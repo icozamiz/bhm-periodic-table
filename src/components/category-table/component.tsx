@@ -36,7 +36,7 @@ export const CategoryTable = ({
   return (
     <Box className="bhm-category-table">
       <Button className="show-table-button" onClick={() => showTableView()}>
-        Show Table View
+        {isFrench ? "Voir Comme Tableau" : "Show Table View"}
       </Button>
       {categories.map((cat) => (
         <Box key={cat.id}>
@@ -93,7 +93,7 @@ export const CategoryTable = ({
             className="learn-more-button"
             onClick={() => onMoreInfoClicked(open)}
           >
-            Learn More
+            {isFrench ? "Savoir Plus" : "Learn More"}
           </Box>
         </Box>
       </MobilePopoverCard>

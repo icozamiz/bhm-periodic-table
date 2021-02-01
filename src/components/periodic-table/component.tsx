@@ -43,7 +43,7 @@ export const PeriodicTable = ({
     <>
       {matchesMobile && (
         <Button className="show-list-button" onClick={() => showListView()}>
-          Show List View
+          {isFrench ? "Voir Comme Liste" :"Show List View"}
         </Button>
       )}
       <Box className="bhm-periodic-table">
@@ -102,7 +102,7 @@ export const PeriodicTable = ({
               className="learn-more-button"
               onClick={() => window.open(selectedElement?.urlLink, "_blank")}
             >
-              Learn More
+              {isFrench ? "Savoir Plus" : "Learn More"}
             </Box>
           </Box>
         </MobilePopoverCard>
