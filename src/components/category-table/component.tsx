@@ -36,7 +36,7 @@ export const CategoryTable = ({ showDesktopView }: ICategoryTableProps) => {
         Show Table View
       </Button>
       {categories.map((cat) => (
-        <>
+        <Box key={cat.id}>
           <h1 key={cat.id}>{cat.name}</h1>
           {elData[cat.id].map((data) => (
             <Box
@@ -61,7 +61,7 @@ export const CategoryTable = ({ showDesktopView }: ICategoryTableProps) => {
               /> */}
             </Box>
           ))}
-        </>
+        </Box>
       ))}
       <MobilePopoverCard
         open={!!open}

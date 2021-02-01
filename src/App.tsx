@@ -27,8 +27,12 @@ function App() {
   const handleClose = () => {
     setAnchorEl(null);
   };
+
+  const detectBrowserLanguage = require("detect-browser-language");
+  const [isFrench, setIsFrench] = useState(
+    detectBrowserLanguage().includes("fr")
+  );
   const [forceDesktopView, setForceDesktopView] = useState(false);
-  const [isFrench, setIsFrench] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState("");
   const windowSize = useWindowSize();
   const { matchesDesktop } = useDeviceTypes();
@@ -40,6 +44,7 @@ function App() {
     `${windowSize.height * 0.01}px`
   );
   const containerClass = matchesDesktop ? "desktop" : "mobile";
+
   return (
     <Box className="app-container">
       <Router>
