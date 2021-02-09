@@ -43,7 +43,7 @@ export const PeriodicTable = ({
     <>
       {matchesMobile && (
         <Button className="show-list-button" onClick={() => showListView()}>
-          {isFrench ? "Voir Comme Liste" :"Show List View"}
+          {isFrench ? "Voir Comme Liste" : "Show List View"}
         </Button>
       )}
       <Box className="bhm-periodic-table">
@@ -59,7 +59,10 @@ export const PeriodicTable = ({
           );
         })}
         {selectedElement && !matchesMobile && (
-          <ElementInfoCard isFrench={isFrench} element={selectedElement}></ElementInfoCard>
+          <ElementInfoCard
+            isFrench={isFrench}
+            element={selectedElement}
+          ></ElementInfoCard>
         )}
         {sortedData.slice(4, sortedData.length).map((e: IElement) => {
           return (

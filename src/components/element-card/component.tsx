@@ -36,6 +36,11 @@ export const ElementCard = ({
       <Box className="element-id">{id}</Box>
       <Box className="element-name">{name}</Box>
       <Box className="element-dates">{dates}</Box>
+      <img
+        className="element-qr-code"
+        src={`/assets/qrs/${number}.png`}
+        alt="qr-code"
+      ></img>
     </Box>
   );
 };
