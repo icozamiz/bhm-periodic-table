@@ -10,7 +10,7 @@ export interface IDownloadPageProps extends RouteComponentProps {
 
 export const DownloadPage = ({ isFrench }: IDownloadPageProps) => {
   const lang = isFrench ? downloadFr : downloadEn;
-  const { title, subtitle, templateTitle, templateLink } = lang;
+  const { title, subtitle, templateTitle } = lang;
   return (
     <Box className="download-page">
       <h1>{title}</h1>
