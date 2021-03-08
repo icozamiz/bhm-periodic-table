@@ -96,6 +96,14 @@ function App() {
           >
             Parents For Diversity
           </MenuItem>
+          <MenuItem
+            onClick={() => {
+              handleClose();
+              window.open("https://cwhtable.com/", "_blank");
+            }}
+          >
+            CWH Table
+          </MenuItem>
         </Menu>
         <Switch>
           <Route
