@@ -513,13 +513,14 @@ export const jsonData: IElement[] = [
   {
     category: "firsts",
     number: "89",
-    id: "Di",
-    name: "Daniel Igali",
-    dates: "02.03.1974 -",
-    urlLink: "https://www.thecanadianencyclopedia.ca/fr/article/daniel-igali",
+    id: "Cw",
+    name: "Dr. Charlotte Williams",
+    dates: "00.00.00 -",
+    urlLink:
+      "https://news.usask.ca/articles/people/2020/dr.-charlotte-williams-a-passion-for-pets-and-people.php",
     imageUrl: "89.jpg",
     infoBlurb:
-      "Daniel Igali, lutteur. Igali est le premier médailliste d'or du Canada en lutte olympique. Igali a grandi au Nigéria avec 21 frères et soeurs. La lutte était une partie importante de la culture du tribu Ijaw. Chaque match était accompagné de tambours et chants tribale traditionnels. La victoire a été remportée avec un seul retrait.",
+      "La carrière de Williams est marquée par de nombreuses réalisations, notamment en tant que présidente de la Saskatchewan Veterinary Medical Association (SVMA) en 2016. Elle a été la première femme vétérinaire noire en Saskatchewan et la première présidente noire de la SVMA de son histoire.",
   },
   {
     category: "firsts",

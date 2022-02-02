@@ -510,13 +510,14 @@ export const jsonData: IElement[] = [
   {
     category: "firsts",
     number: "89",
-    id: "Di",
-    name: "Daniel Igali",
-    dates: "02.03.1974 -",
-    urlLink: "https://www.thecanadianencyclopedia.ca/en/article/daniel-igali",
+    id: "Cw",
+    name: "Dr. Charlotte Williams",
+    dates: "00.00.00 -",
+    urlLink:
+      "https://news.usask.ca/articles/people/2020/dr.-charlotte-williams-a-passion-for-pets-and-people.php",
     imageUrl: "89.jpg",
     infoBlurb:
-      "Daniel Igali, wrestler. Igali is Canada's first-ever gold medalist in Olympic wrestling. Igali grew up in Nigeria as one of 21 children. Wrestling was an important part of the culture of the Ijaw tribe. Each match was accompanied by drumming, thought to be instructing the wrestler during the match, with traditional tribal wrestling songs being hummed in the background. Victory was gained with a single takedown.",
+      "Williams’ career is marked by many achievements, including serving as president of the Saskatchewan Veterinary Medical Association (SVMA) in 2016. She was the first female black veterinarian in Saskatchewan and the first black SVMA president in its history.",
   },
   {
     category: "firsts",
