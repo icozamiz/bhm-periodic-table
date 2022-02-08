@@ -703,8 +703,8 @@ export const jsonData: IElement[] = [
       "Rinaldo Walcott is the Director of Women and Gender Studies Institute and an Associate Professor at the Ontario Institute for Studies in Education both at University of Toronto. His research is in the area of Black Diaspora Cultural Studies, gender, and sexuality.",
   },
   {
-    category: "lgbtq",
-    number: "117",
+    category: "writers",
+    number: "9",
     id: "Ac",
     name: "Afua Cooper",
     dates: "11.08.1975",
@@ -796,7 +796,7 @@ export const jsonData: IElement[] = [
   },
   {
     category: "poets",
-    number: "9",
+    number: "117",
     id: "Ch",
     name: "Claire Harris",
     dates: "06.13.1937 -",

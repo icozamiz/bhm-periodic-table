@@ -709,8 +709,8 @@ export const jsonData: IElement[] = [
       "Rinaldo Walcott est directeur de l'Institut d'études sur les femmes et le genre et professeur agrégé à l'Institut d'études pédagogiques de l'Ontario. Ses domaines de recherche comprennent les études culturelles de la diaspora noire, le genre, et la sexualité.",
   },
   {
-    category: "poets",
-    number: "117",
+    category: "writers",
+    number: "9",
     id: "Ac",
     name: "Afua Cooper",
     dates: "11.08.1975",
@@ -803,7 +803,7 @@ export const jsonData: IElement[] = [
   },
   {
     category: "poets",
-    number: "9",
+    number: "117",
     id: "Ch",
     name: "Claire Harris",
     dates: "06.13.1937 -",
