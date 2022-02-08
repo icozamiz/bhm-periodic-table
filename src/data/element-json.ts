@@ -683,13 +683,13 @@ export const jsonData: IElement[] = [
   {
     category: "lgbtq",
     number: "115",
-    id: "Ac",
-    name: "Afua Cooper",
-    dates: "11.08.1975",
-    urlLink: "https://www.thecanadianencyclopedia.ca/en/article/afua-cooper",
-    imageUrl: "115.jpg",
+    id: "Cmf",
+    name: "Courtnay Mcfarlane",
+    dates: "00.00.00 -",
+    urlLink: "https://www.queerevents.ca/queer/individual/courtnay-mcfarlane",
+    imageUrl: "117.jpg",
     infoBlurb:
-      "Afua (Ava Pamela) Cooper, educator, historian, performance artist, and poet. Cooper is considered one of the most influential and pioneering voices in the Canadian dub poetry and spoken word movement. Her poems are published in numerous regional, national and international journals and anthologies. She is also an internationally-ranked historian where she teaches Caribbean cultural studies, history, women's studies and Black studies at Ryerson and York universities, at the University of Toronto and at Dalhousie University.",
+      "Visual artist, poet, manager of children, youth, and adult services at Davenport-Perth Neighbourhood Community Health Centre. McFarlane was a founding member of a number of Black queer groups and organizations in the early ’80s and ’90s — such as Zami, Sepia, AYA Men. He has also been on the board of the Toronto Inside Out Film Festival and is currently curating an exhibit at Toronto’s BAND Gallery called Legacies in Motion which seeks to unearth the stories of the vibrant period of political organizing and cultural activism from Black LGBTQ2 communities in Toronto in the 1980s and 1990s.",
   },
   {
     category: "lgbtq",
@@ -705,13 +705,13 @@ export const jsonData: IElement[] = [
   {
     category: "lgbtq",
     number: "117",
-    id: "Cmf",
-    name: "Courtnay Mcfarlane",
-    dates: "00.00.00 -",
-    urlLink: "https://www.queerevents.ca/queer/individual/courtnay-mcfarlane",
-    imageUrl: "117.jpg",
+    id: "Ac",
+    name: "Afua Cooper",
+    dates: "11.08.1975",
+    urlLink: "https://www.thecanadianencyclopedia.ca/en/article/afua-cooper",
+    imageUrl: "115.jpg",
     infoBlurb:
-      "Visual artist, poet, manager of children, youth, and adult services at Davenport-Perth Neighbourhood Community Health Centre. McFarlane was a founding member of a number of Black queer groups and organizations in the early ’80s and ’90s — such as Zami, Sepia, AYA Men. He has also been on the board of the Toronto Inside Out Film Festival and is currently curating an exhibit at Toronto’s BAND Gallery called Legacies in Motion which seeks to unearth the stories of the vibrant period of political organizing and cultural activism from Black LGBTQ2 communities in Toronto in the 1980s and 1990s.",
+      "Afua (Ava Pamela) Cooper, educator, historian, performance artist, and poet. Cooper is considered one of the most influential and pioneering voices in the Canadian dub poetry and spoken word movement. Her poems are published in numerous regional, national and international journals and anthologies. She is also an internationally-ranked historian where she teaches Caribbean cultural studies, history, women's studies and Black studies at Ryerson and York universities, at the University of Toronto and at Dalhousie University.",
   },
   {
     category: "musicians",

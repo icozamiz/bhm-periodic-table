@@ -687,13 +687,14 @@ export const jsonData: IElement[] = [
   {
     category: "lgbtq",
     number: "115",
-    id: "Ac",
-    name: "Afua Cooper",
-    dates: "11.08.1975",
-    urlLink: "https://www.thecanadianencyclopedia.ca/fr/article/afua-cooper",
-    imageUrl: "115.jpg",
+    id: "Cmf",
+    name: "Courtnay Mcfarlane",
+    dates: "00.00.00 -",
+    urlLink:
+      "https://translate.google.com/translate?hl=fr&sl=en&u=https://www.queerevents.ca/queer/individual/courtnay-mcfarlane&prev=search&pto=aue",
+    imageUrl: "117.jpg",
     infoBlurb:
-      "Afua (Ava Pamela) Cooper, éducatrice, historienne, performeuse, et poétesse. Cooper est considéré comme l'une des voix les plus influentes de la poésie dub et de la création parlée. Ses poèmes sont publiés dans de nombreuses revues et anthologies régionales, nationales, et internationales. Elle est également une historienne dont elle enseigne les études culturelles des Caraïbes, l'histoire, les études des femmes, et les études des Noirs aux universités Ryerson et York, Toronto et Dalhousie.",
+      "Artiste visuel, poète, gérant au Davenport-Perth Neighbourhood Community Health Centre. McFarlane était un member fondateur de plusieurs groupes et organisations pour les noires LGBTQ2 au début des années 80 et 90 - tels que Zami, Sepia, et AYA Men. Il a également été membre du conseil d'administration du Toronto Inside Out Film Festival et organise une exposition à la BAND Gallery de Toronto intitulée \"Legacies in Motion\", qui cherche à découvrir les histoires de la période d'activisme culturel des communautés noires LGBTQ2 à Toronto.",
   },
   {
     category: "lgbtq",
@@ -708,16 +709,15 @@ export const jsonData: IElement[] = [
       "Rinaldo Walcott est directeur de l'Institut d'études sur les femmes et le genre et professeur agrégé à l'Institut d'études pédagogiques de l'Ontario. Ses domaines de recherche comprennent les études culturelles de la diaspora noire, le genre, et la sexualité.",
   },
   {
-    category: "lgbtq",
+    category: "poets",
     number: "117",
-    id: "Cmf",
-    name: "Courtnay Mcfarlane",
-    dates: "00.00.00 -",
-    urlLink:
-      "https://translate.google.com/translate?hl=fr&sl=en&u=https://www.queerevents.ca/queer/individual/courtnay-mcfarlane&prev=search&pto=aue",
-    imageUrl: "117.jpg",
+    id: "Ac",
+    name: "Afua Cooper",
+    dates: "11.08.1975",
+    urlLink: "https://www.thecanadianencyclopedia.ca/fr/article/afua-cooper",
+    imageUrl: "115.jpg",
     infoBlurb:
-      "Artiste visuel, poète, gérant au Davenport-Perth Neighbourhood Community Health Centre. McFarlane était un member fondateur de plusieurs groupes et organisations pour les noires LGBTQ2 au début des années 80 et 90 - tels que Zami, Sepia, et AYA Men. Il a également été membre du conseil d'administration du Toronto Inside Out Film Festival et organise une exposition à la BAND Gallery de Toronto intitulée \"Legacies in Motion\", qui cherche à découvrir les histoires de la période d'activisme culturel des communautés noires LGBTQ2 à Toronto.",
+      "Afua (Ava Pamela) Cooper, éducatrice, historienne, performeuse, et poétesse. Cooper est considéré comme l'une des voix les plus influentes de la poésie dub et de la création parlée. Ses poèmes sont publiés dans de nombreuses revues et anthologies régionales, nationales, et internationales. Elle est également une historienne dont elle enseigne les études culturelles des Caraïbes, l'histoire, les études des femmes, et les études des Noirs aux universités Ryerson et York, Toronto et Dalhousie.",
   },
   {
     category: "musicians",
