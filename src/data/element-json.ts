@@ -704,7 +704,7 @@ export const jsonData: IElement[] = [
   },
   {
     category: "writers",
-    number: "9",
+    number: "16",
     id: "Ac",
     name: "Afua Cooper",
     dates: "11.08.1975",
@@ -796,7 +796,7 @@ export const jsonData: IElement[] = [
   },
   {
     category: "poets",
-    number: "117",
+    number: "9",
     id: "Ch",
     name: "Claire Harris",
     dates: "06.13.1937 -",
@@ -1008,8 +1008,8 @@ export const jsonData: IElement[] = [
       "Growing up in the predominantly white suburb of Don Mills, Ontario in the 1960s, Hill was greatly influenced by his parents’ work in the human rights movement. Much of Hill’s writing touches on issues of identity and belonging. Hill is the author of ten books including The Book of Negroes. Hill is also a winner of the Rogers Writers’ Trust Fiction Prize, and the Commonwealth Writers’ Prize for Best Book.",
   },
   {
-    category: "writers",
-    number: "16",
+    category: "poets",
+    number: "117",
     id: "Mn",
     name: "M.NourebeSe Philip",
     dates: "02.03.1947",

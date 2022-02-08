@@ -710,7 +710,7 @@ export const jsonData: IElement[] = [
   },
   {
     category: "writers",
-    number: "9",
+    number: "16",
     id: "Ac",
     name: "Afua Cooper",
     dates: "11.08.1975",
@@ -803,7 +803,7 @@ export const jsonData: IElement[] = [
   },
   {
     category: "poets",
-    number: "117",
+    number: "9",
     id: "Ch",
     name: "Claire Harris",
     dates: "06.13.1937 -",
@@ -1017,8 +1017,8 @@ export const jsonData: IElement[] = [
       'Ayant grandi dans la banlieue de Don Mills en Ontario dans les années 1960, qui avait une prédominance blanche, et  influencé par le travail de ses parents dans le mouvement des droits de personne, Hill est devenu écrivain qui touche aux questions d’identité et d’appartenance. Hill est auteur de dix livres comme "The Book of Negroes" et est également lauréate du Rogers Writers’ Trust Fiction Prize et du Commonwealth Writers’ Prize pour meilleur livre.',
   },
   {
-    category: "writers",
-    number: "16",
+    category: "poets",
+    number: "117",
     id: "Mn",
     name: "M.NourebeSe Philip",
     dates: "02.03.1947",
