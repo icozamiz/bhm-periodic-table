@@ -193,7 +193,7 @@ export const jsonData: IElement[] = [
     name: "Barbara Howard",
     dates: "05.08.1920 - 01.26.2017",
     urlLink:
-      "https://www.thecanadianencyclopedia.ca/fr/article/sandra-brewster",
+      "https://www.thecanadianencyclopedia.ca/fr/article/barbara-howard",
     imageUrl: "29.jpg",
     infoBlurb:
       "Barbara Howard, athlète, et éducatrice. Howard est connu comme la première athlète noire à représenter le Canada dans une compétition internationale. À seulement 17 ans, elle a battu le record de l'Empire britannique au 100 verges. En 1941, elle est devenue la première personne racialisée à être embauchée par le Vancouver School Board; elle a eu une carrière de 43 ans dans l'éducation, dont 14 ans en tant que professeur d'éducation physique.",
