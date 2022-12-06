@@ -192,7 +192,7 @@ export const jsonData: IElement[] = [
     name: "Barbara Howard",
     dates: "05.08.1920 - 01.26.2017",
     urlLink:
-      "https://www.thecanadianencyclopedia.ca/en/article/sandra-brewster",
+      "https://www.thecanadianencyclopedia.ca/en/article/barbara-howard",
     imageUrl: "29.jpg",
     infoBlurb:
       "Barbara Howard, athlete, and educator. Howard is believed to be the first Black female athlete to represent Canada in international competition. At only 17 years old, she broke the British Empire record for the 100-yard dash, qualifying to represent Canada at the 1938 British Empire Games in Sydney, Australia. In 1941, she became the first racialized person to be hired by the Vancouver School Board. She had a 43-year career in education, including 14 years as a physical education teacher.",
