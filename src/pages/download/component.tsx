@@ -15,7 +15,7 @@ export const DownloadPage = ({ isFrench }: IDownloadPageProps) => {
     <Box className="download-page">
       <h1>{title}</h1>
       <p>{subtitle}</p>
-      <p>
+      {/* <p>
         <a
           href={`/assets/screenshots/${
             isFrench ? "French" : "English"
@@ -30,7 +30,7 @@ export const DownloadPage = ({ isFrench }: IDownloadPageProps) => {
             alt="screenshot"
           />
         </a>
-      </p>
+      </p> */}
       <p>{templateTitle}</p>
       <p>
         <a
